@@ -1,0 +1,241 @@
+.categorycontainer {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50pt;
+}
+
+.categorycarousel {
+  display: flex;
+  margin-top: 36pt;
+  margin-bottom: 53pt;
+  width: 157%;
+  right: 229pt;
+}
+
+/*.slick-track {
+  display: flex;
+}*/
+
+.carouselitem {
+  text-transform: uppercase;
+  font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
+  font-size: 15pt;
+  color: rgb(155, 155, 155);
+  flex: 1;
+  font-weight: 300;
+  margin-right: 40px;
+}
+
+.categorytitle{
+  color: rgb(0, 0, 0);
+  font-size: 28pt;
+  font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
+  letter-spacing: 0.50;
+}
+
+.categoryhr{
+  width: 50pt;
+  min-height: 3pt;
+  background-color: rgb(18, 26, 43);
+  margin-left: 0 !important;
+}
+
+.categoryfirstbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.categoryfirstboximg {
+  width: 100%;
+}
+
+.categoryfirstboxcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  border-left: 1px solid #D8DADD;
+  border-bottom: 1px solid #D8DADD;
+  border-right: 1px solid #D8DADD;
+  padding-right: 159pt;
+}
+
+.categoryfirstboxtitle{
+  font-size: 28pt;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
+  margin-bottom: 8pt;
+  margin-top: 20pt;
+  margin-left: 32pt;
+  font-weight: 300;
+}
+
+.categoryfirstboxtext {
+  font-size: 14pt;
+  color: rgb(74, 74, 74);
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  margin-bottom: 22pt;
+  margin-left: 32pt;
+  line-height: 2;
+  font-weight: 300;
+}
+
+.categoryfirstboxauthor {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 28pt;
+}
+
+.categoryfirstboxauthor img {
+  width: 33pt !important;
+  height: 33pt !important;
+}
+
+.authorname {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  color: rgb(74, 74, 74);
+}
+
+.categoryimage img {
+  margin-top: 0 !important;
+  margin-right: 13pt;
+  margin-left: 32pt;
+}
+
+.articledetails {
+  margin-top: 1px;
+}
+
+.categoryboxrow{
+  display: flex;
+  justify-content: space-between;
+}
+
+.categorybox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 21pt;
+}
+
+.categoryboximage {
+  width: 100%;
+}
+
+.categoryboximage img {
+  width: 100%;
+}
+
+.categoryboxcontent {
+  display: block;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  border-left: 1px solid rgb(230, 230, 230);
+  border-bottom: 1px solid rgb(230, 230, 230);
+  border-right: 1px solid rgb(230, 230, 230);
+  padding-right: 50pt;
+}
+
+.categoryboxtitle {
+  font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
+  font-size: 16pt;
+  color: rgb(0, 0, 0);
+  margin-top: 20pt;
+  margin-bottom: 8pt;
+  margin-left: 23pt;
+  font-weight: 300;
+}
+
+.categoryboxtext {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  color: rgb(74, 74, 74);
+  line-height: 1.7;
+  margin-bottom: 5pt;
+  margin-left: 24pt;
+  font-weight: 300;
+}
+
+.boxauthorimage {
+  margin-top: 22pt;
+  margin-right: 13pt;
+  border-radius: 50%;
+  width: 33pt;
+  height: 33pt;
+  margin-left: 27pt;
+}
+
+.categorybox:first-child {
+  margin-right: 25pt;
+}
+
+.boxauthorname {
+  margin-top: 22pt;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: rgb(74, 74, 74);
+  font-size: 12pt;
+}
+
+.documentdetails {
+  font-size: 12pt;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: rgb(155, 155, 155);
+  font-weight: 300;
+}
+
+.backtotopcontainer {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 12%;
+  margin-top: 94pt;
+}
+
+.backtotop:hover {
+  text-decoration: none;
+}
+
+.backtotoptext {
+  text-transform: uppercase;
+  color: rgb(155, 155, 155);
+  font-size: 15pt;
+  font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
+  font-weight: 300;
+}
+
+.backtotop i {
+  margin-left: 0;
+  color: rgb(155, 155, 155);
+  font-size: 34pt;
+}
+
+.slick-next {
+  right: 17px;
+  top: 15px;
+}
+
+.slick-prev {
+  top: 15px;
+}
+
+.slick-next:before {
+  content: "\f105";
+  font-family: FontAwesome;
+}
+
+.slick-prev:before {
+  content: "\f104";
+  font-family: FontAwesome;
+}
+
+.slick-next:before, .slick-prev:before {
+  font-size: 28px;
+  line-height: 0.5;
+  color: rgb(155, 155, 155);
+}

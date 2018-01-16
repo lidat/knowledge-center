@@ -1,5 +1,5 @@
 ---
-title: Developers' Community
+title: Messaging Expertise Center
 level3: LivePerson
 keywords: sample homepage
 #tags: [getting_started]

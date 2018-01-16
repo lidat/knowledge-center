@@ -7,4 +7,5 @@ group :jekyll_plugins do
    gem 'jekyll-feed', '~> 0.6'
    gem 'github-pages', '~> 106'
    gem 'algoliasearch-jekyll', '~> 0.8.0'
+   gem 'font-awesome-less', '~> 4.7.0'
 end

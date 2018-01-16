@@ -29,7 +29,12 @@ layout: default
 {% endif %}
 
 <div class="post-content">
-   
+
+  <div class="articleheader">
+    <div class="authorimage"><img src="img/{{ page.authorname }}.png" /></div>
+    <div class="authordetails">{{ page.authorname }}, {{ page.authorexpert }}, LivePerson</div>
+  </div>
+
    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
    {% endif %}
@@ -45,15 +50,15 @@ layout: default
 
     {% endif %}
 
+  <div class="posttext">
   {{content}}
-
+  </div>
     <div class="tags">
         {% if page.tags != null %}
-        <b>Tags: </b>
         {% assign projectTags = site.data.tags.allowed-tags %}
         {% for tag in page.tags %}
         {% if projectTags contains tag %}
-        <a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+        <a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm tagbutton" role="button">{{page.tagName}}{{tag}}</a>
         {% endif %}
         {% endfor %}
         {% endif %}
@@ -68,5 +73,3 @@ layout: default
 <!--
     {{site.data.alerts.hr_shaded}}
 -->
-
-{% include footer.html %}

@@ -11,95 +11,127 @@
 
 </head>
 <body>
-  <!-- BEGIN LivePerson Monitor. -->
-<script type="text/javascript">window.lpTag=window.lpTag||{},"undefined"==typeof window.lpTag._tagCount?(window.lpTag={site:'31991735'||"",section:lpTag.section||"",tagletSection:lpTag.tagletSection||null,autoStart:lpTag.autoStart!==!1,ovr:lpTag.ovr||{},_v:"1.7.0",_tagCount:1,protocol:"https:",events:{bind:function(t,e,i){lpTag.defer(function(){lpTag.events.bind(t,e,i)},0)},trigger:function(t,e,i){lpTag.defer(function(){lpTag.events.trigger(t,e,i)},1)}},defer:function(t,e){0==e?(this._defB=this._defB||[],this._defB.push(t)):1==e?(this._defT=this._defT||[],this._defT.push(t)):(this._defL=this._defL||[],this._defL.push(t))},load:function(t,e,i){var n=this;setTimeout(function(){n._load(t,e,i)},0)},_load:function(t,e,i){var n=t;t||(n=this.protocol+"//"+(this.ovr&&this.ovr.domain?this.ovr.domain:"lptag.liveperson.net")+"/tag/tag.js?site="+this.site);var a=document.createElement("script");a.setAttribute("charset",e?e:"UTF-8"),i&&a.setAttribute("id",i),a.setAttribute("src",n),document.getElementsByTagName("head").item(0).appendChild(a)},init:function(){this._timing=this._timing||{},this._timing.start=(new Date).getTime();var t=this;window.attachEvent?window.attachEvent("onload",function(){t._domReady("domReady")}):(window.addEventListener("DOMContentLoaded",function(){t._domReady("contReady")},!1),window.addEventListener("load",function(){t._domReady("domReady")},!1)),"undefined"==typeof window._lptStop&&this.load()},start:function(){this.autoStart=!0},_domReady:function(t){this.isDom||(this.isDom=!0,this.events.trigger("LPT","DOM_READY",{t:t})),this._timing[t]=(new Date).getTime()},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],ev:lpTag.ev||[]},lpTag.init()):window.lpTag._tagCount+=1;</script>
-<!-- END LivePerson Monitor. -->
-<div id="facebook"></div>
-{% include topnav.html %}
-{% if page.public == false %}
-{% include not-available.html %}
-{% else %}
-<!-- Page Content -->
-<div class="container">
-    <div class="col-lg-12">
-    {% include nav-breadcrumbs.html %}
-    </div>
-   <div class="sidebarTitle fixed"><span>{{ page.level3 }}</span></div>
-   <div class="sidebarTitle-holder">{{ page.level3 }}</div>
-    <!-- Content Row -->
-    <div class="row">
-        <!-- Sidebar Column -->
-        <div class="col-md-3 side-bar">
+  <div class="page-wrap">
+  	{% include topnav.html %} <!-- Page Content -->
+  	<div class="pagecontainer">
+  		<div class="pageheader">
+  			<div class="pagecategory">
+  				<a href="{{ page.level3 | slugify | append: ".html" }}">{{ page.level3 }}</a> &bull; {{ page.readtime | append: " read" }}
+  			</div>
+  			<div class="pagetitle">
+  				{{ page.title }}
+  			</div>
+  			<hr class="pagehr">
+  			<div class="pageimage"></div>
+  		</div>
+      <div class="scrollbar">
+        <ul class="scrollbarlist">
 
-          {% include sidebar.html  %}
-        </div>
-    <!-- Content Column -->
-    <div class="col-md-9 inside-page-content">
-        {% if page.level4 %}
-        <div class="h2">{{ page.level4 }}</div>
-        {% endif %}
-        <div class="h2">{{ page.title }}</div>
-        {{content}}
-        <br />
-        <br />
-         <br />
-        <br />
-        <div class="visible-xs visible-sm">
-            <br />
-            <br />
-            <br />
-            <br />
-        </div>
+        </ul>
+      </div>
+  		<div class="pagecontent">
+  			{{content}}
+  		</div>
+  	</div>
+    <div class="feedbackrow">
+      <div class="feedbacktitle">Was this article helpful?</div>
+      <div class="feedbackbuttons">
+        <button onclick="centerThumbsup ()" class="thumbsup"><i class="fa fa-thumbs-o-up"></i></button>
+        <button onclick="showDoorbellModal ()"class="thumbsdown"><i class="fa fa-thumbs-o-down"></i></button>
+      </div>
     </div>
-    <!-- /.row -->
-</div>
-{% endif %}
-<!-- /.container -->
-    </div>
- {% include footer.html %}
-<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+    <div class="feedbackrowalternate">THANK YOU FOR YOUR FEEDBACK!</div>
+  	<div class="relatedrow">
+  		<div class="relatedbox">
+        <div class="relatedimage">
+          <img src="img/articlesmall1.png" />
+        </div>
+  			<div class="relatedcontent">
+  				<div class="relatedtitle">
+  					Your Beginner's Guide to Messaging
+  				</div>
+          <div class="relatedarticlecontent">
+            This is a messaging Q&amp;A for brands to find answers to the most common questions about messaging
+          </div>
+  				<div class="relatedauthor">
+  					<div class="relatedauthorimage"><img src="img/Cory%20House.png"></div>
+  					<div class="relateddetails">
+  						<div class="relatedauthorname">
+  							Cory House
+  						</div>
+  						<div class="relatedarticlecdetails">
+  							Dec 8 &bull; 4 min read
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+      <div class="relatedbox">
+        <div class="relatedimage">
+          <img src="img/articlesmall1.png" />
+        </div>
+        <div class="relatedcontent">
+          <div class="relatedtitle">
+            Your Beginner's Guide to Messaging
+          </div>
+          <div class="relatedarticlecontent">
+            This is a messaging Q&amp;A for brands to find answers to the most common questions about messaging
+          </div>
+          <div class="relatedauthor">
+            <div class="relatedauthorimage"><img src="img/Cory%20House.png"></div>
+            <div class="relateddetails">
+              <div class="relatedauthorname">
+                Cory House
+              </div>
+              <div class="relatedarticledetails">
+                Dec 8 &bull; 4 min read
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="relatedbox">
+          <div class="relatedimage">
+            <img src="img/articlesmall1.png" />
+          </div>
+          <div class="relatedcontent">
+            <div class="relatedtitle">
+              Your Beginner's Guide to Messaging
+            </div>
+            <div class="relatedarticlecontent">
+              This is a messaging Q&amp;A for brands to find answers to the most common questions about messaging
+            </div>
+            <div class="relatedauthor">
+              <div class="relatedauthorimage"><img src="img/Cory%20House.png"></div>
+              <div class="relateddetails">
+                <div class="relatedauthorname">
+                  Cory House
+                </div>
+                <div class="relatedarticledetails">
+                  Dec 8 &bull; 4 min read
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  	</div>
+  </div>
+{% include footer.html %}
 <script type="text/javascript">
-const search = docsearch({
-apiKey: 'e386ebed16c8f70de3c914b3ace55ae6',
-indexName: 'liveperson',
-inputSelector: '.aa-input-search',
-debug: false,
-algoliaOptions: {
-  hitsPerPage: 100
-},
-autocompleteOptions: {
-  openOnFocus: true
-}
-});
+    window.doorbellOptions = {
+        id: '7615',
+        appKey: 'UYRbpqPwlQIABtilGdgbwVkD7IR8CB9UXlXP5cI74gHjpo1Buj97cveS66HK8fxP',
+        hideButton: true
+    };
+    (function(w, d, t) {
+        var hasLoaded = false;
+        function l() { if (hasLoaded) { return; } hasLoaded = true; window.doorbellOptions.windowLoaded = true; var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/'+window.doorbellOptions['id']+'?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g); }
+        if (w.attachEvent) { w.attachEvent('onload', l); } else if (w.addEventListener) { w.addEventListener('load', l, false); } else { l(); }
+        if (d.readyState == 'complete') { l(); }
+    }(window, document, 'script'));
 </script>
-
-<script type="text/javascript">
-var inputElement = document.getElementById("aa-search-input");
-inputElement.setAttribute("oninput", "onInput(this)");
-function onInput(el) {
-    setTimeout(function () {
-        if (el && el.value) {
-            $("body").addClass("search-opened");
-            $(".search-cancel").css("display","block");
-            $(".aa-input-icon").css("display", "none");
-        } else {
-            $("body").removeClass("search-opened");
-            $(".search-cancel").css("display", "none");
-            $(".aa-input-icon").css("display","block");
-        }
-    }, 0);
-
-};
-
-    $(".search-cancel").click(function() {
-      setTimeout(function() {
-	       search.autocomplete.autocomplete.setVal('');
-         search.autocomplete.focus();
-      }, 10);
-      $("body").removeClass("search-opened");
-      $(".search-cancel").css("display","none");
-      $(".aa-input-icon").css("display","block");
-    });
+<script>
+  var scroll= new SmoothScroll('a[href*="#"]');
 </script>
 </body>
 {% if site.google_analytics %}

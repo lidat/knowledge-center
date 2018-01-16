@@ -1,15 +1,177 @@
-body {
-  background-color: #f2f2f2;
-}
+/* expertise styling starts here, delete the rest*/
 
-/* banner home page */
-
-.metabanner{
-  background: linear-gradient(rgba(47, 72, 131, 0.75), rgba(47, 72, 131, 0.75)), url("https://s3-eu-west-1.amazonaws.com/ce-sr/Product+Marketing+images/Header_Image.png");
+.homebanner{
+  background: linear-gradient(rgba(22, 32, 54, 0.75), rgba(47, 72, 131, 0.75)), url("https://s3-eu-west-1.amazonaws.com/ce-sr/Product+Marketing+images/Holdingphone.png");
   background-size: cover;
   background-position: center center;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 330pt;
 }
+
+.hometopnav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 51pt;
+  margin-left: 81pt;
+}
+
+.homecontenticon {
+  margin-top: 28pt;
+}
+
+.homebuttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12pt;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.contactus {
+  margin-right: 44pt;
+  font-size: 16pt;
+  font-weight: 100;
+}
+
+.login {
+  margin-right: 71pt;
+  font-size: 16pt;
+  font-weight: 100;
+}
+
+.homebannercontent{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 25pt;
+}
+
+.homebannertext {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  color: #ffffff;
+  margin-bottom: 27pt;
+  margin-top: 16pt;
+  font-weight: 300;
+}
+
+.homesearch {
+  border: 1px solid #ffffff;
+  border-radius: 4pt;
+  width: 50%;
+}
+
+.aa-input-search {
+    padding: 12px 0px 12px 35px;
+    color: #636a79;
+    display: block;
+    margin: 0 auto;
+    cursor: text;
+    transition: none;
+}
+
+.homesearch #aa-search-input {
+  width: 100%;
+  background: none;
+  border: none;
+  font-style: italic;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18pt;
+  color: #fff;
+}
+
+.homecontainer {
+  margin: 0 auto;
+  margin-top: 66pt;
+  display: flex;
+  flex-wrap: wrap;
+  width: 96.5%;
+  padding-left: 11pt;
+  padding-right: 11pt
+}
+
+.homerow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 440px;
+}
+
+.homeboxlink {
+  flex: 1;
+  text-decoration: none;
+  margin: 0 11pt 22pt 11pt;
+}
+
+.homebox:hover {
+  text-decoration: none;
+  -webkit-box-shadow: rgba(45,45,45,0.05) 0px 2px 2px, rgba(49,49,49,0.05) 0px 4px 4px,
+  rgba(42,42,42,0.05) 0px 8px 8px, rgba(32,32,32,0.05) 0px 16px 16px, rgba(49,49,49,0.05) 0px 32px 32px, rgba(35,35,35,0.05) 0px 64px 64px;
+  -moz-box-shadow: rgba(45,45,45,0.05) 0px 2px 2px, rgba(49,49,49,0.05) 0px 4px 4px,
+  rgba(42,42,42,0.05) 0px 8px 8px, rgba(32,32,32,0.05) 0px 16px 16px, rgba(49,49,49,0.05) 0px 32px 32px, rgba(35,35,35,0.05) 0px 64px 64px;
+  box-shadow: rgba(45,45,45,0.05) 0px 2px 2px, rgba(49,49,49,0.05) 0px 4px 4px,
+  rgba(42,42,42,0.05) 0px 8px 8px, rgba(32,32,32,0.05) 0px 16px 16px, rgba(49,49,49,0.05) 0px 32px 32px, rgba(35,35,35,0.05) 0px 64px 64px;
+  transition: box-shadow .3s ease-out, transform .3s ease-out, opacity .2s ease-out;
+  transition-delay: .1s;
+  transform: translate(0, -4px);
+  cursor: pointer;
+}
+
+.homebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #D8DADD;
+  background: #fff;
+  text-align: center;
+
+}
+
+.boxicon {
+  margin-top: 31pt;
+}
+
+.boxicon img {
+  width: 100%;
+}
+
+.boxtitle {
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+  color: #5879da;
+  margin-top: 20pt;
+  margin-bottom: 25pt;
+  width: 261pt;
+}
+
+.boxtext {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  color: #4A4A4A;
+  margin: 0 62pt 25pt 62pt;
+  width: 287pt;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+.boxauthor {
+  margin-bottom: 30pt;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  color: #9B9B9B;
+  font-weight: 100;
+}
+
+.singleline {
+  margin-bottom: 47pt !important;
+}
+
+/* expertise design ends, delete everything below when done*/
 
 .banner-container{
     width: 100%;
@@ -125,7 +287,7 @@ ul > .aa-input-container{
 }
 
 .searchhome .aa-input-icon {
-  fill: #B0B5BC;
+  fill: #8F96A0;
   top: 272px;
   left: 202px;
   z-index: 3;
@@ -351,29 +513,27 @@ a:-webkit-any-link {
   text-decoration: none;
 }
 
-.aa-input-search::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #B0B5BC;
+.homesearch #aa-search-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #8F96A0 !important;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 1.200em;
-  font-weight: 100;
+  font-weight: 300;
 }
-.aa-input-search::-moz-placeholder { /* Firefox 19+ */
-  color: #B0B5BC;
+.homesearch #aa-search-input::-moz-placeholder { /* Firefox 19+ */
+  color: #8F96A0 !important;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 1.200em;
-  font-weight: 100;
+  font-weight: 300;
 }
-.aa-input-search:-ms-input-placeholder { /* IE 10+ */
-  color: #B0B5BC;
+
+.homesearch #aa-search-input:-ms-input-placeholder { /* IE 10+ */
+  color: #8F96A0 !important;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 1.200em;
-  font-weight: 100;
+  font-weight: 300;
 }
-.aa-input-search:-moz-placeholder { /* Firefox 18- */
-  color: #B0B5BC;
+
+.homesearch #aa-search-input:-moz-placeholder { /* Firefox 18- */
+  color: #8F96A0 !important;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 1.200em;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .searchhome .ds-dropdown-menu [class^=ds-dataset-] {

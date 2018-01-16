@@ -593,7 +593,7 @@ display: block;
   width: 100px;
 }
 
-.aa-input-search {
+/*.aa-input-search {
   color: white;
   padding: 10px;
   border: none;
@@ -626,6 +626,7 @@ display: block;
   cursor: text;
   opacity: 1;
 }
+*/
 
 .aa-input-icon{
   position: fixed;

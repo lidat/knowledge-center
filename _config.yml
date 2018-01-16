@@ -1,10 +1,10 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: LivePerson APIs
+topnav_title: Messaging Expertise Center
 # this appears on the top navigation bar next to the home button
 
-site_title: LivePerson APIs
+site_title: Messaging Expertise Center
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: LivePerson
@@ -34,7 +34,7 @@ exclude:
   - .gitignore
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: LivePerson APIs
+feedback_subject_line: Messaging Expertise Center
 
 feedback_email: edenk@liveperson.com
 # used as a contact email for the Feedback link in the top navigation bar
