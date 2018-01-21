@@ -22,31 +22,31 @@
       <div class="carouselitem">In-App Messaging</div>
     </div>
 	<div class="categorytitle">
-		GETTING STARTED WITH MESSAGING
+		{{ page.title }}
 	</div>
 	<hr class="categoryhr">
 	<div class="categoryboxcontainer">
-    {% assign categoryfilter = site.pages | where_exp: "page", "page.level3 == 'Getting Started with Messaging'" %}
+    {% assign categoryfilter = site.pages | where_exp: "page", "page.level3 == 'Designing Customer Experience'" %}
     {% for page in categoryfilter %}
-    {% if forloop.first}
-    <a href="/beginners-guide-to-messaging.html">
+    {% if forloop.first %}
+    <a href="/designing-customer-experience-example1.html">
     <div class="categoryfirstbox">
-			<img class="categoryfirstboximg" src="img/gettingstartedwithmessagingbigbox.png">
+			<img class="categoryfirstboximg" src="img/{{ page.title | slugify }}.png">
 			<div class="categoryfirstboxcontent">
 				<div class="categoryfirstboxtitle">
-					Your Beginner's Guide to Messaging
+					{{ page.title }}
 				</div>
 				<div class="categoryfirstboxtext">
-					This is a messaging Q&amp;A for brands to find answers to the most common questions about messaging. This is an article that is found via the Connection Area.
+					{{ page.summary }}
 				</div>
 				<div class="categoryfirstboxauthor">
-					<div class="authorimage categoryimage"><img src="img/Cory%20House.png"></div>
+					<div class="authorimage categoryimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
 					<div class="articledetails">
 						<div class="authorname">
-							Cory House &bull; Option for Job Title
+							{{ page.authorname }} &bull; Option for Job Title
 						</div>
 						<div class="documentdetails">
-							Dec 8 &bull; 4 min read
+							Dec 8 &bull; {{ page.readtime }}
 						</div>
 					</div>
 				</div>
@@ -54,16 +54,20 @@
 		</div>
   </a>
   {% endif %}
-  {% else %}
+  {% endfor %}
+  <!-- some of the box rows below are redundant, meant to house future documents. In the case of a large amount of files in a category, more rows will need to be added. Make sure you adjust the offset accordingly by adding 2. -->
   <div class="categoryboxrow">
-  {% for page in categoryfilter %}
+  {% for page in categoryfilter offset:1 limit:2 %}
+  {% assign mod = forloop.length | modulo: 2 %}
+    {% if mod == 0 %}
+      <!--  mod is even -->
 		<div class="categorybox">
 			<div class="categoryboximage"><img class="categoryboximage" src="img/{{ page.title | slugify }}.png"></div>
 			<div class="categoryboxcontent">
 				<div class="categoryboxtitle">{{ page.title }}</div>
 				<div class="categoryboxtext">{{ page.summary }}</div>
 				<div class="categoryfirstboxauthor">
-					<div class="boxauthorimage"><img src="img/Cory%20House.png"></div>
+					<div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
 					<div class="articledetails">
 						<div class="boxauthorname">
 							{{ page.authorname }} &bull; Option for Job Title
@@ -75,7 +79,128 @@
 				</div>
 			</div>
 		</div>
-	</div>
+    {% else %}
+    <!-- mod is odd -->
+    <div class="categorybox">
+			<div class="categoryboximage"><img class="categoryboximage" src="img/{{ page.title | slugify }}.png"></div>
+			<div class="categoryboxcontent">
+				<div class="categoryboxtitle">{{ page.title }}</div>
+				<div class="categoryboxtext">{{ page.summary }}</div>
+				<div class="categoryfirstboxauthor">
+					<div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
+					<div class="articledetails">
+						<div class="boxauthorname">
+							{{ page.authorname }} &bull; Option for Job Title
+						</div>
+						<div class="documentdetails">
+							Dec 8 &bull; {{ page.readtime }}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    <div class="flexholder"></div>
+
+  {% endif %}
+  {% endfor %}
+  </div>
+  <div class="categoryboxrow">
+    {% for page in categoryfilter offset:3 limit:2 %}
+    {% assign mod = forloop.length | modulo: 2 %}
+    {% if mod == 0 %}
+    <!-- mod is even -->
+    <div class="categorybox">
+      <div class="categoryboximage"><img class="categoryboximage" src="img/{{ page.title | slugify }}.png"></div>
+      <div class="categoryboxcontent">
+        <div class="categoryboxtitle">{{ page.title }}</div>
+        <div class="categoryboxtext">{{ page.summary }}</div>
+        <div class="categoryfirstboxauthor">
+          <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
+          <div class="articledetails">
+            <div class="boxauthorname">
+              {{ page.authorname }} &bull; Option for Job Title
+            </div>
+            <div class="documentdetails">
+              Dec 8 &bull; {{ page.readtime }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% else %}
+    <!-- mod is odd -->
+    <div class="categorybox">
+      <div class="categoryboximage"><img class="categoryboximage" src="img/{{ page.title | slugify }}.png"></div>
+      <div class="categoryboxcontent">
+        <div class="categoryboxtitle">{{ page.title }}</div>
+        <div class="categoryboxtext">{{ page.summary }}</div>
+        <div class="categoryfirstboxauthor">
+          <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
+          <div class="articledetails">
+            <div class="boxauthorname">
+              {{ page.authorname }} &bull; Option for Job Title
+            </div>
+            <div class="documentdetails">
+              Dec 8 &bull; {{ page.readtime }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flexholder"></div>
+
+  {% endif %}
+    {% endfor %}
+  </div>
+  <div class="categoryboxrow">
+    {% for page in categoryfilter offset:5 limit:2 %}
+    {% assign mod = forloop.length | modulo: 2 %}
+    {% if mod == 0 %}
+    <!-- mod is even -->
+    <div class="categorybox">
+      <div class="categoryboximage"><img class="categoryboximage" src="img/{{ page.title | slugify }}.png"></div>
+      <div class="categoryboxcontent">
+        <div class="categoryboxtitle">{{ page.title }}</div>
+        <div class="categoryboxtext">{{ page.summary }}</div>
+        <div class="categoryfirstboxauthor">
+          <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
+          <div class="articledetails">
+            <div class="boxauthorname">
+              {{ page.authorname }} &bull; Option for Job Title
+            </div>
+            <div class="documentdetails">
+              Dec 8 &bull; {{ page.readtime }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% else %}
+    <!-- mod is odd -->
+    <div class="categorybox">
+      <div class="categoryboximage"><img class="categoryboximage" src="img/{{ page.title | slugify }}.png"></div>
+      <div class="categoryboxcontent">
+        <div class="categoryboxtitle">{{ page.title }}</div>
+        <div class="categoryboxtext">{{ page.summary }}</div>
+        <div class="categoryfirstboxauthor">
+          <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
+          <div class="articledetails">
+            <div class="boxauthorname">
+              {{ page.authorname }} &bull; Option for Job Title
+            </div>
+            <div class="documentdetails">
+              Dec 8 &bull; {{ page.readtime }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flexholder"></div>
+
+  {% endif %}
+    {% endfor %}
+  </div>
+  </div>
   </div>
     <div class="backtotopcontainer">
     <a href="#" class="backtotop">

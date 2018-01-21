@@ -31,7 +31,7 @@ layout: default
 <div class="post-content">
 
   <div class="articleheader">
-    <div class="authorimage"><img src="img/{{ page.authorname }}.png" /></div>
+    <div class="authorimage"><img src="img/{{ page.authorname | slugify }}.png" /></div>
     <div class="authordetails">{{ page.authorname }}, {{ page.authorexpert }}, LivePerson</div>
   </div>
 

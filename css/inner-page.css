@@ -794,7 +794,7 @@ pre {
 }
 
 .pageimage {
-  background: linear-gradient(rgba(47, 72, 131, 0.75), rgba(47, 72, 131, 0.75)), url("https://s3-eu-west-1.amazonaws.com/ce-sr/Product+Marketing+images/Header_Image.png");
+  background: linear-gradient(rgba(47, 72, 131, 0.75), rgba(47, 72, 131, 0.75)), url("https://s3-eu-west-1.amazonaws.com/ce-sr/Product+Marketing+images/example-document-1.png");
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -1225,4 +1225,9 @@ footer {
   transform: translate(105px, 0px);
   background-color: #162036;
   color: #fff;
+}
+
+.flexholder {
+  flex: 1;
+  visibility: hidden;
 }
