@@ -48,14 +48,12 @@
       <div class="boxtitle">GETTING STARTED WITH MESSAGING</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">
-      {% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Getting Started with Messaging'" %}
-      {% for page in catfilter %}
-      {{ forloop.length }} Articles
-      {% endfor %}
+      {% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Getting Started With Messaging'" %}
+       {{ catfilter | size }} Articles
       </div>
     </div>
 </a>
-    <a class="homeboxlink" href="#">
+    <a class="homeboxlink" href="designing-customer-experience.html">
   <div class="homebox">
       <div class="boxicon">
         <img src="img/designing.png"/>
@@ -63,12 +61,10 @@
       <div class="boxtitle">DESIGNING CUSTOMER EXPERIENCE</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Designing Customer Experience'" %}
-      {% for page in catfilter %}
-      {{ forloop.length }} Articles
-      {% endfor %}</div>
+      {{ catfilter | size }} Articles</div>
     </div>
 </a>
-    <a class="homeboxlink" href="#">
+    <a class="homeboxlink" href="messaging-channels.html">
   <div class="homebox">
       <div class="boxicon">
     <img src="img/channels.png"/>
@@ -76,14 +72,12 @@
       <div class="boxtitle singleline">MESSAGING CHANNELS</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Messaging Channels'" %}
-      {% for page in catfilter %}
-      {{ forloop.length }} Articles
-      {% endfor %}</div>
+      {{ catfilter | size }} Articles</div>
     </div>
 </a>
 
 
-    <a class="homeboxlink" href="#">
+    <a class="homeboxlink" href="effective-operations.html">
   <div class="homebox">
       <div class="boxicon">
   <img src="img/effective.png"/>
@@ -91,26 +85,22 @@
       <div class="boxtitle singleline">EFFECTIVE OPERATIONS</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Effective Operations'" %}
-      {% for page in catfilter %}
-      {{ forloop.length }} Articles |
-      {% endfor %}
+      {{ catfilter | size }} Articles
       </div>
     </div>
 </a>
-    <a class="homeboxlink" href="#">
+    <a class="homeboxlink" href="faqs-and-best-practices">
   <div class="homebox">
       <div class="boxicon">
   <img src="img/faq.png"/>
     </div>
       <div class="boxtitle singleline">FAQs AND BEST PRACTICES</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
-      <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'FAQs and Best Practices'" %}
-      {% for page in catfilter %}
-      {{ forloop.length }} Articles
-      {% endfor %}</div>
+      <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'FAQs And Best Practices'" %}
+      {{ catfilter | size }} Articles</div>
     </div>
 </a>
-    <a class="homeboxlink" href="#">
+    <a class="homeboxlink" href="secure-messaging.html">
   <div class="homebox">
       <div class="boxicon">
   <img src="img/secure.png"/>
@@ -118,14 +108,12 @@
       <div class="boxtitle singleline">SECURE MESSAGING</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Secure Messaging'" %}
-      {% for page in catfilter %}
-      {{ forloop.length }} Articles
-      {% endfor %}</div>
+      {{ catfilter | size }} Articles</div>
     </div>
 </a>
 
 
-    <a class="homeboxlink" href="#">
+    <a class="homeboxlink" href="developing-in-app-messaging.html">
   <div class="homebox">
       <div class="boxicon">
   <img src="img/developing.png"/>
@@ -133,9 +121,7 @@
       <div class="boxtitle">DEVELOPING IN-APP MESSAGING</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Developing In-App Messaging'" %}
-      {% for page in catfilter %}
-      {{ forloop.length }} Articles
-      {% endfor %}</div>
+      {{ catfilter | size }} Articles</div>
     </div>
 </a>
     <a class="homeboxlink" href="#">
@@ -146,9 +132,7 @@
       <div class="boxtitle">DESIGNING CUSTOMER EXPERIENCE</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">1{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Designing Customer Experience'" %}
-      {% for page in catfilter %}
-      {{ forloop.length }} Articles
-      {% endfor %}</div>
+      {{ catfilter | size }} Articles</div>
     </div>
 <a class="homeboxlink" href="#">
     <div class="homebox" style="visibility: hidden;">
@@ -158,9 +142,7 @@
       <div class="boxtitle">DESIGNING CUSTOMER EXPERIENCE</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Designing Customer Experience'" %}
-      {% for page in catfilter %}
-      {{ forloop.length }} Articles
-      {% endfor %}</div>
+      {{ catfilter | size }} Articles</div>
     </div>
 </a>
 

@@ -26,7 +26,11 @@
 	</div>
 	<hr class="categoryhr">
 	<div class="categoryboxcontainer">
-    {% assign categoryfilter = site.pages | where_exp: "page", "page.level3 == 'Designing Customer Experience'" %}
+    <!-- assign a variable with the title of the CATEGORY so that this page works for all categories -->
+    {% assign categoryname = page.title %}
+    <!-- use the variable that we assigned in the last line to filter through page. All pages belonging to the cateogry displayed will be rendered -->
+    {% assign categoryfilter = site.pages | where_exp: "page", "page.level3 == categoryname" %}
+    <!-- for each page that meets the above criteria, render a firstbox and then a regular box -->
     {% for page in categoryfilter %}
     {% if forloop.first %}
     <a href="/designing-customer-experience-example1.html">
@@ -43,10 +47,10 @@
 					<div class="authorimage categoryimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
 					<div class="articledetails">
 						<div class="authorname">
-							{{ page.authorname }} &bull; Option for Job Title
+							{{ page.authorname }} &bull; {{ page.authortitle }}
 						</div>
 						<div class="documentdetails">
-							Dec 8 &bull; {{ page.readtime }}
+							Last updated {{ page.last_modified_at | date: '%D' }}  &bull; {{ page.readtime }} read
 						</div>
 					</div>
 				</div>
@@ -73,7 +77,7 @@
 							{{ page.authorname }} &bull; Option for Job Title
 						</div>
 						<div class="documentdetails">
-							Dec 8 &bull; {{ page.readtime }}
+							Last updated {{ page.last_modified_at | date: '%D' }}  &bull; {{ page.readtime }} read
 						</div>
 					</div>
 				</div>
@@ -93,7 +97,7 @@
 							{{ page.authorname }} &bull; Option for Job Title
 						</div>
 						<div class="documentdetails">
-							Dec 8 &bull; {{ page.readtime }}
+							Last updated {{ page.last_modified_at | date: '%D' }}  &bull; {{ page.readtime }} read
 						</div>
 					</div>
 				</div>
@@ -121,7 +125,7 @@
               {{ page.authorname }} &bull; Option for Job Title
             </div>
             <div class="documentdetails">
-              Dec 8 &bull; {{ page.readtime }}
+              Last updated {{ page.last_modified_at | date: '%D' }}  &bull; {{ page.readtime }} read
             </div>
           </div>
         </div>
@@ -141,7 +145,7 @@
               {{ page.authorname }} &bull; Option for Job Title
             </div>
             <div class="documentdetails">
-              Dec 8 &bull; {{ page.readtime }}
+              Last updated {{ page.last_modified_at | date: '%D' }} &bull; {{ page.readtime }} read
             </div>
           </div>
         </div>
@@ -169,7 +173,7 @@
               {{ page.authorname }} &bull; Option for Job Title
             </div>
             <div class="documentdetails">
-              Dec 8 &bull; {{ page.readtime }}
+              Last updated {{ page.last_modified_at | date: '%D' }} &bull; {{ page.readtime }} read
             </div>
           </div>
         </div>
@@ -189,7 +193,7 @@
               {{ page.authorname }} &bull; Option for Job Title
             </div>
             <div class="documentdetails">
-              Dec 8 &bull; {{ page.readtime }}
+              Last updated {{ page.last_modified_at | date: '%D' }} &bull; {{ page.readtime }} read
             </div>
           </div>
         </div>

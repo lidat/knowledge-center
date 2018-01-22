@@ -24,6 +24,7 @@ google_analytics: UA-96175782-1
 
 gems:
   - algoliasearch-jekyll
+  - jekyll-last-modified-at
 
 algolia:
   application_id: "1ITT6KY19C"
