@@ -4,4 +4,4 @@ This repository generates LivePerson's Messaging Knowledge Base, which can be fo
 
 ### Licensing
 
-All usage of the contents, documentation or code found in this repository is subject to the LivePerson's copyright.
+All usage of the contents, documentation or code found in this repository is subject to the LivePerson's copyright except where other licensing applies (for plugins, libraries and the like).
