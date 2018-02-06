@@ -6,7 +6,7 @@ level3: Messaging Channels
 readtime: "3 min"
 level-order: 1
 order: 1
-permalink: set-up-twilio-connector.html
+permalink: how-to-set-up-a-twilio-SMS-connector.html
 summary: "For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects."
 authorname: "Or Gramolin"
 authortitle: "Product Expert in Messaging Channels"
