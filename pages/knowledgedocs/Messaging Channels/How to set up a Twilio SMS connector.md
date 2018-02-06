@@ -12,7 +12,7 @@ authorname: "Or Gramolin"
 authortitle: "Product Expert in Messaging Channels"
 tags: ['#Text Messaging','#Twilio', '#Guide']
 ---
-Twilio video: https://vimeo.com/238919599/fea034b4d2
+<div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://vimeo.com/238919599/fea034b4d2" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
 
 Our self serve onboarding process for the SMS connector means brands can quickly and easily add this channel to their operations.
 
