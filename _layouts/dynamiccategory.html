@@ -12,7 +12,7 @@
 <body>
   {% include topnav.html %}
   <div class="categorycontainer">
-    <div class="categorycarousel">
+    <!--<div class="categorycarousel">
       <div class="carouselitem">Getting Started</div>
       <div class="carouselitem">Customer Experience</div>
       <div class="carouselitem">Messaging Channels</div>
@@ -20,7 +20,7 @@
       <div class="carouselitem">FAQs &amp; Best Practices</div>
       <div class="carouselitem">Secure Messaging</div>
       <div class="carouselitem">In-App Messaging</div>
-    </div>
+    </div>-->
 	<div class="categorytitle">
 		{{ page.title }}
 	</div>
@@ -30,9 +30,10 @@
     {% assign categoryname = page.title %}
     <!-- use the variable that we assigned in the last line to filter through page. All pages belonging to the cateogry displayed will be rendered -->
     {% assign categoryfilter = site.pages | where_exp: "page", "page.level3 == categoryname" %}
-    <!-- for each page that meets the above criteria, render a firstbox and then a regular box -->
+    <!-- for each page that meets the above criteria, render a firstbox, two aside boxes and then a regular box -->
     {% for page in categoryfilter %}
     {% if forloop.first %}
+    <div class="categoryboxrowfirst">
     <a href="/designing-customer-experience-example1.html">
     <div class="categoryfirstbox">
 			<img class="categoryfirstboximg" src="img/{{ page.title | slugify }}.png">
@@ -60,13 +61,13 @@
   {% endif %}
   {% endfor %}
   <!-- some of the box rows below are redundant, meant to house future documents. In the case of a large amount of files in a category, more rows will need to be added. Make sure you adjust the offset accordingly by adding 2. -->
-  <div class="categoryboxrow">
+  <div class="categoryboxrowaside">
   {% for page in categoryfilter offset:1 limit:2 %}
-  {% assign mod = forloop.length | modulo: 2 %}
-    {% if mod == 0 %}
-      <!--  mod is even -->
-		<div class="categorybox">
-			<div class="categoryboximage"><img class="categoryboximage" src="img/{{ page.title | slugify }}.png"></div>
+    {% assign mod = forloop.length | modulo: 2 %}
+      {% if mod == 0 %}
+      <!--  mod is even, just add a box -->
+		<div class="categoryboxaside">
+			<img class="categoryboximage" src="img/{{ page.title | slugify }}.png">
 			<div class="categoryboxcontent">
 				<div class="categoryboxtitle">{{ page.title }}</div>
 				<div class="categoryboxtext">{{ page.summary }}</div>
@@ -84,9 +85,9 @@
 			</div>
 		</div>
     {% else %}
-    <!-- mod is odd -->
-    <div class="categorybox">
-			<div class="categoryboximage"><img class="categoryboximage" src="img/{{ page.title | slugify }}.png"></div>
+    <!-- mod is odd, add a box and then a placeholder after it-->
+    <div class="categoryboxaside">
+			<img class="categoryboximage" src="img/{{ page.title | slugify }}.png">
 			<div class="categoryboxcontent">
 				<div class="categoryboxtitle">{{ page.title }}</div>
 				<div class="categoryboxtext">{{ page.summary }}</div>
@@ -108,13 +109,14 @@
   {% endif %}
   {% endfor %}
   </div>
+</div>
   <div class="categoryboxrow">
-    {% for page in categoryfilter offset:3 limit:2 %}
+    {% for page in categoryfilter offset:3 limit:3 %}
     {% assign mod = forloop.length | modulo: 2 %}
-    {% if mod == 0 %}
-    <!-- mod is even -->
+    {% if mod != 0 %}
+    <!-- mod is odd -->
     <div class="categorybox">
-      <div class="categoryboximage"><img class="categoryboximage" src="img/{{ page.title | slugify }}.png"></div>
+      <img class="categoryboximage" src="img/{{ page.title | slugify }}.png">
       <div class="categoryboxcontent">
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
@@ -131,10 +133,10 @@
         </div>
       </div>
     </div>
-    {% else %}
-    <!-- mod is odd -->
+    {% elsif mod == 0 %}
+    <!-- mod is even -->
     <div class="categorybox">
-      <div class="categoryboximage"><img class="categoryboximage" src="img/{{ page.title | slugify }}.png"></div>
+      <img class="categoryboximage" src="img/{{ page.title | slugify }}.png">
       <div class="categoryboxcontent">
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
@@ -151,10 +153,11 @@
         </div>
       </div>
     </div>
-    <div class="flexholder"></div>
-
+    {% if forloop.last == true %}
+      <div class="flexholder"></div>
+    {% endif %} 
   {% endif %}
-    {% endfor %}
+  {% endfor %}
   </div>
   <div class="categoryboxrow">
     {% for page in categoryfilter offset:5 limit:2 %}
@@ -162,7 +165,7 @@
     {% if mod == 0 %}
     <!-- mod is even -->
     <div class="categorybox">
-      <div class="categoryboximage"><img class="categoryboximage" src="img/{{ page.title | slugify }}.png"></div>
+      <img class="categoryboximage" src="img/{{ page.title | slugify }}.png">
       <div class="categoryboxcontent">
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
@@ -179,10 +182,13 @@
         </div>
       </div>
     </div>
+    {% if forloop.last == true %}
+      <div class="flexholder"></div>
+    {% endif %}
     {% else %}
     <!-- mod is odd -->
     <div class="categorybox">
-      <div class="categoryboximage"><img class="categoryboximage" src="img/{{ page.title | slugify }}.png"></div>
+      <img class="categoryboximage" src="img/{{ page.title | slugify }}.png">
       <div class="categoryboxcontent">
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
@@ -213,7 +219,7 @@
     </div>
 </div>
 {% include footer.html %}
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<!--<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script type="text/javascript">
@@ -228,6 +234,6 @@ $(document).ready(function(){
     variableWidth: true,
   });
 });
-</script>
+</script>-->
 </body>
 </html>
