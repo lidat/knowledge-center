@@ -46,3 +46,19 @@ $(document).ready(function() {
 		});
 	});
 });
+
+//login with LP API
+$('.loginform').submit(function () {
+  event.preventDefault();
+  var $form = $(this),
+    actnum = $form.find("input[name='account_number']").val(),
+    user = $form.find("input[name='user_name']").val(),
+    pass = $form.find("input[name='password']").val(),
+    url = $form.attr("action");
+  var posting = $.post(url, { username: $(user).val(), password: $(pass).val() });
+  posting.done(function () {
+      $(".loginform").addClass("login-success");
+  }).fail(function () {
+      $(".loginform").addClass("login-failed");
+  });
+}

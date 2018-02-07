@@ -34,7 +34,7 @@
     {% for page in categoryfilter %}
     {% if forloop.first %}
     <div class="categoryboxrowfirst">
-    <a href="/designing-customer-experience-example1.html">
+    <a href="/{{ page.title | slugify }}.html">
     <div class="categoryfirstbox">
 			<img class="categoryfirstboximg" src="img/{{ page.title | slugify }}.png">
 			<div class="categoryfirstboxcontent">
@@ -155,7 +155,7 @@
     </div>
     {% if forloop.last == true %}
       <div class="flexholder"></div>
-    {% endif %} 
+    {% endif %}
   {% endif %}
   {% endfor %}
   </div>
@@ -217,6 +217,22 @@
     <i class="fa fa-angle-up"></i></a>
     <span class="backtotoptext">Back To Top</span>
     </div>
+    <form class="loginform" action="/">
+      <div>
+        <label for="accountnumber">Account Number</label>
+        <input type="text" class="accountnumber" name="account_number">
+      </div>
+      <div>
+        <label for="username">User Name</label>
+        <input type="text" class="username" name="user_name">
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="text" class="password" name="password">
+      </div>
+      <div class="loginbutton">
+        <button type="button">Sign In</button>
+    </form>
 </div>
 {% include footer.html %}
 <!--<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

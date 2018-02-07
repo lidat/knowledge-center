@@ -199,10 +199,6 @@
   margin-left: 27pt;
 }
 
-.categorybox:first-child {
-  margin-right: 25pt;
-}
-
 .boxauthorname {
   margin-top: 22pt;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -271,4 +267,21 @@
 
 .flexholder {
   margin-right: 25px;
+}
+
+.loginform {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 125px;
+}
+
+.login-failed .loginbutton:after {
+  content: "Login Failed";
+}
+
+.login-success .loginbutton:after {
+  content: "Login Successful";
 }
