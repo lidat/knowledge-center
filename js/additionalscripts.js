@@ -48,17 +48,18 @@ $(document).ready(function() {
 });
 
 //login with LP API
-$('.loginform').submit(function () {
-  event.preventDefault();
-  var $form = $(this),
+$('.loginform').submit(function () { //trigger the function when form is submitted
+  event.preventDefault(); //prevent the form from sending regularly
+  var $form = $(this), //defining a bunch of variables based on form input
     actnum = $form.find("input[name='account_number']").val(),
     user = $form.find("input[name='user_name']").val(),
     pass = $form.find("input[name='password']").val(),
     url = $form.attr("action");
+    //the actual post method to the API using the vales from the form
   var posting = $.post(url, { username: $(user).val(), password: $(pass).val() });
-  posting.done(function () {
-      $(".loginform").addClass("login-success");
+  posting.done(function () { //when posting is done, trigger this function
+      $('.loginform').addClass('login-success'); //if 200, add this class
   }).fail(function () {
-      $(".loginform").addClass("login-failed");
+      $('.loginform').addClass('login-failed'); //otherwise, add this class
   });
-}
+})

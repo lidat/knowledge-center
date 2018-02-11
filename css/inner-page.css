@@ -833,7 +833,7 @@ pre {
 }
 
 .pagecontent {
-  margin-top: -550px;
+  margin-top: -345px;
 }
 
 .post-content {
@@ -847,6 +847,11 @@ pre {
   height: 287pt;
   margin-top: 25pt;
   margin-bottom: 25pt;
+  display: block;
+}
+
+p ~ img {
+  margin-left: 40px !important;
 }
 
 .summary {
