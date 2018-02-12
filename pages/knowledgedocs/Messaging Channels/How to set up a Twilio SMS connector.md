@@ -8,7 +8,7 @@ level-order: 1
 order: 1
 permalink: how-to-set-up-a-twilio-SMS-connector.html
 summary: "For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects."
-authorname: "Or Gramolin"
+authorname:
 authortitle: "Product Expert"
 tags: ['#TextMessaging','#Twilio', '#Guide']
 ---
@@ -37,11 +37,8 @@ To set up a basic SMS account using Twilio, complete the following steps:
 
 {:start="6"}
 6. Click on the red hyperlinked phone number you have just purchased, and add the relevant link for your location with your account number inserted, as below.
-
   * EMEA accounts: https://lo.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio
-
   * North America accounts: https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio
-
   * APAC accounts: https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio
 ![imagelink](img/twilioStep 6.png)
 

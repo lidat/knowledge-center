@@ -10,7 +10,7 @@ permalink: designing-customer-experience-example3.html
 summary: "This is a messaging Q&A for brands to find answers to the most common questions about messaging.
 This is an article that is found via the Connection Area."
 authorname: "Cory House"
-authorexpert: "Structured Content Expert"
+authortitle: "Structured Content Expert"
 tags: ['#news', Mobile, Formatting]
 ---
 

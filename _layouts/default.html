@@ -11,18 +11,27 @@
 
 </head>
 <body>
+{% if page.notfound == true %}
+<div class="page-wrap">
+  {% include topnav.html %} <!-- Page Content -->
+  <div class="pagecontainer">
+    <div class="pageheader">
+      <div class="pagetitle">
+        {{ page.title }}
+      </div>
+      <hr class="pagehr">
+    </div>
+    <div class="pagecontentnotfound">
+      {{content}}
+    </div>
+  </div>
+</div>
+{% else %}
   <div class="page-wrap">
   	{% include topnav.html %} <!-- Page Content -->
   	<div class="pagecontainer">
   		<div class="pageheader">
-  			<div class="pagecategory">
-  				<a href="{{ page.level3 | slugify | append: ".html" }}">{{ page.level3 }}</a> &bull; {{ page.readtime | append: " read" }}
-  			</div>
-  			<div class="pagetitle">
-  				{{ page.title }}
-  			</div>
-  			<hr class="pagehr">
-  			<div class="pageimage"></div>
+  			<div class="pageimage" style="background: linear-gradient(rgba(47, 72, 131, 0.75), rgba(47, 72, 131, 0.75)), url( '{{ site.url }}/img/{{ page.title | slugify }}.png' );background-size: cover;background-position: center center;"></div>
   		</div>
       <div class="scrollbar">
         <ul class="scrollbarlist">
@@ -41,81 +50,8 @@
       </div>
     </div>
     <div class="feedbackrowalternate">THANK YOU FOR YOUR FEEDBACK!</div>
-  	<div class="relatedrow">
-  		<div class="relatedbox">
-        <div class="relatedimage">
-          <img src="img/articlesmall1.png" />
-        </div>
-  			<div class="relatedcontent">
-  				<div class="relatedtitle">
-  					Your Beginner's Guide to Messaging
-  				</div>
-          <div class="relatedarticlecontent">
-            This is a messaging Q&amp;A for brands to find answers to the most common questions about messaging
-          </div>
-  				<div class="relatedauthor">
-  					<div class="relatedauthorimage"><img src="img/Cory%20House.png"></div>
-  					<div class="relateddetails">
-  						<div class="relatedauthorname">
-  							Cory House
-  						</div>
-  						<div class="relatedarticlecdetails">
-  							Dec 8 &bull; 4 min read
-  						</div>
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-      <div class="relatedbox">
-        <div class="relatedimage">
-          <img src="img/articlesmall1.png" />
-        </div>
-        <div class="relatedcontent">
-          <div class="relatedtitle">
-            Your Beginner's Guide to Messaging
-          </div>
-          <div class="relatedarticlecontent">
-            This is a messaging Q&amp;A for brands to find answers to the most common questions about messaging
-          </div>
-          <div class="relatedauthor">
-            <div class="relatedauthorimage"><img src="img/Cory%20House.png"></div>
-            <div class="relateddetails">
-              <div class="relatedauthorname">
-                Cory House
-              </div>
-              <div class="relatedarticledetails">
-                Dec 8 &bull; 4 min read
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-        <div class="relatedbox">
-          <div class="relatedimage">
-            <img src="img/articlesmall1.png" />
-          </div>
-          <div class="relatedcontent">
-            <div class="relatedtitle">
-              Your Beginner's Guide to Messaging
-            </div>
-            <div class="relatedarticlecontent">
-              This is a messaging Q&amp;A for brands to find answers to the most common questions about messaging
-            </div>
-            <div class="relatedauthor">
-              <div class="relatedauthorimage"><img src="img/Cory%20House.png"></div>
-              <div class="relateddetails">
-                <div class="relatedauthorname">
-                  Cory House
-                </div>
-                <div class="relatedarticledetails">
-                  Dec 8 &bull; 4 min read
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-  	</div>
   </div>
+{% endif %}
 {% include footer.html %}
 <script type="text/javascript">
     window.doorbellOptions = {

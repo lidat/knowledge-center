@@ -30,7 +30,7 @@ function centerThumbsup () {
 	$('.thumbsdown').addClass('thumbsdownclicked');
 }
 
-//keeps the sidevbar from scrolling too farther down, uses a plugin
+//keeps the sidebar from scrolling too farther down, uses a plugin
 $(document).ready(function() {
   $('.scrollbar').scrollToFixed({ marginTop: 300, limit: $('.tags').offset().top, dontSetWidth: true });
 });
