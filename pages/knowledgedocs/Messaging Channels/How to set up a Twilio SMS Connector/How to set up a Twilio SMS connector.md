@@ -19,19 +19,19 @@ Our self serve onboarding process for the SMS connector means brands can quickly
 To set up a basic SMS account using Twilio, complete the following steps:
 
 1. Create your own Twilio account [here](https://www.twilio.com/try-twilio)
-![imagelink](img/Step 1.png)
+![imagelink](img/Twiliostep1.png)
 
 2. Purchase a new number to connect to your account. Select the country appropriate for your consumer base and search for available numbers. It is also possible to choose from a certain location or search for a number with a particular set of digits. Select a number from the options provided to purchase.
 
   _Note: You must select a number with SMS capabilities._
-![imagelink](img/Step 2.1.png)
-![imagelink](img/Step 2.2.png)
+![imagelink](img/Twiliostep2.png)
+![imagelink](img/Twiliostep2.1.png)
 
 3. Give your number a name by clicking the ‘setup’ button. This is particularly important if you have multiple numbers attached to your account and need to differentiate between them.
 
-4. Upgrade from your trial account and purchase credits.![imagelink](img/Step 4.png)
+4. Upgrade from your trial account and purchase credits.![imagelink](img/Twiliostep4.png)
 5. Configure the request URL, by navigating to the following page: https://www.twilio.com/user/account/phone-numbers/incoming
-![imagelink](img/Step 5.png)
+![imagelink](img/Twiliostep5.png)
 
 6. Click on the red hyperlinked phone number you have just purchased, and add the relevant link for your location with your account number inserted, as below.
 
@@ -40,10 +40,10 @@ To set up a basic SMS account using Twilio, complete the following steps:
   * North America accounts: https://va.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio
   * APAC accounts: https://sy.msg-gw.liveperson.net/api/ACCOUNT#/default/twilio
 
-  ![imagelink](img/Step 6.png)
+  ![imagelink](img/Twiliostep6.png)
 
 7. Navigate to the following [page](https://www.twilio.com/user/account/settings) to access the Primary Authorization Token and SID. The SID will be displayed; to access the token, click on the padlock symbol.
-![imagelink](img/Step 7.png)
+![imagelink](img/Twiliostep7.png)
 
 8. In LiveEngage, on the Campaigns page, click on Data Sources in the footnote.
 
