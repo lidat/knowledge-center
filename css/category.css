@@ -1,3 +1,7 @@
+body {
+  background-color: #F2F2F2;
+}
+
 .categorycontainer {
   width: 60%;
   margin: auto;
@@ -26,6 +30,11 @@
   margin-right: 40px;
 }
 
+.categoryboxcontainer {
+  width: 78%;
+  margin: 0 auto;
+}
+
 .categorytitle{
   color: rgb(0, 0, 0);
   font-size: 28pt;
@@ -38,7 +47,8 @@
   width: 50pt;
   min-height: 3pt;
   background-color: rgb(18, 26, 43);
-  margin-left: 0 !important;
+  margin-bottom: 40px !important;
+  margin-top: 20px !important;
 }
 
 .categoryfirstbox {
@@ -46,6 +56,10 @@
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
+}
+
+.categoryfirst box a {
+  display: flex;
 }
 
 .categoryfirstboximg {
@@ -86,7 +100,7 @@
 .categoryfirstboxauthor {
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 28pt;
+  margin-top: auto;
 }
 
 .categoryfirstboxauthor img {
@@ -115,7 +129,17 @@
   justify-content: space-between;
 }
 
+.categoryboxrow a{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
 .categoryboxrowfirst{
+  display: flex;
+}
+
+.categoryboxrowfirst a{
   display: flex;
 }
 
@@ -123,6 +147,11 @@
   display: flex;
   flex-direction: column;
   margin-left: 40px;
+}
+
+.categoryboxrowaside a{
+  display: flex;
+  flex: 1;
 }
 
 .categoryboxaside{
@@ -135,11 +164,13 @@
 
 .categorybox {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   margin-top: 21pt;
   margin-right: 25px;
+  margin-bottom: 21pt;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
 }
 
 .categoryboxaside img {
@@ -152,22 +183,21 @@
 }
 
 .categoryboximage {
-  width: 100%;
+  padding-left: initial;
+  padding-right: initial;
 }
 
-.categoryboximage img {
+.categoryboximg {
   width: 100%;
+  height: 100%;
 }
 
 .categoryboxcontent {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-  border-left: 1px solid rgb(230, 230, 230);
-  border-bottom: 1px solid rgb(230, 230, 230);
-  border-right: 1px solid rgb(230, 230, 230);
-  padding-right: 50pt;
+  padding: 25px 35px 10px 40px;
 }
 
 .categoryboxtitle {

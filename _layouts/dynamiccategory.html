@@ -11,7 +11,6 @@
 </head>
 <body>
   {% include topnav.html %}
-  <div class="categorycontainer">
     <!--<div class="categorycarousel">
       <div class="carouselitem">Getting Started</div>
       <div class="carouselitem">Customer Experience</div>
@@ -21,10 +20,10 @@
       <div class="carouselitem">Secure Messaging</div>
       <div class="carouselitem">In-App Messaging</div>
     </div>-->
-	<div class="categorytitle">
+	<div class="categorytitle centralized">
 		{{ page.title }}
 	</div>
-	<hr class="categoryhr">
+	<hr class="categoryhr centralized">
 	<div class="categoryboxcontainer">
     <!-- assign a variable with the title of the CATEGORY so that this page works for all categories -->
     {% assign categoryname = page.title %}
@@ -45,10 +44,19 @@
 					{{ page.summary }}
 				</div>
 				<div class="categoryfirstboxauthor">
-					<div class="authorimage categoryimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
+					<div class="authorimage categoryimage">
+            {% if page.authorname != null %}
+            <img src="img/{{ page.authorname | slugify }}.png"></div>
+            {% else %}
+            <img src="img/avatar.png"></div>
+            {% endif %}
 					<div class="articledetails">
 						<div class="authorname">
+              {% if page.authorname != null %}
 							{{ page.authorname }} &bull; {{ page.authortitle }}
+              {% else %}
+              LivePerson Team
+              {% endif %}
 						</div>
 						<div class="documentdetails">
 							Last updated {{ page.last_modified_at | date: '%D' }}  &bull; {{ page.readtime }} read
@@ -60,22 +68,27 @@
   </a>
   {% endif %}
   {% endfor %}
-  <!-- some of the box rows below are redundant, meant to house future documents. In the case of a large amount of files in a category, more rows will need to be added. Make sure you adjust the offset accordingly by adding 2. -->
+  <!-- some of the box rows below are redundant, meant to house future documents. In the case of a large amount of files in a category, more rows will need to be added. Make sure you adjust the offset accordingly by adding 3 (since every row has 3 boxes). Sizing is handlded by flexbox. -->
   <div class="categoryboxrowaside">
   {% for page in categoryfilter offset:1 limit:2 %}
     {% assign mod = forloop.length | modulo: 2 %}
       {% if mod == 0 %}
       <!--  mod is even, just add a box -->
+  <a href="/{{ page.title | slugify }}.html">
 		<div class="categoryboxaside">
-			<img class="categoryboximage" src="img/{{ page.title | slugify }}.png">
+			<div class="categoryboximage"><img class="categoryboximg" src="img/{{ page.title | slugify }}.png"></div>
 			<div class="categoryboxcontent">
-				<div class="categoryboxtitle">{{ page.title }}</div>
-				<div class="categoryboxtext">{{ page.summary }}</div>
+				<span class="categoryboxtitle">{{ page.title }}</span>
+				<span class="categoryboxtext">{{ page.summary }}</span>
 				<div class="categoryfirstboxauthor">
 					<div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
 					<div class="articledetails">
 						<div class="boxauthorname">
-							{{ page.authorname }} &bull; Option for Job Title
+              {% if page.authorname != null %}
+              {{ page.authorname }} &bull; {{ page.authortitle }}
+              {% else %}
+              LivePerson Team
+              {% endif %}
 						</div>
 						<div class="documentdetails">
 							Last updated {{ page.last_modified_at | date: '%D' }}  &bull; {{ page.readtime }} read
@@ -84,10 +97,12 @@
 				</div>
 			</div>
 		</div>
+  </a>
     {% else %}
     <!-- mod is odd, add a box and then a placeholder after it-->
+  <a href="/{{ page.title | slugify }}.html">
     <div class="categoryboxaside">
-			<img class="categoryboximage" src="img/{{ page.title | slugify }}.png">
+			<div class="categoryboximage"><img class="categoryboximg" src="img/{{ page.title | slugify }}.png"></div>
 			<div class="categoryboxcontent">
 				<div class="categoryboxtitle">{{ page.title }}</div>
 				<div class="categoryboxtext">{{ page.summary }}</div>
@@ -95,7 +110,11 @@
 					<div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
 					<div class="articledetails">
 						<div class="boxauthorname">
-							{{ page.authorname }} &bull; Option for Job Title
+							{% if page.authorname != null %}
+            {{ page.authorname }} &bull; {{ page.authortitle }}
+            {% else %}
+            LivePerson Team
+            {% endif %}
 						</div>
 						<div class="documentdetails">
 							Last updated {{ page.last_modified_at | date: '%D' }}  &bull; {{ page.readtime }} read
@@ -104,6 +123,7 @@
 				</div>
 			</div>
 		</div>
+  </a>
     <div class="flexholder"></div>
 
   {% endif %}
@@ -115,28 +135,41 @@
     {% assign mod = forloop.length | modulo: 2 %}
     {% if mod != 0 %}
     <!-- mod is odd -->
+  <a href="/{{ page.title | slugify }}.html">
     <div class="categorybox">
-      <img class="categoryboximage" src="img/{{ page.title | slugify }}.png">
+      <div class="categoryboximage"><img class="categoryboximg" src="img/{{ page.title | slugify }}.png"></div>
       <div class="categoryboxcontent">
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
+      </div>
         <div class="categoryfirstboxauthor">
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">
-              {{ page.authorname }} &bull; Option for Job Title
+              {% if page.authorname != null %}
+            {{ page.authorname }} &bull; {{ page.authortitle }}
+            {% else %}
+            LivePerson Team
+            {% endif %}
             </div>
             <div class="documentdetails">
               Last updated {{ page.last_modified_at | date: '%D' }}  &bull; {{ page.readtime }} read
             </div>
           </div>
         </div>
-      </div>
+
     </div>
+  </a>
+    <!-- if there's only one item in the row, add 2 placeholders to make sure it maintains size -->
+    {% if forloop.length == 1 %}
+    <div class="flexholder"></div>
+    <div class="flexholder"></div>
+    {% endif %}
     {% elsif mod == 0 %}
     <!-- mod is even -->
+  <a href="/{{ page.title | slugify }}.html">
     <div class="categorybox">
-      <img class="categoryboximage" src="img/{{ page.title | slugify }}.png">
+      <div class="categoryboximage"><img class="categoryboximg" src="img/{{ page.title | slugify }}.png"></div>
       <div class="categoryboxcontent">
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
@@ -144,7 +177,11 @@
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">
-              {{ page.authorname }} &bull; Option for Job Title
+              {% if page.authorname != null %}
+            {{ page.authorname }} &bull; {{ page.authortitle }}
+            {% else %}
+            LivePerson Team
+            {% endif %}
             </div>
             <div class="documentdetails">
               Last updated {{ page.last_modified_at | date: '%D' }} &bull; {{ page.readtime }} read
@@ -153,6 +190,7 @@
         </div>
       </div>
     </div>
+  </a>
     {% if forloop.last == true %}
       <div class="flexholder"></div>
     {% endif %}
@@ -160,12 +198,13 @@
   {% endfor %}
   </div>
   <div class="categoryboxrow">
-    {% for page in categoryfilter offset:5 limit:2 %}
+    {% for page in categoryfilter offset:5 limit:3 %}
     {% assign mod = forloop.length | modulo: 2 %}
     {% if mod == 0 %}
     <!-- mod is even -->
+  <a href="/{{ page.title | slugify }}.html">
     <div class="categorybox">
-      <img class="categoryboximage" src="img/{{ page.title | slugify }}.png">
+      <div class="categoryboximage"><img class="categoryboximg" src="img/{{ page.title | slugify }}.png"></div>
       <div class="categoryboxcontent">
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
@@ -173,7 +212,11 @@
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">
-              {{ page.authorname }} &bull; Option for Job Title
+              {% if page.authorname != null %}
+            {{ page.authorname }} &bull; {{ page.authortitle }}
+            {% else %}
+            LivePerson Team
+            {% endif %}
             </div>
             <div class="documentdetails">
               Last updated {{ page.last_modified_at | date: '%D' }} &bull; {{ page.readtime }} read
@@ -182,13 +225,15 @@
         </div>
       </div>
     </div>
+  </a>
     {% if forloop.last == true %}
       <div class="flexholder"></div>
     {% endif %}
     {% else %}
     <!-- mod is odd -->
+  <a href="/{{ page.title | slugify }}.html">
     <div class="categorybox">
-      <img class="categoryboximage" src="img/{{ page.title | slugify }}.png">
+      <div class="categoryboximage"><img class="categoryboximg" src="img/{{ page.title | slugify }}.png"></div>
       <div class="categoryboxcontent">
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
@@ -196,7 +241,11 @@
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">
-              {{ page.authorname }} &bull; Option for Job Title
+              {% if page.authorname != null %}
+            {{ page.authorname }} &bull; {{ page.authortitle }}
+            {% else %}
+            LivePerson Team
+            {% endif %}
             </div>
             <div class="documentdetails">
               Last updated {{ page.last_modified_at | date: '%D' }} &bull; {{ page.readtime }} read
@@ -205,11 +254,14 @@
         </div>
       </div>
     </div>
+  </a>
+    {% if forloop.length == 1 %}
     <div class="flexholder"></div>
+    <div class="flexholder"></div>
+    {% endif %}
 
   {% endif %}
     {% endfor %}
-  </div>
   </div>
   </div>
     <div class="backtotopcontainer">

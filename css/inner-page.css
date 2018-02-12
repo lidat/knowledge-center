@@ -1,3 +1,6 @@
+---
+---
+
 * {
   margin: 0;
 }
@@ -481,7 +484,7 @@ div.sidebarTitle-holder {
   /*padding-top: 26px;*/
 }
 
-.post-content > p, .post-content ol,.post-content u {
+.post-content > p, .post-content ol,.post-content ul {
   color: #666666;
   font-family: "Open Sans",Arial;
   font-size: 0.9em;
@@ -760,7 +763,6 @@ pre {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 41pt;
   position: relative;
 }
 
@@ -776,6 +778,8 @@ pre {
   font-size: 12pt;
   color: #9B9B9B;
   font-weight: 300;
+  align-self: center;
+  margin-top: 40px;
 }
 
 .pagetitle {
@@ -785,6 +789,7 @@ pre {
   margin-top: 9pt;
   margin-bottom: 12pt;
   font-weight: 300;
+  align-self: center;
 }
 
 .pagehr{
@@ -794,9 +799,6 @@ pre {
 }
 
 .pageimage {
-  background: linear-gradient(rgba(47, 72, 131, 0.75), rgba(47, 72, 131, 0.75)), url("https://s3-eu-west-1.amazonaws.com/ce-sr/Product+Marketing+images/example-document-1.png");
-  background-size: cover;
-  background-position: center center;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -833,13 +835,20 @@ pre {
 }
 
 .pagecontent {
-  margin-top: -550px;
+  margin-top: -345px;
+}
+
+.pagecontentnotfound {
+  margin-bottom: 510px;
+  font-size: 24px;
 }
 
 .post-content {
   background-color: #ffffff;
   padding: 0 75pt;
   width: 894pt;
+  display: flex;
+  flex-direction: column;
 }
 
 .post-content img {
@@ -847,6 +856,14 @@ pre {
   height: 287pt;
   margin-top: 25pt;
   margin-bottom: 25pt;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p ~ img {
+  margin-left: 40px !important;
 }
 
 .summary {
