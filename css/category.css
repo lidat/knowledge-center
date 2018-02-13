@@ -31,8 +31,6 @@ body {
 }
 
 .categoryboxcontainer {
-  width: 78%;
-  margin: 0 auto;
 }
 
 .categorytitle{
@@ -126,7 +124,9 @@ body {
 
 .categoryboxrow{
   display: flex;
+  margin: 0 auto;
   justify-content: space-between;
+  width: 78%;
 }
 
 .categoryboxrow a{
@@ -137,7 +137,9 @@ body {
 
 .categoryboxrowfirst{
   display: flex;
+  margin: 0 auto;
   margin-bottom: 50px;
+  width: 78%;
 }
 
 .categoryboxrowfirst a{

@@ -23,7 +23,7 @@
 	<div class="categorytitle centralized">
 		{{ page.title }}
 	</div>
-	<hr class="categoryhr centralized">
+	<hr class="categoryhr centralized" />
 	<div class="categoryboxcontainer">
     <!-- assign a variable with the title of the CATEGORY so that this page works for all categories -->
     {% assign categoryname = page.title %}
@@ -423,24 +423,9 @@
       </div>
       <div class="loginbutton">
         <button type="button">Sign In</button>
+        </div>
     </form>
-</div>
+
 {% include footer.html %}
-<!--<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-  $('.categorycarousel').slick({
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    infinite: true,
-    arrows: true,
-    centerMode: false,
-    speed: 200,
-    variableWidth: true,
-  });
-});
-</script>-->
 </body>
 </html>
