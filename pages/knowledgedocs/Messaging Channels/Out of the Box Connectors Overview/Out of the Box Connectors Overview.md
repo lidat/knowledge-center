@@ -1,5 +1,5 @@
 ---
-title: Introducing the Out of the Box Connectors
+title: Out of the Box Connectors
 level1: Documents
 level2: Data
 level3: Messaging Channels
