@@ -1,12 +1,12 @@
 ---
-title: Queue Backlog Management
+title: Managing the Queue Backlog
 level1: Documents
 level2: Data
 level3: Customer Experience
 readtime: "1 min"
 level-order: 1
 order: 1
-permalink: queue-backlog-management.html
+permalink: managing-the-queue-backlog.html
 summary: "When long queues build up, whether overnight or during an outage, consumers often become unavailable once they have sent a message."
 authorname: "Lital Haham"
 authortitle: "Product Expert in Data and Operations"

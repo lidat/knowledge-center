@@ -9,7 +9,7 @@ order: 1
 permalink: automatic-messages-overview.html
 root-link: true
 
-summary: "Save your agents time and effort and provide a smoother engagement experience by giving consumers contextual information about the conversation"
+summary: "Save your agents time and effort and provide a smoother engagement experience by giving consumers contextual information about the conversation."
 authorname: "Tal Kailler"
 authortitle: "Product Expert in Consumer Experience"
 tags: ['#bestpractices', '#agents', '#customersupport']

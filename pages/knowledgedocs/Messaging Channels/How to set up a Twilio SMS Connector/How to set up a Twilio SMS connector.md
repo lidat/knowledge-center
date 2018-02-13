@@ -1,12 +1,12 @@
 ---
-title: How to set up a Twilio SMS connector
+title: Setting up a Twilio SMS Connector
 level1: Documents
 level2: Data
 level3: Messaging Channels
 readtime: "3 min"
 level-order: 1
 order: 1
-permalink: how-to-set-up-a-twilio-SMS-connector.html
+permalink: setting-up-a-twilio-sms-connector.html
 summary: "For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects."
 authorname: "Or Garmolin"
 authortitle: "Product Expert in Messaging Channels"

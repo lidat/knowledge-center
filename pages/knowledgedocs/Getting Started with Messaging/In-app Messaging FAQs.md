@@ -13,11 +13,7 @@ authortitle: "Product Expert, In-app Messaging SDK"
 tags: ['#bestpractices','#inappmessaging']
 ---
 
-
-
 Check out our FAQs when it comes to the use of In-app messaging within LiveEngage. For the latest technical documentation, please visit our [developer community](https://developers.liveperson.com/index.html).
-
-
 
 ### Configuring Messaging
 

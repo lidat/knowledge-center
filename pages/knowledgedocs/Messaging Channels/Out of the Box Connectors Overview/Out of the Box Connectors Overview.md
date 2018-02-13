@@ -1,13 +1,13 @@
 ---
-title: Introducing the Out of the Box Connectors
+title: Out of the Box Connectors
 level1: Documents
 level2: Data
 level3: Messaging Channels
 readtime: "6 min"
 level-order: 1
 order: 1
-permalink: introducing-the-out-of-the-box-connectors.html
-summary: "For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects. "
+permalink: Out-of-the-box-connectors.html
+summary: "For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects."
 authorname: "Or Gramolin"
 authortitle: "Product Expert in Messaging Channels"
 tags: ['#facebook', '#textmessaging', '#guides']
