@@ -10,7 +10,7 @@ permalink: intro-principles-for-effective-messaging-operations.html
 summary: "Introducing asynchronous messaging to your contact center will delight your customers. It will also require you to take a closer look at your operations and make some adjustments to ensure your agents are performing at maximum efficiency."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: [#bestpractices]
+tags: ['#bestpractices']
 ---
 
 

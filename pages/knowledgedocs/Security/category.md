@@ -1,6 +1,6 @@
 ---
-title: Secure Messaging
+title: Security
 keywords:
-permalink: secure-messaging.html
+permalink: security.html
 layout: dynamiccategory
 ---

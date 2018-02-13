@@ -1,6 +1,6 @@
 ---
-title: Designing Customer Experience
+title: Customer Experience
 keywords:
-permalink: designing-customer-experience.html
+permalink: customer-experience.html
 layout: dynamiccategory
 ---

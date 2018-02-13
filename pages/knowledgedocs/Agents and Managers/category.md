@@ -1,6 +1,6 @@
 ---
-title: Developing In-App Messaging
+title: Agents and Managers
 keywords:
-permalink: developing-in-app-messaging.html
+permalink: agents-and-managers.html
 layout: dynamiccategory
 ---

@@ -7,10 +7,10 @@ readtime: "2 min"
 level-order: 1
 order: 1
 permalink: principle-5-of-effective-messaging-operations-measurement.html
-summary: ""Introducing asynchronous will require you to take a closer look at your operations and introduce new KPIs and way to measure your agents."
+summary: "Introducing asynchronous will require you to take a closer look at your operations and introduce new KPIs and way to measure your agents."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#bestpractices', '#agents', "#data', "reporting", '#csat', '#videos']
+tags: ['#bestpractices', '#agents', '#data', '#reporting', '#csat', '#videos']
 ---
 
 

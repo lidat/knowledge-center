@@ -6,7 +6,7 @@ level3: Bots
 readtime: "3 min"
 level-order: 1
 order: 1
-permalink:add-bot-as-a-livenegagne-user.html
+permalink: add-bot-as-a-livenegagne-user.html
 summary: "A bot agent is a bot that acts as an agent / agent manager with all the relevant permissions. It can also be tracked and managed in the same way as any other human agent. To enable automation, the bot user will be able to login automatically."
 authorname: "Sarah Danby"
 authortitle: "Product Expert"

@@ -1,6 +1,6 @@
 ---
-title: FAQs And Best Practices
+title: Bots
 keywords:
-permalink: faqs-and-best-practices.html
+permalink: bots.html
 layout: dynamiccategory
 ---

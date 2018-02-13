@@ -56,6 +56,8 @@ body {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
+  background-color: #fff;
+  padding-bottom: 30px;
 }
 
 .categoryfirst box a {
@@ -71,9 +73,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  border-left: 1px solid #D8DADD;
-  border-bottom: 1px solid #D8DADD;
-  border-right: 1px solid #D8DADD;
   padding-right: 159pt;
 }
 
@@ -106,6 +105,7 @@ body {
 .categoryfirstboxauthor img {
   width: 33pt !important;
   height: 33pt !important;
+  border-radius: 50%;
 }
 
 .authorname {
@@ -137,21 +137,31 @@ body {
 
 .categoryboxrowfirst{
   display: flex;
+  margin-bottom: 50px;
 }
 
 .categoryboxrowfirst a{
   display: flex;
+  flex: 2;
 }
 
 .categoryboxrowaside {
   display: flex;
   flex-direction: column;
   margin-left: 40px;
+  flex: 1;
 }
 
 .categoryboxrowaside a{
   display: flex;
   flex: 1;
+  height: 297px;
+  background-color: #fff;
+
+}
+
+.categoryboxrowaside a:first-child {
+  margin-bottom: 30px;
 }
 
 .categoryboxaside{
@@ -160,6 +170,7 @@ body {
   align-items: flex-start;
   height: 285px;
   margin-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .categorybox {
@@ -204,9 +215,9 @@ body {
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   font-size: 16pt;
   color: rgb(0, 0, 0);
-  margin-top: 20pt;
+  /*margin-top: 20pt;*/
   margin-bottom: 8pt;
-  margin-left: 23pt;
+  /*margin-left: 23pt;*/
   font-weight: 300;
 }
 

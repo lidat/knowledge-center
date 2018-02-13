@@ -1,5 +1,5 @@
 ---
-title: All Connections: How to See All Your Messaging Conversations in One Place
+title: All Connections - How to See All Your Messaging Conversations in One Place
 level1: Documents
 level2: Data
 level3: Agents and Managers

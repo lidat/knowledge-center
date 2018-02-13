@@ -6,7 +6,7 @@ level3: Messaging Channels
 readtime: "3 min"
 level-order: 1
 order: 1
-permalink:discover-the-facebook-messenger-connector.html
+permalink: discover-the-facebook-messenger-connector.html
 summary: "Our self serve onboarding process for the Facebook connector means brands can quickly and easily add this channel to their operations, in order to successfully manage all their consumer digital interactions in one place."
 authorname: "Or Garmolin"
 authortitle: "Product Expert in Messaging Channels"

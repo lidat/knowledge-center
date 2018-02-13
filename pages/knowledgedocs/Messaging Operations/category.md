@@ -1,6 +1,6 @@
 ---
-title: Effective Operations
+title: Messaging Operations
 keywords:
-permalink: effective-operations.html
+permalink: messaging-operations.html
 layout: dynamiccategory
 ---

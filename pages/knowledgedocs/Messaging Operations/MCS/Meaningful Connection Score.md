@@ -1,5 +1,5 @@
 ---
-title: Meaningful Connection Score: The New and Better Way to Measure Satisfaction
+title: Meaningful Connection Score - The New and Better Way to Measure Satisfaction
 level1: Documents
 level2: Data
 level3: Messaging Operations
