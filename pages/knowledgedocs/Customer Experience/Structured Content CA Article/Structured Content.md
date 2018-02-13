@@ -7,7 +7,7 @@ readtime: "2 min"
 level-order: 1
 order: 1
 permalink: an-introduction-to-structured-content.html
-summary: "Structured Content uses templates to enrich the relationship between the brand and the customer, turning a simple app interaction into a conversational user experience and business connection."
+summary: "Turn a simple app interaction into a conversational user experience and business connection with structured content."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
 tags: ['#bots', '#bestpractices']

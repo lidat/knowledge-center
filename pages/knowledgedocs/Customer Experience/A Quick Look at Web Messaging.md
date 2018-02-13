@@ -1,12 +1,12 @@
 ---
-title: A Quick Look at Web Messaging
+title: A Glance at Web Messaging
 level1: Documents
 level2: Data
 level3: Customer Experience
 readtime: "2 min"
 level-order: 1
 order: 1
-permalink: a-quick-look-at-web-messaging.html
+permalink: a-glance-at-web-messaging.html
 summary: "Web messaging gives consumers their time back through continuous, always connected conversations."
 authorname: "Lida Tabibian"
 authortitle: "Senior Product Communications Expert"

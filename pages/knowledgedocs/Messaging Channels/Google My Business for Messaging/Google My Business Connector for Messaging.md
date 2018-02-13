@@ -1,19 +1,19 @@
 ---
-title: The Google My Business Connector for Messaging
+title: Google My Business Connector
 level1: Documents
 level2: Data
 level3: Messaging Channels
 readtime: "4 min"
 level-order: 1
 order: 1
-permalink: the-google-my-business-connector-for-messaging.html
+permalink: google-my-business-connector.html
 root-link: true
-
 summary: "Tap into Google's network to build relationships and develop more prospects with messaging."
 authorname: "Or Garmolin"
 authortitle: "Product Expert in Messaging Channels"
 tags: ['#textmessaging', '#sales', '#marketing']
 ---
+
 ### What is Google My Business?
 Millions of brands are already using Google My Business to engage with consumers. By offering click to message, brands enable consumers to connect with them on their channel of choice, meaning they can tap into the wide pool of consumers who prefer to use messaging as a form of communication.
 

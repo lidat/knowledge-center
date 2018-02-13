@@ -1,5 +1,5 @@
 ---
-title: 7 Essential Ways to Enhance In-app Messaging
+title: Top In-app Messaging Benefits
 level1: Documents
 level2: Data
 level3: Messaging Channels

@@ -6,7 +6,7 @@ level3: Customer Experience
 readtime: "10 min"
 level-order: 1
 order: 1
-permalink: getting-started-beginners-guide.html
+permalink: messaging-in-the-customer-care-space.html
 summary: "LivePerson is continuously researching the market trends and technology changes that impact the way consumers communicate with brands."
 authorname: "Rurik Bradbury"
 authortitle: "Expert in Thought Leadership and Research"

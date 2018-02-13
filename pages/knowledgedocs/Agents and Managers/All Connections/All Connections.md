@@ -1,17 +1,17 @@
 ---
-title: All Connections - How to See All Your Messaging Conversations in One Place
+title: All Your Messaging Conversations in One Place
 level1: Documents
 level2: Data
 level3: Agents and Managers
 readtime: "5 min"
 level-order: 1
 order: 1
-permalink: how-to-see-all-your-messaging-conversations-in-one-place.html
+permalink: all-your-messaging-conversations-in-one-place.html
 root-link: true
 
 summary: "All Connections allows Agent Managers and Agents to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance."
 authorname: "Oded Israel"
-authortitle: "Product Expert in Agent Workspace"
+authortitle: "Product Expert in Agent and Manager Experience"
 tags: ['#guides', '#csat', '#support']
 ---
 ### All Connections area in LiveEngage  
