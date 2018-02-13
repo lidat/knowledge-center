@@ -10,7 +10,7 @@ permalink: the-google-my-business-connector-for-messaging.html
 root-link: true
 
 summary: "Tap into Google's network to build relationships and develop more prospects with messaging."
-authorname: "Or Gramolin"
+authorname: "Or Garmolin"
 authortitle: "Product Expert in Messaging Channels"
 tags: ['#textmessaging', '#sales', '#marketing']
 ---
