@@ -2,12 +2,16 @@
   margin-top: 0px;
 }
 
+table {
+  margin: 0 auto;
+}
+
 table > thead > tr > th {
   background-color: #162036;
 }
 
 table td:first-child {
-  width: 155px;
+  width: 250px;
 }
 
 .tagsbutton {
@@ -24,4 +28,5 @@ table td:first-child {
   display:inline-block;
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   font-size: 14pt;
+  margin-bottom: 20px;
 }
