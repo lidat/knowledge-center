@@ -6,7 +6,7 @@ level3: Getting Started with Messaging
 readtime: "6 min"
 level-order: 1
 order: 1
-permalink:in-app-messaging-faqs.html
+permalink: in-app-messaging-faqs.html
 summary: "LivePerson is here to help you get started with In-app Messaging at scale for your contact center operations"
 authorname: "Ariel Ornstein"
 authortitle: "Product Expert, In-app Messaging SDK"

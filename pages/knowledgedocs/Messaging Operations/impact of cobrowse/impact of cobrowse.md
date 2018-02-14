@@ -35,6 +35,7 @@ Similarly, a US based airline saw a 57% increase in order completion rate when v
 $928 with Cobrowse. As expected, average chat length increases with usage in this scenario from 8 min to 17 min.
 
 **Steps for Success**
+
 * Deploy in checkout or high-value areas of site
 
 * Deploy in desktop channel rather than mobile

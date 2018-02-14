@@ -53,9 +53,10 @@ $('.loginform').submit(function () { //trigger the function when form is submitt
   var $form = $(this), //defining a bunch of variables based on form input
     actnum = $form.find("input[name='account_number']").val(),
     user = $form.find("input[name='user_name']").val(),
-    pass = $form.find("input[name='password']").val(),
-    url = $form.attr("action");
-    //the actual post method to the API using the vales from the form
+    pass = $form.find("input[name='password']").val();
+  //call the domain API to get the domain for the login API
+  var domain = $.get( 'http://api.liveperson.net/api/account/' + $(actnum).val() + '/service/agentVep/baseURI.json?version=1.0');
+    //the actual post method to the Login API using the values from the form
   var posting = $.post(url, { username: $(user).val(), password: $(pass).val() });
   posting.done(function () { //when posting is done, trigger this function
       $('.loginform').addClass('login-success'); //if 200, add this class
