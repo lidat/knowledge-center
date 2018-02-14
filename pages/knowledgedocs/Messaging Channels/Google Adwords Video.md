@@ -12,7 +12,7 @@ root-link: true
 summary: "Learn how LiveEngage's integration with Google AdWords helps brands make the most out of their investment. "
 authorname: "Lida Tabibian"
 authortitle: "Senior Product Communications Expert"
-tags: ['#sales', '#marketing', '#videos', '#guides']
+tags: ['#sales', '#marketing', '#video', '#guide']
 ---
 
 ### See how LiveEngage integrates with Google Adwords

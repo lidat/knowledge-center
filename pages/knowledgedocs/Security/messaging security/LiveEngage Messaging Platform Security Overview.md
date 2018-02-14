@@ -1,18 +1,19 @@
 ---
-title: LiveEngage Messaging Platform Security Overview
+title: LiveEngage Platform Security Overview
 level1: Documents
 level2: Data
 level3: Security
 readtime: "6 min"
 level-order: 1
 order: 1
-permalink: livenegage-messaging-platform-security-overview.html
-summary: "As a leading provider with a large customer base and years of experience backing us, LivePerson’s new messaging solution is both secure and innovative. As veterans in the field, we understand that a heightened level of protection is especially paramount when it comes to content exchanged between brands and consumers."
+permalink: livenegage-platform-security-overview.html
+summary: "As a leading provider with a large customer base and years of experience backing us, LivePerson’s new messaging solution is both secure and innovative."
 authorname: "Rotem Abir"
 authortitle: "Expert in Enterprise Security"
 tags: ['#bestpractices','#openplatform']
 ---
 
+As veterans in the field, we understand that a heightened level of protection is especially paramount when it comes to content exchanged between brands and consumers.
 
 LivePerson has developed an advanced, API and SDK-based solution to enable web and in-app mobile messaging between consumers and brands. LivePerson invests heavily in providing the most secure platform possible for our services, customers, and their data. As a leading provider with a large customer base and years of experience backing us, LivePerson’s new messaging solution is both secure and innovative. As veterans in the field, we understand that a heightened level of protection is especially paramount when it comes to content exchanged between brands and consumers. The integration of any 3rd party SDKs into a brand’s mobile application, or the integration with the API, requires the appropriate risk assessment and due-diligence processes. This document outlines the high-level security model and controls that have been implemented in LivePerson’s messaging platform.
 

@@ -1,13 +1,13 @@
 ---
-title: Welcome to the LiveEngage Report Builder
+title: Welcome to Report Builder
 level1: Documents
 level2: Data
 level3: Messaging Operations
 readtime: "10 min"
 level-order: 1
 order: 1
-permalink: welcome-to-the-liveengage-report-builder.html
-summary: "Report Builder enables brands to analyze their operational and business LiveEngage powered contact centers and consumer facing channels. "
+permalink: welcome-to-report-builder.html
+summary: "Report Builder enables brands to analyze their operational and business LiveEngage powered contact centers and consumer facing channels."
 authorname: "Tomer Lapid"
 authortitle: "Product Expert in Reporting"
 tags: ['#data', '#reporting', '#managers', '#admins']

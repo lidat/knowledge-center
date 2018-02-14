@@ -7,7 +7,7 @@ readtime: "9 min"
 level-order: 1
 order: 1
 permalink: hiring-agents-messaging-success.html
-summary: "There are so many things to consider when it comes to hiring for your contact center. We have more than 20 years experience in the field so we've gathered some of our best practices when it comes to finding the right staff for your contact center."
+summary: "There are so many things to consider when it comes to hiring for your contact center. We've gathered some of our best practices when it comes to assembling the perfect team"
 authorname: "James Brown"
 authortitle: "Senior Expert in Digital Transformation"
 tags: ['#bestpractices', '#benefits', '#agent', '#customerexperience']

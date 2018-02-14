@@ -7,14 +7,13 @@ readtime: "4 min"
 level-order: 1
 order: 1
 permalink: securing-your-liveengage-account.html
-summary: "When it comes to doing business on the web, security is always a top priority. In order for the online marketplace to thrive, businesses and
-consumers alike need to be assured that their sensitive data is well protected."
+summary: "In order for the online marketplace to thrive, businesses and consumers alike need to be assured that their sensitive data is well protected."
 authorname: "Rotem Abir"
 authortitle: "Expert in Enterprise Security"
 tags: ['#bestpractices']
 ---
-LivePerson offers a secure, reliable and trusted service and platform through which online businesses can safely communicate with their customers. 		
-We recommend a baseline level of protection on your account to ensure the utmost security of your data. This baseline can be achieved by activating the four key steps detailed below.
+
+LivePerson offers a secure, reliable and trusted service and platform through which online businesses can safely communicate with their customers. We recommend a baseline level of protection on your account to ensure the utmost security of your data. This baseline can be achieved by activating the four key steps detailed below.
 
 **Note:** To implement these settings, or to receive further information on LivePerson security options, please contact your Account Manager or LivePerson Technical Support.
 

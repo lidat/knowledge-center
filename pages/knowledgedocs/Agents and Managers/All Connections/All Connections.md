@@ -12,7 +12,7 @@ root-link: true
 summary: "All Connections allows Agent Managers and Agents to view the entire flow of a conversation, including transfers to another agent or skill, offering them a detailed understanding of the consumer experience and agent performance."
 authorname: "Oded Israel"
 authortitle: "Product Expert in Agent and Manager Experience"
-tags: ['#guides', '#csat', '#support']
+tags: ['#guide', '#csat', '#support']
 ---
 ### All Connections area in LiveEngage  
 

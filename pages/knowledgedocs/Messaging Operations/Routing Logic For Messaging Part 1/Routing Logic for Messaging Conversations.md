@@ -9,7 +9,7 @@ order: 1
 permalink: routing-logic-for-messaging-conversation-skill-selection.html
 root-link: true
 
-summary: "Learn about the messaging routing engine that works behind the scenes to select the agent that will handle an incoming conversation. This includes an overview of the skill selection process."
+summary: "Learn about the messaging routing engine that works behind the scenes to select the agent that will handle an incoming conversation."
 authorname: "Liat Peled"
 authortitle: "Product Expert in Data and Intelligence"
 tags: ['#messaging', '#routing']

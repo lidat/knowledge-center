@@ -1,13 +1,13 @@
 ---
-title: Meaningful Connection Score - The New and Better Way to Measure Satisfaction
+title: The Meaningful Connection Score
 level1: Documents
 level2: Data
 level3: Messaging Operations
 readtime: "4 min"
 level-order: 1
 order: 1
-permalink: meaningful-connection-score-the-new-and-better-way-to-measure-satisfaction.html
-summary: "Our mission at LivePerson is to help our clients create meaningful connections. We set out to find a reliable way to accurately and automatically measure the quality of the connection between brands and the entire consumer audience."
+permalink: the-meaningful-connection-score.html
+summary: "MCS ccurately and automatically measures the quality of the connection between brands and the entire consumer audience."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
 tags: ['#csat','#data', "#reports"]
