@@ -11,7 +11,7 @@ root-link: true
 summary: "Use LiveEngage and Facebook Messenger for service, sales, and post-purchase support. Learn how LiveEngage connects brands to their customers via Facebook Messenger and the benefits of having a central hub of operations for agents, managers, and reporting."
 authorname: "Lida Tabibian"
 authortitle: "Senior Product Communications Expert"
-tags: ['#guides','#sales', '#marketing', '#support', '#facebook']
+tags: ['#guide','#sales', '#marketing', '#support', '#facebook']
 ---
 
 ### LiveEngage: The enterprise-grade messaging platform

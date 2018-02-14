@@ -10,7 +10,7 @@ permalink: setting-up-a-twilio-sms-connector.html
 summary: "For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects."
 authorname: "Or Garmolin"
 authortitle: "Product Expert in Messaging Channels"
-tags: ['#TextMessaging','#Twilio', '#Guide']
+tags: ['#textmessaging','#twilio', '#guide']
 ---
 <div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/238919599" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
 

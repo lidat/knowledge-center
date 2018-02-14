@@ -10,7 +10,7 @@ permalink: agent-picture-configuration-guide.html
 summary: "Consumers begin their journey with agents by being able to see a picture of who they’re chatting with."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#bestpractices','#guides', '#agents']
+tags: ['#bestpractices','#guide', '#agents']
 ---
 
 **Make the conversation more personal by configuring the agent’s picture to display in the engagement window.**

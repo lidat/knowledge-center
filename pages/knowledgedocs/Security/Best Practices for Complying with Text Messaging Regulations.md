@@ -10,7 +10,7 @@ permalink: complying-with-text-messaging-regulations.html
 summary: "Ensuring the privacy of consumers during messaging conversations is at the forefront of many telecommunication regulations."
 authorname: "James Brown"
 authortitle: "Senior Expert in Digital Transformation"
-tags: [ '#bestpractices', '#messaging']
+tags: ['#bestpractices', '#messaging']
 
 ---
 

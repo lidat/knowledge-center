@@ -11,7 +11,7 @@ root-link: true
 summary: "LiveEngage messaging platform enables brands to provide a continuous connection with consumers, creating the personalized, convenient level of service people expect today — straight to their mobile phone, including SMS messaging (text messaging)."
 authorname: "Lida Tabibian"
 authortitle: "Senior Product Communications Expert"
-tags: ['#sales', '#marketing', '#support', '#guides', '#text messaging']
+tags: ['#sales', '#marketing', '#support', '#guide', '#text messaging']
 ---
 
 ### LiveEngage: The enterprise-grade messaging platform
