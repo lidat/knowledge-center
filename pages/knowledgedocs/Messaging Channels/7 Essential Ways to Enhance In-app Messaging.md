@@ -15,7 +15,7 @@ authortitle: "Senior Product Communications Expert"
 tags: ['#sales', '#marketing', '#videos', '#guides']
 ---
 
-### See all the capabilities of LiveEnage's in-app messaging
+### See all the capabilities of LiveEnage's In-app messaging
 
 Facilitate rich conversations between brands and consumers with beyond-text capabilities. The LiveEngage in-app messaging SDK allows brands to build a full-scale consumer messaging experience within their own app. The SDK is completely customizable, with all the capabilities your consumers expect from a modern messaging app.
 

@@ -1,12 +1,12 @@
 ---
-title: Auto Close for Messaging Conversations
+title: The Impact of Cobrowse
 level1: Documents
 level2: Data
 level3: Messaging Operations
 readtime: "2 min"
 level-order: 1
 order: 1
-permalink: auto-close-for-messaging-conversations.html
+permalink: the-impact-of-cobrowse.html
 summary: "To help agents manage their active connections list effectively, brands are able to configure conversations to automatically close after they have been inactive for a pre configured amount of time."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
