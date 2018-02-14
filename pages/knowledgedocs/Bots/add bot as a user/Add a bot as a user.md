@@ -12,9 +12,8 @@ authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
 tags: ['#agents','#openplatform']
 ---
+<div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/238898218" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
 
-
-[video: https://vimeo.com/238898218/0f6a7043c0]
 
 Our mission is to open the LiveEngage platform to as many bot integrations as possible. To do so, we need to ensure we are providing operational management and efficiency for bots as agents.
 

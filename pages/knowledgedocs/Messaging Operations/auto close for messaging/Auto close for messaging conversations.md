@@ -17,7 +17,7 @@ To help agents manage their active connections list effectively, brands are able
 
 For example, if a conversation has been idle for ten days, it can be automatically closed and moved to the closed conversations list. If the consumer sends a message after this time, it will be treated as a new incoming conversation.  
 
-![image alt text](img/autoclose.png)
+![Autoclose](img/autoclose.png)
 
 **Notes:**
 
@@ -33,7 +33,9 @@ For example, if a conversation has been idle for ten days, it can be automatical
 
 **How to configure auto close**
 
-1. Click the **Night Vision** button at the top of the screen. ![image alt text](nightvision.png)
+1. Click the **Night Vision** button at the top of the screen.
+
+![Nightvision Example](img/nightvision.png)
 
 2. Under *Response time*, click **Edit**.
 

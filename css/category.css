@@ -64,6 +64,7 @@ body {
 
 .categoryfirstboximg {
   width: 100%;
+  height: 50%;
 }
 
 .categoryfirstboxcontent {
@@ -235,7 +236,7 @@ body {
   color: rgb(74, 74, 74);
   line-height: 1.7;
   margin-bottom: 5pt;
-  margin-left: 24pt;
+  /*margin-left: 24pt;*/
   font-weight: 300;
 }
 

@@ -13,9 +13,7 @@ authortitle: "Product Communications Expert"
 tags: ['#textmessaging','#guide']
 ---
 
-
-
-[video - https://vimeo.com/238913223/71f44bd499]
+<div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/238913223" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
 
 
 ### self serve onboarding for SMS connector
