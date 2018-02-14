@@ -133,6 +133,11 @@ body {
   display: flex;
   flex: 1;
   justify-content: space-between;
+  margin-right: 25px;
+}
+
+.categoryboxrow a:last-child {
+  margin-right: 0;
 }
 
 .categoryboxrowfirst{
@@ -150,7 +155,7 @@ body {
 .categoryboxrowaside {
   display: flex;
   flex-direction: column;
-  margin-left: 40px;
+  margin-left: 12px;
   flex: 1;
 }
 
@@ -159,6 +164,7 @@ body {
   flex: 1;
   height: 297px;
   background-color: #fff;
+  margin-left: 13px;
 
 }
 
@@ -178,7 +184,7 @@ body {
 .categorybox {
   flex: 1;
   margin-top: 21pt;
-  margin-right: 25px;
+  /*margin-right: 25px;*/
   margin-bottom: 21pt;
   background-color: #fff;
   display: flex;

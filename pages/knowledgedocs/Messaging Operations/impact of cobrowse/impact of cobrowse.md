@@ -1,12 +1,12 @@
 ---
-title: Auto Close for Messaging Conversations
+title: Impact of Cobrowse
 level1: Documents
 level2: Data
 level3: Messaging Operations
 readtime: "2 min"
 level-order: 1
 order: 1
-permalink: auto-close-for-messaging-conversations.html
+permalink: impact-of-cobrowse.html
 summary: "To help agents manage their active connections list effectively, brands are able to configure conversations to automatically close after they have been inactive for a pre configured amount of time."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
@@ -35,6 +35,7 @@ Similarly, a US based airline saw a 57% increase in order completion rate when v
 $928 with Cobrowse. As expected, average chat length increases with usage in this scenario from 8 min to 17 min.
 
 **Steps for Success**
+
 * Deploy in checkout or high-value areas of site
 
 * Deploy in desktop channel rather than mobile
