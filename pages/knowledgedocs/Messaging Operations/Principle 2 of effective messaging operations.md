@@ -7,10 +7,10 @@ readtime: "1 min"
 level-order: 1
 order: 1
 permalink: principle-2-of-effective-messaging-operations-agent-resources.html
-summary: "Introducing asynchronous will require you to take a closer look at your operations and how to focus agent resources on the conversations that need it most."
+summary: "Introducing messaging will require you to take a closer look at your operations and how to focus agent resources on the conversations that need it most."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#bestpractices', '#agents', '#videos']
+tags: ['#bestpractices', '#agents', '#video']
 ---
 
 
@@ -22,4 +22,4 @@ Principle 2 describes how brands can focus agent resources on the conversations 
 
 [video - https://vimeo.com/241513020/9200d1ddb0]
 
-Want to see all the principles? View them [here](/intro-principles-for-effective-messaging-operations.html).
+Want to see all the principles? View them [here](/principles-for-effective-messaging-operations.html).

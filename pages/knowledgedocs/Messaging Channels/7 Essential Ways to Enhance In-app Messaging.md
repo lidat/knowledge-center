@@ -12,7 +12,7 @@ indicator: chat
 summary: "See all the capabilities of LiveEnage's in-app messaging to see how you can give consumers a richer messaging experience."
 authorname: "Lida Tabibian"
 authortitle: "Senior Product Communications Expert"
-tags: ['#sales', '#marketing', '#videos', '#guides']
+tags: ['#sales', '#marketing', '#video', '#guides']
 ---
 
 ### See all the capabilities of LiveEnage's In-app messaging

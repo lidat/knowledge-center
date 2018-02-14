@@ -12,7 +12,7 @@ root-link: true
 summary: "Most businesses today are already invested in Google AdWords. LiveEngage integration with Google AdWords helps brands make the most out of their investment."
 authorname: "Lida Tabibian"
 authortitle: "Senior Product Communications Expert"
-tags: ['#sales', '#marketing', '#videos', '#googleadwords']
+tags: ['#sales', '#marketing', '#video', '#googleadwords']
 ---
 
 ### See how LiveEngage integrates with Google Adwords

@@ -8,8 +8,7 @@ level-order: 1
 order: 1
 permalink: masking-options-in-the-in-app-sdk.html
 root-link: true
-
-summary: "Get an overview of the the different options that brands have when using the Messaging In-app SDK for masking sensitive information and complying with security and operational requirements. There are three types of masking: real-time, client side and server side."
+summary: "Brands have different options when using the Messaging In-app SDK for masking sensitive information and complying with security and operational requirements."
 authorname: "Liat Peled"
 authortitle: "Product Expert in Data and Intelligence"
 tags: ['#inappmessaging', '#bestpractices', '#openplatform']
@@ -17,7 +16,7 @@ tags: ['#inappmessaging', '#bestpractices', '#openplatform']
 
 ### Messaging In-App SDK Overview
 
-The Messaging in-app SDK provides different options for masking sensitive information and complying with brands’ security and operational requirements. The masking options are configurable from the SDK and a regular expression (REGEX) determines which patterns are detected for each one. Unlike chat, the text lines stay on the local device’s database so every detail that’s not masked locally will be visible to the user on future uses of the SDK. The user experience is detailed in this document
+The Messaging in-app SDK provides different options for masking sensitive information and complying with brands’ security and operational requirements. There are three types of masking: real-time, client side and server side. The masking options are configurable from the SDK and a regular expression (REGEX) determines which patterns are detected for each one. Unlike chat, the text lines stay on the local device’s database so every detail that’s not masked locally will be visible to the user on future uses of the SDK. The user experience is detailed in this document
 
 ### Types of Masking
 

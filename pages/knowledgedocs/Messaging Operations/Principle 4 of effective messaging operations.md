@@ -7,10 +7,10 @@ readtime: "1 min"
 level-order: 1
 order: 1
 permalink: principle-4-of-effective-messaging-operations-agent-routing.html
-summary: "Introducing asynchronous will require you to take a closer look at your operations and how to make match incoming conversations to the best agent."
+summary: "Introducing messaging will require you to take a closer look at your operations and how to make match incoming conversations to the best agent."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#bestpractices', '#agents', '#videos']
+tags: ['#bestpractices', '#agents', '#video']
 ---
 
 
@@ -22,4 +22,4 @@ Principle 4 describes how brands can match incoming conversations to the best ag
 [video - https://vimeo.com/241513164/475c18c3f9]
 
 
-Want to see all the principles? View them [here](/intro-principles-for-effective-messaging-operations.html).
+Want to see all the principles? View them [here](/principles-for-effective-messaging-operations.html).

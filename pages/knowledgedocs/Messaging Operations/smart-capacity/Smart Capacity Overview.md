@@ -1,15 +1,14 @@
 ---
-title: Smart Capacity Overview
+title: Introducing Smart Capacity
 level1: Documents
 level2: Data
 level3: Messaging Operations
 readtime: "5 min"
 level-order: 1
 order: 1
-permalink: smart-capacity-overview.html
+permalink: introducing-smart-capacity.html
 root-link: true
-
-summary: "Get an overview of LiveEngage's unique Smart Capacity technology that uses a smart algorithm to adjust agent capacity based on availability, rather than concurrency, to ensure the right agents are taking conversations at the right time."
+summary: "LiveEngage's unique Smart Capacity technology  uses a smart algorithm to adjust agent capacity based on availability to ensure the right agents are taking conversations at the right time."
 authorname: "Liat Peled"
 authortitle: "Product Expert in Data and Intelligence"
 tags: ['#inappmessaging', '#bestpractices', '#messaging']

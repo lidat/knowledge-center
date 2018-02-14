@@ -7,10 +7,10 @@ readtime: "1 min"
 level-order: 1
 order: 1
 permalink: principle-1-of-effective-messaging-operations-harnass-the-power-of-AI.html
-summary: "Introducing asynchronous will require you to take a closer look at your operations and how to use AI for automatic messages."
+summary: "Introducing messaging will require you to take a closer look at your operations and how to use AI for automatic messages."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#bestpractices','#intent', '#videos']
+tags: ['#bestpractices','#intent', '#video']
 ---
 
 
@@ -22,4 +22,4 @@ Principle 1 describes how AI can be used to help create transparency to your cus
 [video - https://vimeo.com/241512971/d668e39ced]
 
 
-Want to see all the principles? View them [here](/intro-principles-for-effective-messaging-operations.html).
+Want to see all the principles? View them [here](/principles-for-effective-messaging-operations.html).

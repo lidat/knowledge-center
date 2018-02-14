@@ -7,10 +7,10 @@ readtime: "2 min"
 level-order: 1
 order: 1
 permalink: principle-3-of-effective-messaging-operations-agent-efficiency.html
-summary: "Introducing asynchronous will require you to take a closer look at your operations and how to make the best use of agents time."
+summary: "Introducing messaging will require you to take a closer look at your operations and how to make the best use of agents time."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#bestpractices', '#agents', '#videos']
+tags: ['#bestpractices', '#agents', '#video']
 ---
 
 
@@ -22,4 +22,4 @@ Principle 3 describes how brands can ensure agents time does not get wasted.
 [video - https://vimeo.com/241513074/68f35bc602]
 
 
-Want to see all the principles? View them [here](/intro-principles-for-effective-messaging-operations.html).
+Want to see all the principles? View them [here](/principles-for-effective-messaging-operations.html).

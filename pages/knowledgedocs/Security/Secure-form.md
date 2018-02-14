@@ -1,12 +1,12 @@
 ---
-title: Secure Forms - How to collect sensitive information securely over chat
+title: Collect sensitive information securely over chat
 level1: Documents
 level2: Data
 level3: Security
 readtime: "2 min"
 level-order: 1
 order: 1
-permalink: secure-forms-how-to-collect-sensitive-information-securely-over-chat.html
+permalink: collect-sensitive-information-securely-over-chat.html
 root-link: true
 summary: "Collect sensitive information such as credit card or social security numbers securely over chat using LiveEngage secure form."
 authorname: "Goor Cohen"

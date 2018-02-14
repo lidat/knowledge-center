@@ -1,12 +1,12 @@
 ---
-title: Start Your Shift Smoothly with a Messaging Warm Up
+title: Messaging Warm Ups for Agents
 level1: Documents
 level2: Data
 level3: Messaging Operations
 readtime: "3 min"
 level-order: 1
 order: 1
-permalink: start-your-shift-smoothly-with-a-messaging-warm-up.html
+permalink: messaging-warm-ups-for-agents.html
 summary: "In order for agents to start their shifts smoothly and be able to ‘warm up’ to the flow of conversations, brands can configure LiveEngage to assign conversations to the agents gradually."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"

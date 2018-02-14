@@ -18,6 +18,7 @@ tags: ['#agents', '#bestpractices', '#messaging']
 ### **Common messaging questions from agents and our recommended answers**
 
 #### I’ve got a lot of conversations on my screen and I’m finding it difficult to focus. What should I do?
+
 A: You can hide conversations when the conversation is no longer active. No longer active refers to the state in which the customer is not messaging you within regular intervals. Hiding the conversation doesn’t close the conversation; it only hides it from your view. It will reappear along your message bar when the customer responds.
 
 #### I want to go on my break in 10 minutes. What should I tell my customers? And, do I need to do anything with my manual SLA?
@@ -28,6 +29,7 @@ can give them the option to wait, or to be transferred to another agent.
 *Note: Due to the SLA and general demand, transferring to another agent may include a longer wait time for the customer before he is served.*
 
 #### I want to go on a lunch break, which is a 45-minute break. Should I tell my customer?
+
 A: For your active conversations, you should let them know that you are going on a break and give them the option to wait or to be transferred to another agent.
 
 It’s not always necessary to tell all your customers you are going on break, be aware of which customers this is relevant to. Apply common sense approach.
