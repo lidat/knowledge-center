@@ -54,4 +54,4 @@ are well worth the impact on average handle times.
 See for yourself – add the personalized touch of Cobrowse functionality to a checkout or high-value line of business,
 and watch conversion rates and average order values rise!
 
-### [add video: https://vimeo.com/238900340/29a80294b9]
+<div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/238900340" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>

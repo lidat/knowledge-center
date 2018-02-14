@@ -17,8 +17,8 @@ tags: ['#bestpractices']
 
 ### Introducing LivePerson's Principles for Effective Messaging Operations
 
+<div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/241512911" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
 
-[video - https://vimeo.com/241512911/d13e1c15bd]
 
 Introducing asynchronous messaging to your contact center will delight your customers. It will also require you to take a closer look at your operations and make some adjustments to ensure your agents are performing at maximum efficiency. LivePerson will help brands be effective in messaging via a set of messaging operations principles.
 

@@ -13,8 +13,8 @@ authortitle: "Product Expert in Messaging Channels"
 tags: ['#facebook','#openplatform']
 ---
 
+<div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/238902683" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
 
-[video: https://vimeo.com/238902683/b0028db4f5]
 
 
 **New: self serve onboarding for Facebook connector**

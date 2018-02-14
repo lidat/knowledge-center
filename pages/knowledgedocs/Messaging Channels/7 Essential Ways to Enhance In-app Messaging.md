@@ -19,4 +19,6 @@ tags: ['#sales', '#marketing', '#videos', '#guides']
 
 Facilitate rich conversations between brands and consumers with beyond-text capabilities. The LiveEngage in-app messaging SDK allows brands to build a full-scale consumer messaging experience within their own app. The SDK is completely customizable, with all the capabilities your consumers expect from a modern messaging app.
 
-Check out this video to see how you can give consumers a richer in-app messaging experience with your brand. Watch: ** [7 essential ways to enhance in-app messaging](https://vimeo.com/238914522/c1b594b8a4).**
+Check out this video to see how you can give consumers a richer in-app messaging experience with your brand. Watch:
+
+<div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/238914522" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>

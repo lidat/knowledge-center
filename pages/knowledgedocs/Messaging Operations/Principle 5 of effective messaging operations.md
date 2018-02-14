@@ -18,8 +18,7 @@ Introducing asynchronous messaging to your contact center will delight your cust
 
 Principle 5 describes new metrics and ways to measure agents for messaging.
 
-
-[video - https://vimeo.com/241513227/9e526edda0]
+<div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/241513227" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div> 
 
 
 Want to see all the principles? View them [here](/intro-principles-for-effective-messaging-operations.html).

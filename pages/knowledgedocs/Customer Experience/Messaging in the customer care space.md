@@ -9,7 +9,7 @@ order: 1
 permalink: messaging-in-the-customer-care-space.html
 summary: "LivePerson is continuously researching the market trends and technology changes that impact the way consumers communicate with brands."
 authorname: "Rurik Bradbury"
-authortitle: "Expert in Thought Leadership and Research"
+authortitle: "Expert in Thought Leadership"
 tags: ['#consumerbehavior', '#textmessaging', '#messaging']
 ---
 

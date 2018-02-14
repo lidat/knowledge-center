@@ -20,6 +20,7 @@ Introducing asynchronous messaging to your contact center will delight your cust
 Principle 2 describes how brands can focus agent resources on the conversations that need it most.
 
 
-[video - https://vimeo.com/241513020/9200d1ddb0]
+<div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/241513020" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
+
 
 Want to see all the principles? View them [here](/intro-principles-for-effective-messaging-operations.html).

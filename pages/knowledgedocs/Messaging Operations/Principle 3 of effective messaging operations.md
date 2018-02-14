@@ -19,7 +19,7 @@ Introducing asynchronous messaging to your contact center will delight your cust
 Principle 3 describes how brands can ensure agents time does not get wasted.
 
 
-[video - https://vimeo.com/241513074/68f35bc602]
+<div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/241513074" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div> 
 
 
 Want to see all the principles? View them [here](/intro-principles-for-effective-messaging-operations.html).
