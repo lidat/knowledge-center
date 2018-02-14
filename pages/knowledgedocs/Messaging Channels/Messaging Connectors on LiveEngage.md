@@ -10,7 +10,7 @@ permalink: messaging-connectors-on-liveengage.html
 summary: "For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#textmessaging', '#inappmessaging', '#applebusinesschat', '#facebook','#google', '#line']
+tags: ['#textmessaging', '#inappmessaging', '#applebusinesschat', '#facebook','#googleadwords', '#line']
 ---
 
 
