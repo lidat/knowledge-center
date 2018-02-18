@@ -17,6 +17,14 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+.post-content a {
+  color: #0645AD;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
 .page-wrap {
   flex: 1;
 }
@@ -821,6 +829,7 @@ pre {
   font-family: "Roboto",Arial,Helvetica,sans-serif;
   line-height: 2;
   list-style-type: none;
+  width: 69%;
 }
 
 .scrollbarlist > li::before {
@@ -828,6 +837,7 @@ pre {
   color: rgb(155, 155, 155);
   font-size: 14pt;
   margin-right: 12pt;
+  margin-left: -15pt;
 }
 
 .scroll-to-fixed-fixed {
@@ -914,6 +924,14 @@ p ~ img {
 .tags {
   padding: 0;
   margin-bottom: 100pt;
+}
+
+.tags a {
+  color: inherit;
+}
+
+.tags a:hover {
+  text-decoration: none;
 }
 
 .tagbutton {
