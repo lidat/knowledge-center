@@ -15,13 +15,13 @@ authortitle: "Product Expert in Consumer Experience"
 tags: ['#bestpractices', '#agents', '#support']
 ---
 
-#### Provide consumers with contextual information about the conversation
+### Provide consumers with contextual information about the conversation
 
 Automatic, or system, messages are messages that are triggered automatically during a chat or messaging conversation to inform visitors of the status of the conversation. The messages appear to the consumer in the engagement window and to the agent in their agent workspace. For example, when a visitor is connected to an agent, the following message is displayed to the visitor: "Thank you for messaging us. An agent should reply shortly."
 
 Automatic messages support and enhance the conversation between agent and visitor by keeping the visitor engaged and informed without additional effort on the part of the agent. A one-time configuration on your part saves your agents time and provide your visitors with a smoother experience during their conversation.
 
-![automatic message](automatic-message.png)
+![automatic message](img/automatic-message.png)
 
 ### Activating automatic messages
 
@@ -35,7 +35,7 @@ For example, a visitor on a brand’s clothing pages may be greeted with "Thank 
 
 Auto messages can also be disabled for selected skills.
 
-![editing automatic messages](edit-automatic-message.png)
+![editing automatic messages](img/edit-automatic-message.png)
 
 ### Multi language support
 

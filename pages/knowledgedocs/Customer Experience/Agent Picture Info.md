@@ -53,8 +53,6 @@ Here are a couple of avatar creation sites:
 
 [http://doppelme.com/](http://doppelme.com/){:target="_blank"}
 
-**
-**
 
 **A quick anecdote...**
 

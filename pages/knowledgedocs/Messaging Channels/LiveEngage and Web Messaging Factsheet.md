@@ -30,4 +30,4 @@ Learn how to use LiveEngage and web messaging to drive engagement and create con
 
 * **History does not need to be re-written** - Conversation history shows previous conversations and content.
 
-** Learn how to set-up, implement and get maximum value from LiveEngage and web messaging in our full guide: [LiveEngage & web Messaging Factsheet](http://info.liveperson.com/rs/501-BLE-979/images/WebMessaging_Factsheet.pdf).**
+<div class="bestpractice">Learn how to set-up, implement and gain maximum value from LiveEngage and Facebook Messenger in our full guide: <a href="http://info.liveperson.com/rs/501-BLE-979/images/Facebook_Messenger_Factsheet.pdf">LiveEngage and Facebook Messenger Factsheet</a>.</div>

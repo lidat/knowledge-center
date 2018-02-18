@@ -6,7 +6,7 @@ level3: Messaging Channels
 readtime: "2 min"
 level-order: 1
 order: 1
-permalink: 7-essential-ways-to-enhance-in-app-messaging.html
+permalink: top-in-app-messaging-benefits.html
 root-link: true
 indicator: chat
 summary: "See all the capabilities of LiveEnage's in-app messaging to see how you can give consumers a richer messaging experience."

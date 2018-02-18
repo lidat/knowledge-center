@@ -6,7 +6,7 @@ level3: Messaging Channels
 readtime: "6 min"
 level-order: 1
 order: 1
-permalink: introducing-the-out-of-the-box-connectors.html
+permalink: out-of-the-box-connectors.html
 summary: "For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects. "
 authorname: "Or Garmolin"
 authortitle: "Product Expert in Messaging Channels"

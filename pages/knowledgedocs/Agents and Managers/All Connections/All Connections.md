@@ -16,7 +16,7 @@ tags: ['#guide', '#csat', '#support']
 ---
 ### All Connections area in LiveEngage  
 
-![All Connections Area](all-connections-area.png)
+![All Connections Area](img/all-connections-area.png)
 
 All Connections displays every one of your brand’s messaging conversations, both active and closed, in one easy-to-navigate page.
 
@@ -30,7 +30,7 @@ All Connections displays every one of your brand’s messaging conversations, bo
 
 Brands using messaging are now able to search by summary and by engagement attributes in the All Connections table. They can find conversations by the specific keywords mentioned in the conversation’s summary and can also search for conversations by certain values, such as customer name, ID or email, that were passed via the engagement attributes mechanism.
 
-*Note: While the engagement attributes can be viewed immediately, the ability to search by them is only available after two hours.*
+<div class="note">Note: While the engagement attributes can be viewed immediately, the ability to search by them is only available after two hours.</div>
 
 All Connections includes the following information:
 
@@ -52,7 +52,7 @@ All Connections includes the following information:
 
 * Duration - The time frame between when the consumer started the conversation until it was ended by either the consumer or the agent. For active conversations, the duration displayed here represents the time from the start of the conversation until the moment this data is viewed.
 
-![MCS sentiment score](MCS-sentiment-measurement.png)
+![MCS sentiment score](img/MCS-sentiment-measurement.png)
 
 ### Pre-filtered connections
 
@@ -88,9 +88,9 @@ Agents and Agent Managers can search/filter conversations with the following par
 
 For example, an Agent Manager can filter conversations by duration to identify those with an unusual duration. By drilling down further and refining the search, they will be able to pinpoint why the conversations had an out of the ordinary length. Managers can also view all conversations with a low MCS, or a low CSAT, and identify the cause by referring to the conversation transcripts.
 
-![search conversation transcript](search-conversation-transcript.png)
+![search conversation transcript](img/search-conversation-transcript.png)
 
-*Note: engagement attributes comprised of numbers that contain more than three consecutive digits cannot currently be searched for.*
+<div class="note">Note: engagement attributes comprised of numbers that contain more than three consecutive digits cannot currently be searched for.</div>
 
 A column displaying the MCS of the conversation helps Agent Managers to track consumer sentiment (CSAT is also available in the conversation’s consumer info section).
 

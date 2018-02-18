@@ -53,7 +53,7 @@ Now the visitor will see their agent’s picture next to each line sent by the a
 
 ![image alt text](img/picturewindow.png)
 
-* Note: In the case that "Agent picture" is enabled for a window but the agent did not configure their picture yet, the visitor will not see any picture while chatting with this specific agent. *
+<div class="note">Note: In the case that "Agent picture" is enabled for a window but the agent did not configure their picture yet, the visitor will not see any picture while chatting with this specific agent.</div>
 
 ### Configuring a default picture
 
@@ -81,8 +81,10 @@ Visitors will now see the configured default picture beside each line sent by th
 
 * **Join conversation:** If a second agent joins the conversation for whom a default picture URL is defined, the visitor sees the default picture next to second agent’s lines.
 
-* **_Because each window is configured separately, take into account the following:_**
+<div class="warning">
+**_Because each window is configured separately, take into account the following:_**
 
 In the case that different default pictures are defined in different engagement windows, when an agent transfers the conversation to an agent that has no assigned picture, the default picture displayed is the default picture defined for the conversation’s original engagement window.
 
-** Relevant to accounts using separate engagement windows for different departments.**
+**This is Relevant to accounts using separate engagement windows for different departments.**
+</div>

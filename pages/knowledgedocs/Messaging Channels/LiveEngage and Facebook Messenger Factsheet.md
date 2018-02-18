@@ -30,4 +30,4 @@ LiveEngage messaging platform enables brands to provide a continuous connection 
 
 * Track and report on Facebook Messenger interactions.
 
-** Learn how to set-up, implement and gain maximum value from LiveEngage and Facebook Messenger in our full guide: [LiveEngage and Facebook Messenger Factsheet](http://info.liveperson.com/rs/501-BLE-979/images/Facebook_Messenger_Factsheet.pdf).**
+<div class="bestpractice">Learn how to set-up, implement and gain maximum value from LiveEngage and Facebook Messenger in our full guide: <a href="http://info.liveperson.com/rs/501-BLE-979/images/Facebook_Messenger_Factsheet.pdf">LiveEngage and Facebook Messenger Factsheet</a>.</div>

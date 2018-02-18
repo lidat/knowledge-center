@@ -1,12 +1,12 @@
 ---
-title: LivePerson Google Adwords Integration Video
+title: Google Adwords Integration Video
 level1: Documents
 level2: Data
 level3: Messaging Channels
 readtime: "3 min"
 level-order: 1
 order: 1
-permalink: liveperson-google-adwords-integration-video.html
+permalink: google-adwords-integration-video.html
 root-link: true
 
 summary: "Learn how LiveEngage's integration with Google AdWords helps brands make the most out of their investment. "

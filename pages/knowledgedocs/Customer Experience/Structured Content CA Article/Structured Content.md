@@ -54,7 +54,7 @@ For further information on configuring structured content, please refer to:
 
 ![Structured Content Maps](img/structuredcontentscreen4.png)
 
-Coming soon! These new structure content templates will be available during 2018:
+Coming soon! These new structured content templates will be available during 2018:
 
 * **Carousel**: a horizontal representation of multiple (2-10) cards of the same business logic and structure
 

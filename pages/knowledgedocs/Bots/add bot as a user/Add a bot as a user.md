@@ -35,14 +35,14 @@ Before adding the bot as a user, you will first need to **create a skill to be u
 
 5. Name the new skill and type in a description.
 
-Note: the name given to the skill should be clear and easy to track, for example ‘routing-bot’.
+<div class="note">Note: the name given to the skill should be clear and easy to track, for example ‘routing-bot’.</div>
 
 {:start="6"}
 6. Click **Save**.
 
 For further information, refer to the [Skills documentation](https://ce-sr.s3.amazonaws.com/CA/Admin/skills/29_Skills.pdf).
 
-Next,** create a bot type user**. The bot user can be configured with roles and permissions, in the same way as a human agent, and its performance will be tracked and reflected in reporting by LiveEngage.
+Next, **create a bot type user**. The bot user can be configured with roles and permissions, in the same way as a human agent, and its performance will be tracked and reflected in reporting by LiveEngage.
 
 Firstly, **contact your LivePerson account team** to enable this feature for you.
 
@@ -59,7 +59,7 @@ Firstly, **contact your LivePerson account team** to enable this feature for you
 ![image alt text](img/adduser.png)
 
 {:start="5"}
-5. In the *login method *dropdown menu, select **API key** then use the **Select/Generate API key** dropdown to either select an existing key, if already created, or to create a new one.
+5. In the *login method* dropdown menu, select **API key** then use the **Select/Generate API key** dropdown to either select an existing key, if already created, or to create a new one.
 
 ![image alt text](img/adduserapikey.png)
 
@@ -71,4 +71,4 @@ Firstly, **contact your LivePerson account team** to enable this feature for you
 
 8. Click **Save**.
 
-Note: You must have admin or campaign manager permissions in order to create a bot type user.
+<div class="note">Note: You must have admin or campaign manager permissions in order to create a bot type user.</div>

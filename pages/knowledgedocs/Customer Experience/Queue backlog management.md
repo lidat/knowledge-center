@@ -17,7 +17,7 @@ When an agent is eventually able to reply, smart capacity will still wait for a 
 
 To avoid this scenario, if an agent responds to the last consumer message after a preconfigured interval (with a default value of 2 hours), then the conversation will automatically be assigned a low intensity value. This will free up the agent's capacity for additional conversations, and help to reduce the queue accumulation more rapidly.
 
-_Please contact your LivePerson account team if you would like to enable this feature._
+<div class="note">Please contact your LivePerson account team if you would like to enable this feature.</div>
 
 The following example demonstrates how the queue backlog is managed:
 
@@ -27,7 +27,7 @@ The following example demonstrates how the queue backlog is managed:
 
 * Agent configured capacity: 3 conversations
 
-Backlog management flow:
+**Backlog management flow:**
 
 1. Conversations 1, 2, 3, 4 and 5 begin
 

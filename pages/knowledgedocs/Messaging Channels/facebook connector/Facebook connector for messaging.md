@@ -15,8 +15,6 @@ tags: ['#facebook','#openplatform']
 
 <div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/238902683" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
 
-
-
 **New: self serve onboarding for Facebook connector**
 
 Our self serve onboarding process for the Facebook connector means brands can quickly and easily add this channel to their operations, in order to successfully manage all their consumer digital interactions in one place.
@@ -41,7 +39,7 @@ Our self serve onboarding process for the Facebook connector means brands can qu
 {:start="5"}
 5. Under configuration, click **Log in**.
 
-Note: In order to connect your Facebook page to LiveEngage, the administrator of the Facebook page needs to log in through LiveEngage.* *
+<div class="note">Note: In order to connect your Facebook page to LiveEngage, the administrator of the Facebook page needs to log in through LiveEngage.</div>
 
 {:start="6"}
 6. Select the relevant Facebook page(s) to subscribe the account to.
@@ -56,7 +54,7 @@ In order for messages sent from your Facebook page (via a Facebook administrator
 
 To create a new Agent Manager user, specifically for this purpose:
 
-1. On the Users page on LiveEngage, click **Add use**r.
+1. On the Users page on LiveEngage, click **Add user**.
 
 2. Fill in the user details, ensuring that the following parameters are included:
 
@@ -68,7 +66,7 @@ To create a new Agent Manager user, specifically for this purpose:
 
  * Name: FB External User
 
-Note: Text entered in this field will display as the name in the conversation thread. Brands can choose any form of naming convention, to match the messaging experience they would like consumers to have.
+<div class="note">Note: Text entered in this field will display as the name in the conversation thread. Brands can choose any form of naming convention, to match the messaging experience they would like consumers to have.</div>
 
  * Password: A12345678
 
@@ -79,9 +77,9 @@ Note: Text entered in this field will display as the name in the conversation th
 
 4. On the Facebook connector page, under ‘Add a Facebook external user’, select the FB External User profile you have just created and click **Done**.
 
-![image alt text](img/fbconfig.png)
+![image alt text](img/fbconfig.png) missing
 
-Note: Brands are able to connect multiple Facebook pages to their account and route each number to a separate skill. If you have more than one Facebook page attached to your account and you would like to route them to separate skills, please contact your LivePerson administrator.
+<div class="note>Note: Brands are able to connect multiple Facebook pages to their account and route each number to a separate skill. If you have more than one Facebook page attached to your account and you would like to route them to separate skills, please contact your LivePerson administrator.</div>
 
 Did you know? Facebook pages have several features that can enhance your LiveEngage Facebook operations. These can be found in your Facebook page settings, under messaging settings.
 
@@ -109,17 +107,17 @@ LiveEngage is now seamlessly integrated into Facebook Messenger, offering your b
 
 **Use LiveEngage and Messenger for service, sales, and post-purchase support:**
 
-Integrate live assistance with messenger bots** **— Bots can offer service and sales assistance to customers directly through Facebook Messenger, with seamless transition to a human agent available as and when required.
+**Integrate live assistance with messenger bots** — Bots can offer service and sales assistance to customers directly through Facebook Messenger, with seamless transition to a human agent available as and when required.
 
-Use Facebook widgets to launch new connections straight from your website** **— When consumers opt-in to receive purchase confirmation and updates during the checkout process, a Facebook Messenger conversation will automatically open with the purchase details, creating a personal connection between the consumer and the brand that can be continued at any time.
+**Use Facebook widgets to launch new connections straight from your website** — When consumers opt-in to receive purchase confirmation and updates during the checkout process, a Facebook Messenger conversation will automatically open with the purchase details, creating a personal connection between the consumer and the brand that can be continued at any time.
 
 **Facebook operations managed at scale**
 
 Skill routing - brands are now able to connect multiple Facebook pages to their account and route each page to a separate skill, enabling them to implement large scale messaging operations. Brands therefore have the choice between two routing methods for Facebook integrations:
 
-* *Routing based on entry point*: each Facebook page is routed to a separate skill.
+* **Routing based on entry point*: each Facebook page is routed to a separate skill.**
 
-* *The specialized manual approach*: all conversations are routed to a default skill. When required, agents within the default skill can transfer the conversations on to a specific skills of their choosing.
+* **The specialized manual approach**: all conversations are routed to a default skill. When required, agents within the default skill can transfer the conversations on to a specific skills of their choosing.
 
 CSAT - the moment an agent closes a conversation on Facebook, a structured message will appear to the customer asking them to rate their satisfaction with the messaging experience on a predefined scale. The CSAT % will subsequently display to the agent in real time, using Facebook’s quick response capability.
 
@@ -131,7 +129,7 @@ Status notifications - consumers are kept informed at all times with read notifi
 
 Agent messaging tools - agents are empowered to handle Facebook messenger conversations with a range of LiveEngage tools that both complement and enhance messaging operations, such as being able to proactively open a conversation, configuring auto-accept for new messages and setting conversations to auto-close after a configured time period.
 
-**Note*** The character limit for messages sent on the Facebook Messenger channel by agents is 640. The character limit for messages sent by consumers is 5000.
+<div class="note">**Note**: The character limit for messages sent on the Facebook Messenger channel by agents is 640. The character limit for messages sent by consumers is 5000.</div>
 
 Automatic messages - Automatic, or system, messages are predefined messages that are presented automatically in the thread during a messaging conversation to provide consumers with contextual information about the conversation status. They are triggered by specific events, such as the consumer opening a new conversation or the conversation being transferred to another agent.
 

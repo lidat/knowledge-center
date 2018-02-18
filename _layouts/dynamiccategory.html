@@ -403,6 +403,75 @@
     {% endfor %}
   </div>
 
+  <div class="categoryboxrow">
+    {% for page in categoryfilter offset:15 limit:3 %}
+    {% assign mod = forloop.length | modulo: 2 %}
+    {% if mod == 0 %}
+    <!-- mod is even -->
+  <a href="/{{ page.title | slugify }}.html">
+    <div class="categorybox">
+      <div class="categoryboximage"><img class="categoryboximg" src="img/how-to-set-up-a-twilio-sms-connector.png"></div>
+      <div class="categoryboxcontent">
+        <div class="categoryboxtitle">{{ page.title }}</div>
+        <div class="categoryboxtext">{{ page.summary }}</div>
+        </div>
+        <div class="categoryfirstboxauthor">
+          <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
+          <div class="articledetails">
+            <div class="boxauthorname">
+              {% if page.authorname != null %}
+            {{ page.authorname }} &bull; {{ page.authortitle }}
+            {% else %}
+            LivePerson Team
+            {% endif %}
+            </div>
+            <div class="documentdetails">
+              Last updated {{ page.last_modified_at | date: '%D' }} &bull; {{ page.readtime }} read
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </a>
+    {% if forloop.last == true %}
+      <div class="flexholder"></div>
+    {% endif %}
+    {% else %}
+    <!-- mod is odd -->
+  <a href="/{{ page.title | slugify }}.html">
+    <div class="categorybox">
+      <div class="categoryboximage"><img class="categoryboximg" src="img/how-to-set-up-a-twilio-sms-connector.png"></div>
+      <div class="categoryboxcontent">
+        <div class="categoryboxtitle">{{ page.title }}</div>
+        <div class="categoryboxtext">{{ page.summary }}</div>
+          </div>
+        <div class="categoryfirstboxauthor">
+          <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
+          <div class="articledetails">
+            <div class="boxauthorname">
+              {% if page.authorname != null %}
+            {{ page.authorname }} &bull; {{ page.authortitle }}
+            {% else %}
+            LivePerson Team
+            {% endif %}
+            </div>
+            <div class="documentdetails">
+              Last updated {{ page.last_modified_at | date: '%D' }} &bull; {{ page.readtime }} read
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </a>
+    {% if forloop.length == 1 %}
+    <div class="flexholder"></div>
+    <div class="flexholder"></div>
+    {% endif %}
+
+  {% endif %}
+    {% endfor %}
+  </div>
+
     <div class="backtotopcontainer">
     <a href="#" class="backtotop">
     <i class="fa fa-angle-up"></i></a>

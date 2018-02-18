@@ -32,4 +32,4 @@ Learn how to use LiveEngage and in-app messaging to drive engagement and create 
 
 * Track operations in real time and report on volumes and effectiveness.
 
-** Learn how to set-up, implement and gain maximum value from LiveEngage and in-app messaging in our full guide: [LiveEngage & In-App Messaging Factsheet](http://info.liveperson.com/rs/501-BLE-979/images/In-App-Messaging-Factsheet.pdf).**
+<div class="bestpractice">Learn how to set-up, implement and gain maximum value from LiveEngage and Facebook Messenger in our full guide: <a href="http://info.liveperson.com/rs/501-BLE-979/images/Facebook_Messenger_Factsheet.pdf">LiveEngage and Facebook Messenger Factsheet</a>.</div>

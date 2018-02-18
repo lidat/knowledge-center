@@ -34,8 +34,4 @@ LiveEngage offers connectors for the following messaging channels:
 
 4. Line (APAC only)
 
-5. (coming soon!) Apple Business Chat (iMessage)
-
-
-For a comparative guide to our messaging channel connectors, refer to the LiveEngage Connector Capabilities documentation.
-******(EDEN - WE NEED TO ADD LINK HERE TO THIS DOC WHEN IT'S LIVE)**
+5. Apple Business Chat (iMessage, coming soon!)

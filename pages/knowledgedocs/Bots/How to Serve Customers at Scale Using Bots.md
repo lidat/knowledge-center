@@ -54,13 +54,13 @@ When a conversational platform is built correctly, the result is that human agen
 
 * **Tip:** Partner with an experienced conversational platform who can provide you with a strong foundation of top intents, popular brand-to-messaging categories, and common queries upfront - saving your brand a lot of time. For example, LiveEnage’s Intent Analyzer gives brands a repository of top intents based on historical and real-time transcript data. The repository of intents is data-based and built automatically, yet gives agents have the ability to optimize the algorithm manually. This reduces the A/B testing time of an NLP system from months to a just days.
 
-**Challenge: Directs consumers to right agent or bot**
+**Challenge: Direct consumers to right agent or bot**
 
 * **Solution:** After correctly identifying intent, conversational platforms route to correct skills - whether that is a bot or an agent. Focus your bot on one task in a single area, such as logins or adding bank account information, and then gradually roll out while continuously testing and the optimizing bot. Once a bot is at about 95% containment, brands can run additional bots using the already trained "brain" of the existing one for incredible scalability.
 
 * **Tip:** LiveEngage’s SmartRouting directs consumers to right agent or bot by understanding the topic and routing the consumer to the right channel - human agent/bot/self serve. It also queues consumers based on attributes such as lifetime value, churn risk, and more for the optimal queue prioritization.  
 
-**Challenge: Measure the success of bots **
+**Challenge: Measure the success of bots**
 
 * **Solution:** Knowing what your consumers experience during the service and sales point-of-contact provides a unique opportunity to optimize bots. That’s why conversational platforms should provide some type of sentiment score to help brands measure and perfect bots.
 

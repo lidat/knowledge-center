@@ -16,7 +16,7 @@ tags: ['#textmessaging','#guide']
 <div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/238913223" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
 
 
-### self serve onboarding for SMS connector
+### Self serve onboarding for SMS connector
 
 Our self serve onboarding process for the SMS connector means brands can quickly and easily add this channel to their operations, in order to successfully manage all their consumer digital interactions in one place.
 
@@ -37,7 +37,9 @@ The addition of SMS to LiveEngage operations, currently available for Twilio num
 
 
 
-### Brands driving SMS adoption can create customer connections in a number of ways:
+### Driving SMS Adoption
+
+Brands driving SMS adoption can create customer connections in a number of ways:
 
 **Reduce the queue with IVR deflection** — Get customers off hold faster with the option of exiting the line and continuing the conversation over text, or automatically send a text message as an alternative for people who have dialed.
 
@@ -48,7 +50,9 @@ The addition of SMS to LiveEngage operations, currently available for Twilio num
 ** Add two-way communication to any ad ** — Add text to existing ads, whether digital, print or even radio. By providing a quick and instant way for consumers to get in touch, the impact of promotions and other engagements will surge.
 
 
-### Set up for SMS is simple and quick:
+### Setting Up SMS
+
+Set up for SMS is simple and quick
 
 * Brands can capitalize on their existing text message communications, such as marketing promotions and account notifications.
 
@@ -74,7 +78,7 @@ The CSAT question can be customized based on the consumer’s language, or per m
 **Agent messaging tools** — agents are empowered to handle SMS conversations with a range of LiveEngage tools that both complement and enhance messaging operations, such as being able to proactively open a conversation, view the number the consumer is using to send the message, configuring auto-accept for new messages and setting conversations to auto-close after a configured time period.
 
 
-*Note:* The character limit for messages sent on the SMS channel by agents is 1600. The character limit for messages sent by consumers is 5000.
+<div class="note">Note: The character limit for messages sent on the SMS channel by agents is 1600. The character limit for messages sent by consumers is 5000.</div>
 
 
 **Automatic messages** - Automatic, or system, messages are predefined messages that are presented automatically in the thread during a messaging conversation to provide consumers with contextual information about the conversation status. They are triggered by specific events, such as the consumer opening a new conversation or the conversation being transferred to another agent.

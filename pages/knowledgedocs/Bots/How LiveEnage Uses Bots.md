@@ -25,7 +25,7 @@ LivePerson provides a dedicated team to build and integrate bots in enterprise b
 
  * **Bot Studio**
 
-With LiveEngage, brands get a suite of tools to build, run and optimize bots in the Bots Studio. The bots studio is where brands can easily create any kind of smart, integrative bot, and work in an environment to manage, A/B test and improve bots - where every new action improves the bot algorithm.  ****
+With LiveEngage, brands get a suite of tools to build, run and optimize bots in the Bots Studio. The bots studio is where brands can easily create any kind of smart, integrative bot, and work in an environment to manage, A/B test and improve bots - where every new action improves the bot algorithm.
 
  * **Human agent "tango" with bots & AI**
 
@@ -55,5 +55,3 @@ Only with a truly open platform do brands have a toolkit to develop the customiz
 Liveperson is the only solution that has mastered conversational business and messaging operations at scale. For decades, LivePerson has led the forefront of digital consumer engagement, first as the pioneer of webchat, then with a dedicated enterprise messaging platform, and now as the forerunner of conversational business.
 
 With over 20 years of experience in messaging operations for enterprise contact centers, LiveEngage offers organizations the opportunity to partner with true experts that deliver a perfected conversational business blueprint based on decades data science. Our data gives LivePerson an unmatched view to understand the consumer journeys and is the springboard for our AI, which is baked into LiveEngage to build better automation and more efficient operations.
-
-****
