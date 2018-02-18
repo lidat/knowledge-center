@@ -1,5 +1,13 @@
+.pagecontainer {
+  margin-bottom: 47vh;
+}
+
 .pagecontent {
   margin-top: 0px;
+}
+
+table {
+  max-width: 100%;
 }
 
 table > thead > tr > th {
@@ -7,7 +15,7 @@ table > thead > tr > th {
 }
 
 table td:first-child {
-  width: 155px;
+  width: 250px;
 }
 
 .tagsbutton {
@@ -24,4 +32,13 @@ table td:first-child {
   display:inline-block;
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   font-size: 14pt;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #0645AD;
+}
+
+a:hover {
+  text-decoration: underline;
 }
