@@ -23,13 +23,16 @@ The Messaging in-app SDK provides different options for masking sensitive inform
 The in-app SDK supports 2 types of masking today. A 3rd type of support will be introduced in the future. The following table explains how each masking type works:
 
 <table>
+<thead>
  <tr>
- <td></td>
- <td>Real time masking</td>
- <td>Client side masking</td>
- <td>Server side masking
-(future support)</td>
+ <th></th>
+ <th>Real time masking</th>
+ <th>Client side masking</th>
+ <th>Server side masking
+(future support)</th>
  </tr>
+ </thead>
+ <tbody>
  <tr>
  <td>Masking on the app conversation screen</td>
  <td>✓</td>
@@ -60,10 +63,11 @@ The in-app SDK supports 2 types of masking today. A 3rd type of support will be 
  <td>x</td>
  <td>✓</td>
  </tr>
+</tbody>
 </table>
 
 
-## Real-Time Masking
+### Real-Time Masking
 
 This type of masking is used to prevent customers from accidentally sending sensitive information to customers via plain text (regular text lines). For example, it is not allowed to send credit card information without PCI compliance. The brand may use real time masking to prevent such a text line from being sent over the network and kept in the local database.
 
@@ -83,17 +87,14 @@ When a customer enters a line of text consisting of a pattern that was defined o
 
 #### Customer side:
 
-<table>
- <tr>
- <td>Before sending</td>
- <td>After sending</td>
- </tr>
- <tr>
- <td><a href="img/before-screenshot-client-side.png"></a> </td>
- <td><a href="img/after-screenshot-client-side.png"></a>
- </td>
- </tr>
-</table>
+<img src="img/before-screenshot-client-side.png"/>
+
+<div class="imagetext">Before Sending</div>
+
+<img src="img/after-screenshot-client-side.png"/>
+
+<div class="imagetext">After Sending</div>
+
 
 
 #### Agent side:
@@ -122,17 +123,13 @@ When a customer enters a line of text consisting of a pattern that was defined o
 
 #### Customer side:
 
-<table>
- <tr>
- <td>Before sending</td>
- <td>After sending</td>
- </tr>
- <tr>
- <td><a href="img/before-screenshot-agent-side.png"></a> </td>
- <td><a href="img/after-screenshot-agent-side.png"></a>
- </td>
- </tr>
-</table>
+<img src="img/before-screenshot-agent-side.png">
+
+<div class="imagetext">Before Sending</div>
+
+<img src="img/after-screenshot-agent-side.png">
+
+<div class="imagetext">After Sending</div>
 
 
 #### Agent side:

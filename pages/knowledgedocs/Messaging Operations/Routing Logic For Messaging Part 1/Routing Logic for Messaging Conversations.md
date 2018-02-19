@@ -6,7 +6,7 @@ level3: Messaging Operations
 readtime: "6 min"
 level-order: 1
 order: 1
-permalink: routing-logic-for-messaging-conversation-skill-selection.html
+permalink: routing-logic-for-messaging-conversations-skill-selection.html
 root-link: true
 
 summary: "Learn about the messaging routing engine that works behind the scenes to select the agent that will handle an incoming conversation."

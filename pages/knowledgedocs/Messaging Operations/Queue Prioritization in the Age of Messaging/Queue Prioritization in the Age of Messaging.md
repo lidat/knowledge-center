@@ -15,7 +15,7 @@ authortitle: "Product Communications Expert"
 tags: ['#bestpractices', '#guides', '#csat', '#queueprioritization', '#agents', '#customersupport', '#intent', '#routing']
 ---
 
-### Why queue prioritization is more important than ever
+### The Importance of Queue Prioritization
 
 Today, 90% of peoples day-to-day conversations use messaging, prompting savvy brands to meet consumers where they overwhelmingly are: in the digital world. Brands moving to offer digital messaging to their consumers transform into a "conversational business’ and quickly reap the benefits of becoming instantly and easily accessible.
 
@@ -41,14 +41,17 @@ Additionally, since consumers can message at any the time, there is often an inf
 
 ### How queue prioritization in messaging impacts your KPIs
 
-The unique nature of messaging means that companies need to adjust their KPIs accordingly. . Brands must measure to ensure certain KPIs are improving, but also anticipate less important KPIs may be impacted negatively.  Here are some examples:
+The unique nature of messaging means that companies need to adjust their KPIs accordingly. Brands must measure to ensure certain KPIs are improving, but also anticipate less important KPIs may be impacted negatively.  Here are some examples:
 
 <table>
+<thead>
  <tr>
- <td>KPI</td>
- <td>Value</td>
- <td>Impact</td>
+ <th>KPI</th>
+ <th>Value</th>
+ <th>Impact</th>
  </tr>
+ </thead>
+ <tbody>
  <tr>
  <td>Avg. time to resolve</td>
  <td>Decrease</td>
@@ -90,6 +93,7 @@ The unique nature of messaging means that companies need to adjust their KPIs ac
  <td>Increase</td>
  <td>Positive</td>
  </tr>
+</tbody>
 </table>
 
 
@@ -98,11 +102,14 @@ The unique nature of messaging means that companies need to adjust their KPIs ac
 **Use cases of queue prioritization**
 
 <table>
+<thead>
  <tr>
- <td>Use case</td>
- <td>Goal</td>
- <td>KPI</td>
+ <th>Use case</th>
+ <th>Goal</th>
+ <th>KPI</th>
  </tr>
+ </thead>
+ <tbody>
  <tr>
  <td>Prioritize VIP customers
 </td>
@@ -129,6 +136,7 @@ Intent to purchase
  <td>Increase conversions</td>
  <td>Total conversation increases</td>
  </tr>
+ </tbody>
 </table>
 
 

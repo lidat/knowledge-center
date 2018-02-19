@@ -15,7 +15,7 @@ tags: ['#bestpractices']
 
 LivePerson offers a secure, reliable and trusted service and platform through which online businesses can safely communicate with their customers. We recommend a baseline level of protection on your account to ensure the utmost security of your data. This baseline can be achieved by activating the four key steps detailed below.
 
-**Note:** To implement these settings, or to receive further information on LivePerson security options, please contact your Account Manager or LivePerson Technical Support.
+<div class="note">Note: To implement these settings, or to receive further information on LivePerson security options, please contact your Account Manager or LivePerson Technical Support.</div>
 
 ### Step 1: Set Your Password Policy
 

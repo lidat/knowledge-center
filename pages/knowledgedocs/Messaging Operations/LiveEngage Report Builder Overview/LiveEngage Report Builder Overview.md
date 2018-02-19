@@ -194,6 +194,7 @@ To export a report:
   <li><em>PDF will be used when the view is widgets.</em></li>
   <li><em>Data is exported to a CSV file.</em></li>
 </ul>
+</div>
 
 
 #### FAQ

@@ -6,7 +6,7 @@ level3: Messaging Operations
 readtime: "4 min"
 level-order: 1
 order: 1
-permalink: hiring-agents-messaging-success-the-interview.html
+permalink: hiring-agents-for-messaging-success-the-interview.html
 summary: "There are so many things to consider when it comes to hiring for your contact center. We've gathered some of our best practices when it comes to assembling the perfect team."
 authorname: "James Brown"
 authortitle: "Senior Expert in Digital Transformation"
@@ -18,9 +18,7 @@ We know that the in-person interview is one of the most important steps in findi
 These questions assume that the candidate has successfully passed the online interview.
 
 
-
-
-#### Business Knowledge
+### Business Knowledge
 
 1.	You have received a copy of our eBusiness Strategy roadmap. Tell me what you believe our strategy is and how a CPP rep fits into this strategy.
 
@@ -29,7 +27,7 @@ These questions assume that the candidate has successfully passed the online int
 
 
 
-#### Logic & Problem Solving
+### Logic & Problem Solving
 
 3.	Describe a recent problem you experienced and explain how you resolved the issue.
 
@@ -41,7 +39,7 @@ These questions assume that the candidate has successfully passed the online int
 
 
 
-#### Innovation
+### Innovation
 
 7.	Identify a situation where you brought an innovative idea to your job. Describe the steps you took to get it accepted, including obstacles you needed to overcome.
 
@@ -49,7 +47,7 @@ These questions assume that the candidate has successfully passed the online int
 
 
 
-#### Technology Literacy
+### Technology Literacy
 
 9.	Identify the software applications you are familiar with and how they have been of benefit to you. How proficient are you in these applications?
 
@@ -61,7 +59,7 @@ These questions assume that the candidate has successfully passed the online int
 
 
 
-#### Competitive Team Environment
+### Competitive Team Environment
 
 13.	In your opinion, what are the major characteristics of a successful work team? Which characteristic do you feel is most important? How have you displayed it?
 
@@ -69,7 +67,7 @@ These questions assume that the candidate has successfully passed the online int
 
 
 
-#### Sales Experience
+### Sales Experience
 
 15.	Tell me about your work experience. How much of it has been sales oriented?
 
@@ -94,7 +92,7 @@ These questions assume that the candidate has successfully passed the online int
 
 
 
-#### Career Orientation
+### Career Orientation
 
 25.	What would be your key decision-making criteria if you had two job offers?
 

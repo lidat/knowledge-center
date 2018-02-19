@@ -865,8 +865,6 @@ pre {
 }
 
 .post-content img {
-  width: 510pt;
-  height: 287pt;
   margin-top: 25pt;
   margin-bottom: 25pt;
   display: block;
@@ -879,11 +877,12 @@ p ~ img {
   margin-left: 40px !important;
 }
 
-imagetext {
+.imagetext {
   margin: 0 auto;
   width: 35%;
   font-size: 12pt;
   font-weight: bold;
+  text-align: center;
 }
 
 .summary {

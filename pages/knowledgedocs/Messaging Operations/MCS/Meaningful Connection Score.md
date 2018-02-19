@@ -14,10 +14,9 @@ tags: ['#csat','#data', "#reports"]
 ---
 
 
-### Measure the quality of your brand’s connection with every consumer over time
+### The Need to Measure Quality
 
-
-The result is the development of the **Meaningful Connection Score (MCS)** - an automatic, unbiased method to measure the relationship between consumers and brands. The MCS evaluates and measures the overall customer relationship and lifetime value, solving a major issue inherent in other customer satisfaction measurements.
+At LivePerson we understand the need to measure the quality of your brand’s connection with every consumer over time. We wanted to develop a tool to enable brands to easily do this and move away from cluttered surveys. The result is the development of the **Meaningful Connection Score (MCS)** - an automatic, unbiased method to measure the relationship between consumers and brands. The MCS evaluates and measures the overall customer relationship and lifetime value, solving a major issue inherent in other customer satisfaction measurements.
 
 ![image alt text](img/mcs1.png)
 
@@ -68,7 +67,7 @@ Some negative impact of a score remains regardless of the time that has passed, 
 
 The following formula is used to calculate MCS for both chat and messaging:
 
-*For a conversation with sentiment scores: *
+*For a conversation with sentiment scores:*
 
 ![image alt text](img/mcsformula.png)
 
@@ -96,11 +95,11 @@ For chat conversations, the MCS score and smileys are displayed in dedicated col
 
 ![image alt text](img/mcslist.png)
 
-*Web History*
+<div class="imagetext">Web History</div>
 
 ![image alt text](img/mcshistory.png)
 
-*Agent workspace*
+<div class="imagetext">Agent workspace</div>
 
 
 #### 2. Training opportunities

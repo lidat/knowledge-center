@@ -6,7 +6,7 @@ level3: Security
 readtime: "6 min"
 level-order: 1
 order: 1
-permalink: livenegage-platform-security-overview.html
+permalink: liveengage-platform-security-overview.html
 summary: "As a leading provider with a large customer base and years of experience backing us, LivePerson’s new messaging solution is both secure and innovative."
 authorname: "Rotem Abir"
 authortitle: "Expert in Enterprise Security"
@@ -82,7 +82,7 @@ The consumer authenticates to the brand’s application by providing his/her use
 
 ![image alt text](img/authint.png)
 
-Fig. 1: Authenticated Interaction
+<div class="imagetext">Fig. 1: Authenticated Interaction</div>
 
 
 For information on the process for authenticated interactions, see the  [Authentication Guide](https://developers.liveperson.com/guides-authentication-introduction.html).
@@ -101,7 +101,7 @@ The process for unauthenticated interactions is as follows:
 
 ![image alt text](img/lpjwt.png)
 
-Fig. 2:  Unauthenticated Interaction
+<div class="imagetext">Fig. 2:  Unauthenticated Interaction</div>
 
 The consumer establishes a secure WebSocket to LivePerson messaging. Each message or communication to messaging is sent with LivePerson JWT. Messaging verifies LivePerson JWT validity and expiration. If LivePerson JWT is expired or not verified, the socket is terminated.
 
@@ -127,11 +127,11 @@ The process for push notifications is as follows:
 
 ![image alt text](img/pushdirect.png)
 
-Fig. 3:  Push Notifications - direct to APNS/GCM
+<div class="imagetext">Fig. 3:  Push Notifications - direct to APNS/GCM</div>
 
 ![image alt text](img/pushproxy.png)
 
-Fig. 4:  Push Notifications - through the brand’s push proxy
+<div class="imagetext">Fig. 4:  Push Notifications - through the brand’s push proxy</div>
 
 *Note: In both push implementations the text payload can optionally be masked to always appear as a predefined message such as "You have a new message", to refrain from personal info being visible on a locked device.*
 

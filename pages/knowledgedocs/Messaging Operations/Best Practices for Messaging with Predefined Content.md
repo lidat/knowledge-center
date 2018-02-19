@@ -15,7 +15,7 @@ tags: ['#agent','#bestpractices', '#messaging']
 
 This best practice guide takes you through LivePerson’s recommendations on how to structure your predefined content, along with deciding tone and how to most effectively use hot keys.
 
-#### Structuring your predefined content
+### Structuring your predefined content
 
 * Name your responses well
 
@@ -51,7 +51,7 @@ This best practice guide takes you through LivePerson’s recommendations on how
 
   * Where possible, create the responses in such a way that the agent does not need to add in personalized extra information. (e.g.: I’ve just looked into that for you ‘insert customer name’).
 
-#### Establishing tone and content
+### Establishing tone and content
 
 Consider that messaging requires short, to the point and conversational responses.
 
@@ -96,7 +96,7 @@ Consider that messaging requires short, to the point and conversational response
 
   * It can be frustrating for your customer to have to answer lots of questions. For messaging, consider asking up to three questions at one time, but no more. For example, “Can I please have you name, phone number and address?”
 
-#### How to most effectively use hot keys
+### How to most effectively use hot keys
 
 * Assign hot keys to the most used responses
 
@@ -111,7 +111,7 @@ Consider that messaging requires short, to the point and conversational response
 
   * Hot keys can be very useful if assigned to a commonly used process. E.g. Step 1, step 2, and step 3 could be assigned S1, S2, S3
 
-#### Operational best practices
+### Operational best practices
 
 1.	Predefined content should be regularly reviewed.
 
@@ -125,7 +125,7 @@ Consider that messaging requires short, to the point and conversational response
 
 6.	Consider adding great responses from transcripts.
 
-#### Predefined content examples
+### Predefined content examples
 
 Use these examples to help set  expectations with your customers.
 
@@ -144,7 +144,7 @@ Welcome to our new messaging service! No need to worry about staying glued to yo
 **Expectation setting for lunches and breaks**
 (only necessary if dealing with an active conversation)
 
-*Note: assuming that when a customer is unhappy to wait/it is clear to the agent that it is an active urgent conversation, the agent will reassign the conversation to the queue. You may want to consider a ‘welcome back’ type message for returning customers.*
+<div class="note">Note: assuming that when a customer is unhappy to wait/it is clear to the agent that it is an active urgent conversation, the agent will reassign the conversation to the queue. You may want to consider a ‘welcome back’ type message for returning customers.</div>
 
 1. I’m just headed out on a break, so we can pick up again in a bit.
 
@@ -180,7 +180,7 @@ If you need to speak with us again, just restart the conversation by replying to
 
 3. I’ll need to ask you a few quick questions, just to make sure your account is secure.
 
-*Note: asking for two to three pieces of information at a time can speed up the process. E.g.: Can I please have your name, date of birth and address?*
+<div class="note">Note: asking for two to three pieces of information at a time can speed up the process. E.g.: Can I please have your name, date of birth and address?*</div>
 
 **Communicating end of day/closure for brands not available 24/7**
 
@@ -188,4 +188,4 @@ If you need to speak with us again, just restart the conversation by replying to
 
 2. If you are willing to wait, I’ll be back at 12:30 PM. We can pick up then or I can assign you to a colleague who can speak with you before then. (Don’t worry, they will have this messaging history). What would you prefer?
 
-*Note: It is best to let the customer know about 20 minutes before the end of the shift. The assumption is that the agents are reassigning conversations at the end of the day.*
+<div class="note">Note: It is best to let the customer know about 20 minutes before the end of the shift. The assumption is that the agents are reassigning conversations at the end of the day.*</div>
