@@ -1,5 +1,5 @@
 ---
-title: Messaging Expertise Center
+title: Messaging Knowledge Center
 level3: LivePerson
 keywords: sample homepage
 #tags: [getting_started]
