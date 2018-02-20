@@ -141,6 +141,10 @@ body {
   margin-right: 0;
 }
 
+.categoryboxrow .flexholder:last-child{
+  margin-right: 0;
+}
+
 .categoryboxrowfirst{
   display: flex;
   margin: 0 auto;

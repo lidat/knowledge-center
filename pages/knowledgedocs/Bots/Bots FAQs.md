@@ -5,7 +5,7 @@ level2: Data
 level3: Bots
 readtime: "5 min"
 level-order: 1
-order: 1
+order: 2
 permalink: bots-faqs.html
 summary: "Bots can be created using any bot platform and integrated into LiveEngage, so that brands can enjoy the benefits of seamless transition from bots to live humans and comprehensive reporting and tracking."
 authorname: "Sarah Danby"
@@ -20,7 +20,7 @@ tags: ['#bots','#openplatform', "#bestpractices"]
 
 **A:**  The terms virtual agent and bot are often interchangeable as they both offer contact centers similar services. A virtual agent is a contact center capability that uses a computer-generated virtual character to provide artificial intelligence as a customer service agent, via the chat or messaging functionality. A chatbot is usually focused on a single purpose and can provide answers to automated  and simple tasks. Both bots and virtual agents can be run and optimized through artificial intelligence.
 
-LiveEngage is able to integrate to any virtual agent or bot that you or any 3rd party company creates.**  **
+ <div class="note">LiveEngage is able to integrate to any virtual agent or bot that you or any 3rd party company creates.</div>
 
 
 **Q: Are bots only consumer-facing? Are there bots for agents?**
@@ -28,7 +28,7 @@ LiveEngage is able to integrate to any virtual agent or bot that you or any 3rd 
 **A:** Currently, bots acting as agents can be utilized in consumer-facing scenarios. Agent-facing AI tools, and AI solutions for operations, can be constructed using different SDKs and APIs than those used for consumer-facing bots.  
 
 
-**Q What functionalities do consumer-facing bots possess? **
+**Q What functionalities do consumer-facing bots possess?**
 
 **A:**  Bots are able to boost your contact center operations in a variety of ways, offering one or more of the following functionalities:
 
@@ -43,7 +43,7 @@ LiveEngage is able to integrate to any virtual agent or bot that you or any 3rd 
 We can help you to determine how bots can best support your customer service offering and make the greatest impact on their business.
 
 
-**Q: What steps are needed to prepare the bot to plug into LiveEngage? **
+**Q: What steps are needed to prepare the bot to plug into LiveEngage?**
 
 **A:**  We recommend adding bots into your operations for tasks where automation suitability is high. Start by creating a list of simple processes that take the agent a lot of time and are needed frequently. Bots able to carry out these tasks can be created, or obtained from a third party.
 
@@ -86,7 +86,7 @@ To prepare the bot for integration with LiveEngage, it’s vital to test it agai
 
 
 
- **Q: Can I use bots on SMS & Facebook?**
+**Q: Can I use bots on SMS & Facebook?**
 
 **A:** Bots are available on both SMS and Facebook. Conversations originating from either of these sources can be routed directly to a bot, and bots and human agents can seamlessly transfer conversations within these channels as within any other. Structured content is not currently available for Facebook or SMS.
 
@@ -101,7 +101,7 @@ To prepare the bot for integration with LiveEngage, it’s vital to test it agai
 **A:** Your LivePerson representative will be able to enable your account to utilize structured content and enable it within your in-app messaging SDK.  
 
 
- **Q:Is sensitive information protected when shared during a conversation with a bot****?**
+**Q:Is sensitive information protected when shared during a conversation with a bot****?**
 
 **A:**  Sensitive information can be masked by the LiveEngage system, in the same way as masking is applied for certain data during conversations with human agents. Please speak to your LivePerson representative to have masking enabled for certain conversational elements.
 
@@ -156,14 +156,14 @@ To prepare the bot for integration with LiveEngage, it’s vital to test it agai
 **A:**  Messages from the bot are displayed in exactly the same way as messages from a human agent, both within the chat or messaging window and in the engagement or messaging history.
 
 
-**Q:** **How do consumers know when they are in a conversation with a bot?**
+**Q:****How do consumers know when they are in a conversation with a bot?**
 
 **A:**  Any brand can customize and control the way that bots are displayed to consumers. Best practices include creating an opening line that clearly articulates a bot is typing, as well as adding an image avatar to the bot agent profile.  
 
 
 **Q: What happens if the consumer does not want to speak to a bot?**
 
-**A:  **Depending on how your bot has been built, there are two ways to escalate to a human agent:
+**A:** Depending on how your bot has been built, there are two ways to escalate to a human agent:
 
 1. The consumer can request to speak to an agent either by typing ‘agent’ or selecting from a structured content list.
 
@@ -184,14 +184,14 @@ LiveEngage APIs listen to these escalation requests and immediately transfer the
 **A:** The Chat Agent API allows bots operating in live chat conversations to check for the availability of other skills.
 
 
-**Q: ****How is the performance of bots measured?**
+**Q: How is the performance of bots measured?**
 
 **A:**  Bots log in to LiveEngage as agents, therefore their performance is tracked and measured against the same KPIs as a human agent, including their MCS and CSAT scores. By treating bots as any other agent, LiveEngage allows for analysis and optimization of bot performance, via detailed and flexible reporting.
 
 
 **Q: How do you differentiate between bots and human agents?**
 
-**A:** When creating a new user for a bot in LiveEngage, we recommend giving the user the name ‘Bot *’. The bot skill should also be named ‘Bot *’. This enables brands to quickly and easily filter transcripts, data and reports by these specific names. We also recommend creating an agent group for the bot(s).
+**A:** When creating a new user for a bot in LiveEngage, we recommend giving the user the name ‘Bot’. The bot skill should also be named ‘Bot’. This enables brands to quickly and easily filter transcripts, data and reports by these specific names. We also recommend creating an agent group for the bot(s).
 
 
 **Q: Can agents transfer to a bot skill?**
@@ -219,6 +219,6 @@ LiveEngage APIs listen to these escalation requests and immediately transfer the
 **A:** Bots currently do not have the ability to authenticate a visitor. The visitor will start the conversation as authenticated or unauthenticated. However, the bot is able to ask identification questions. Text masking can be configured for sensitive information shared with the bot.
 
 
-**Q: How will the bot know to differentiate between authenticated and unauthenticated consumers? **
+**Q: How will the bot know to differentiate between authenticated and unauthenticated consumers?**
 
 **A:** Bots in live chat conversations are able to see when a visitor is authenticated. Visitor information, including authenticated attributes, is not currently exposed to bots in messaging conversations.

@@ -28,9 +28,11 @@
     <!-- assign a variable with the title of the CATEGORY so that this page works for all categories -->
     {% assign categoryname = page.title %}
     <!-- use the variable that we assigned in the last line to filter through page. All pages belonging to the cateogry displayed will be rendered -->
-    {% assign categoryfilter = site.pages | where_exp: "page", "page.level3 == categoryname" %}
+  {% assign categoryfilter = site.pages | where_exp: "page", "page.level3 == categoryname" %}
+  {% assign sorted = categoryfilter | sort: "order" %}
+
     <!-- for each page that meets the above criteria, render a firstbox, two aside boxes and then a regular box -->
-    {% for page in categoryfilter %}
+    {% for page in sorted %}
     {% if forloop.first %}
     <div class="categoryboxrowfirst">
     <a href="/{{ page.title | slugify }}.html">
@@ -71,7 +73,7 @@
   {% endfor %}
   <!-- some of the box rows below are redundant, meant to house future documents. In the case of a large amount of files in a category, more rows will need to be added. Make sure you adjust the offset accordingly by adding 3 (since every row has 3 boxes). Sizing is handlded by flexbox. -->
   <div class="categoryboxrowaside">
-  {% for page in categoryfilter offset:1 limit:2 %}
+  {% for page in sorted offset:1 limit:2 %}
     {% assign mod = forloop.length | modulo: 2 %}
       {% if mod == 0 %}
       <!--  mod is even, just add a box -->
@@ -134,7 +136,7 @@
   </div>
 </div>
   <div class="categoryboxrow">
-    {% for page in categoryfilter offset:3 limit:3 %}
+    {% for page in sorted offset:3 limit:3 %}
     {% assign mod = forloop.length | modulo: 2 %}
     {% if mod != 0 %}
     <!-- mod is odd -->
@@ -201,7 +203,7 @@
   {% endfor %}
   </div>
   <div class="categoryboxrow">
-    {% for page in categoryfilter offset:6 limit:3 %}
+    {% for page in sorted offset:6 limit:3 %}
     {% assign mod = forloop.length | modulo: 2 %}
     {% if mod == 0 %}
     <!-- mod is even -->
@@ -267,7 +269,7 @@
     {% endfor %}
   </div>
   <div class="categoryboxrow">
-    {% for page in categoryfilter offset:9 limit:3 %}
+    {% for page in sorted offset:9 limit:3 %}
     {% assign mod = forloop.length | modulo: 2 %}
     {% if mod == 0 %}
     <!-- mod is even -->
@@ -335,7 +337,7 @@
     {% endfor %}
   </div>
   <div class="categoryboxrow">
-    {% for page in categoryfilter offset:12 limit:3 %}
+    {% for page in sorted offset:12 limit:3 %}
     {% assign mod = forloop.length | modulo: 2 %}
     {% if mod == 0 %}
     <!-- mod is even -->
@@ -404,7 +406,7 @@
   </div>
 
   <div class="categoryboxrow">
-    {% for page in categoryfilter offset:15 limit:3 %}
+    {% for page in sorted offset:15 limit:3 %}
     {% assign mod = forloop.length | modulo: 2 %}
     {% if mod == 0 %}
     <!-- mod is even -->

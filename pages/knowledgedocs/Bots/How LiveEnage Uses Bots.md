@@ -5,7 +5,7 @@ level2: Data
 level3: Bots
 readtime: "6 min"
 level-order: 1
-order: 1
+order: 3
 permalink: how-liveengage-uses-bots.html
 root-link: true
 

@@ -23,7 +23,7 @@ To set up a basic SMS account using Twilio, complete the following steps:
 
 2. Purchase a new number to connect to your account. Select the country appropriate for your consumer base and search for available numbers. It is also possible to choose from a certain location or search for a number with a particular set of digits. Select a number from the options provided to purchase.
 
-  <div class="note">**Note:** You must select a number with SMS capabilities.</div>
+  <div class="note">Note: You must select a number with SMS capabilities.</div>
 ![imagelink](img/Twiliostep2.png)
 ![imagelink](img/Twiliostep2.1.png)
 

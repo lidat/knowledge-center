@@ -5,7 +5,7 @@ level2: Data
 level3: Bots
 readtime: "6 min"
 level-order: 1
-order: 1
+order: 4
 permalink: let-bots-serve-your-customers.html
 root-link: true
 

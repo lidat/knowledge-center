@@ -1,21 +1,20 @@
 
 
 //hightlught sidebar links as you scroll past them
-function onScroll(event){
+$(document).scroll(function onScroll(event){
     var scrollPos = $(document).scrollTop();
-    $('.scrollbar a').each(function () {
+    $('.scrollbarlist a').each(function () { // fpr each link in sidebar
         var currLink = $(this);
-        var refElement = $(currLink.attr("href"));
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-
-            $('.scrollbar ul li a').removeClass("active");
-            currLink.addClass("active");
+        var refElement = $(currLink.attr("href")); //compare href to anchor
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() < scrollPos) { // if the position of the link is below the head of the page
+            $('.scrollbarlist a').removeClass("active"); //remove active from any previous active links
+            currLink.addClass("active"); //add active to the current link
         }
         else{
-            currLink.removeClass("active");
+            currLink.removeClass("active"); // if no links are active, remove the class
         }
     });
-}
+});
 
 //animation for the thumbsdown icon
 function showDoorbellModal () {
@@ -30,9 +29,13 @@ function centerThumbsup () {
 	$('.thumbsdown').addClass('thumbsdownclicked');
 }
 
-//keeps the sidebar from scrolling too farther down, uses a plugin
+//keeps the sidebar from scrolling too far down, uses a plugin
 $(document).ready(function() {
-  $('.scrollbar').scrollToFixed({ marginTop: 300, limit: $('.tags').offset().top, dontSetWidth: true });
+  $('.scrollbar').scrollToFixed({ marginTop: 550, limit: $('.tags').offset().top - 100, dontSetWidth: true });
+  if $('.scrollbar a:last-child').hasClass('active') {
+    console.log("last link");
+    $('.scrollbarlist').addClass('top');
+  };
 });
 
 
@@ -41,8 +44,10 @@ $(document).ready(function() {
 $(document).ready(function() {
 	$(function() {
 		var list = $('.scrollbarlist');
+    var i = 0;
 		$('h3').each(function() {
-			$(list).append('<li><a href="#' + $(this).attr('id') + '">' + $(this).text() + '</a></li>');
+			$(list).append('<li id="scrollbarlink' + i + '"><a href="#' + $(this).attr('id') + '">' + $(this).text() + '</a></li>');
+      i++;
 		});
 	});
 });
