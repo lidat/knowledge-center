@@ -36,7 +36,7 @@ https://vimeo.com/238914379/076382ea40
 
 The Google My Business out-of-the-box connector enables brands to add a "Message Us" button to their Google My Business listing, using Google virtual numbers provided directly by Google’s gateway. All Google My Business messages will subsequently be routed into the LiveEngage platform, allowing the brand’s agents to respond directly from the Agent Workspace, in the same way as for other messaging channels and out of the box connectors.
 
-<div class="note">**Note**: Due to a Google limitation, the Google My Business connector is **only available to accounts in the US & Canada**. We do not currently have information on timelines for future availability in other regions.</div>
+<div class="note">Note: Due to a Google limitation, the Google My Business connector is **only available to accounts in the US & Canada**. We do not currently have information on timelines for future availability in other regions.</div>
 
 **Set up for Google My Business is simple and quick:**
 
@@ -91,7 +91,7 @@ The CSAT question can be customized based on the consumer’s language, or by th
 #### Agent messaging tools
 Agents are empowered to handle Google My Business click to message connections with a range of LiveEngage tools that both complement and enhance messaging operations, such as being able to proactively open a conversation, configure auto-accept for new messages and set conversations to auto-close after a configured time period.
 
-<div class="note">**Note** The character limit for messages sent by consumers on the Google My Business channel is 5000.*</div>
+<div class="note">Note: The character limit for messages sent by consumers on the Google My Business channel is 5000.*</div>
 
 #### Automatic messages
 Automatic, or system, messages are predefined messages that are presented automatically in the thread during a messaging conversation to provide consumers with contextual information about the conversation status. They are triggered by specific events, such as the consumer opening a new conversation or the conversation being transferred to another agent.

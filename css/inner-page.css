@@ -362,6 +362,7 @@ div.sidebarTitle {
 
 div.sidebarTitle span{
   vertical-align: top;
+  font-size: 22px;
 }
 div.sidebarTitle-holder {
     font-size: 1.333em;

@@ -129,7 +129,7 @@ Status notifications - consumers are kept informed at all times with read notifi
 
 Agent messaging tools - agents are empowered to handle Facebook messenger conversations with a range of LiveEngage tools that both complement and enhance messaging operations, such as being able to proactively open a conversation, configuring auto-accept for new messages and setting conversations to auto-close after a configured time period.
 
-<div class="note">**Note**: The character limit for messages sent on the Facebook Messenger channel by agents is 640. The character limit for messages sent by consumers is 5000.</div>
+<div class="note">Note: The character limit for messages sent on the Facebook Messenger channel by agents is 640. The character limit for messages sent by consumers is 5000.</div>
 
 Automatic messages - Automatic, or system, messages are predefined messages that are presented automatically in the thread during a messaging conversation to provide consumers with contextual information about the conversation status. They are triggered by specific events, such as the consumer opening a new conversation or the conversation being transferred to another agent.
 

@@ -40,7 +40,7 @@
 <!--Begin main content-->
 <div class="homecontainer">
 
-
+  <div class="homerow">
     <a class="homeboxlink" href="getting-started-with-messaging.html">
   <div class="homebox">
       <div class="boxicon">
@@ -57,7 +57,7 @@
       <div class="boxicon">
         <img src="img/developing.png"/>
       </div>
-      <div class="boxtitle singleline">BOTS</div>
+      <div class="boxtitle ">BOTS</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">
       {% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Bots'" %}
@@ -70,18 +70,20 @@
       <div class="boxicon">
         <img src="img/designing.png"/>
       </div>
-      <div class="boxtitle singleline">CUSTOMER EXPERIENCE</div>
+      <div class="boxtitle ">CUSTOMER EXPERIENCE</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Customer Experience'" %}
       {{ catfilter | size }} Articles</div>
     </div>
 </a>
+</div>
+<div class="homerow">
     <a class="homeboxlink" href="messaging-channels.html">
   <div class="homebox">
       <div class="boxicon">
     <img src="img/channels.png"/>
 </div>
-      <div class="boxtitle singleline">MESSAGING CHANNELS</div>
+      <div class="boxtitle ">MESSAGING CHANNELS</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Messaging Channels'" %}
       {{ catfilter | size }} Articles</div>
@@ -94,7 +96,7 @@
       <div class="boxicon">
   <img src="img/effective.png"/>
 </div>
-      <div class="boxtitle singleline">MESSAGING OPERATIONS</div>
+      <div class="boxtitle ">MESSAGING OPERATIONS</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Messaging Operations'" %}
       {{ catfilter | size }} Articles
@@ -106,18 +108,20 @@
       <div class="boxicon">
   <img src="img/faq.png"/>
     </div>
-      <div class="boxtitle singleline">AGENTS AND MANAGERS</div>
+      <div class="boxtitle ">AGENTS AND MANAGERS</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Agents and Managers'" %}
       {{ catfilter | size }} Article</div>
     </div>
 </a>
+</div>
+<div class="homerow">
     <a class="homeboxlink" href="security.html">
   <div class="homebox">
       <div class="boxicon">
   <img src="img/secure.png"/>
 </div>
-      <div class="boxtitle singleline">SECURITY</div>
+      <div class="boxtitle ">SECURITY</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Security'" %}
       {{ catfilter | size }} Articles</div>
@@ -129,7 +133,7 @@
       <div class="boxicon">
   <img src="img/designing.png"/>
 </div>
-      <div class="boxtitle singleline">DESIGNING CUSTOMER EXPERIENCE</div>
+      <div class="boxtitle ">DESIGNING CUSTOMER EXPERIENCE</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">1{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Designing Customer Experience'" %}
       {{ catfilter | size }} Articles</div>
@@ -139,13 +143,13 @@
       <div class="boxicon">
   <img src="img/designing.png"/>
 </div>
-      <div class="boxtitle singleline">DESIGNING CUSTOMER EXPERIENCE</div>
+      <div class="boxtitle ">DESIGNING CUSTOMER EXPERIENCE</div>
       <div class="boxtext">Lorem Ipsum is simply dummy text of the printing and typesetting industry It is a long established fact that a reader will bet.</div>
       <div class="boxauthor">{% assign catfilter = site.pages | where_exp: "page","page.level3 == 'Designing Customer Experience'" %}
       {{ catfilter | size }} Articles</div>
     </div>
 </a>
-
+</div>
 </div>
 {% include footer.html %}
 

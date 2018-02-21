@@ -66,17 +66,12 @@ _Note: Since these messages are sent outside of LiveEngage, it will not be visib
 
 Many brands have policies around blocking consumers who use offensive or abusive language when talking with agents. The code below shows a basic example of a hard-coded function with the ability to check for blacklisted numbers (those added into the code) and return an auto message to the consumer if they are have been added to the 'black-list'.  A more scalable method for ‘Blacklisting’ would be to modify this code further to check a list of numbers in a csv file on your servers or a cloud server.
 
-<div class="note">**Note**: Since these messages are sent outside of LiveEngage, it will not be visible in the conversation in the LiveEngage console, the agent will only see messages the consumer types and messages they type themselves.</div>
+<div class="note">Note: Since these messages are sent outside of LiveEngage, it will not be visible in the conversation in the LiveEngage console, the agent will only see messages the consumer types and messages they type themselves.</div>
 
 ![Twilio Blacklist](img/Twilioblacklisting.png)
 
 
 ```javascript
-This is a code snippet.
-Copy and paste me; don’t try to replicate me.
-If you want to highlight something, use this color.
-
-
 //Blacklisting
 exports.handler = function(context, event, callback) {
    let twiml = new Twilio.twiml.MessagingResponse();
@@ -96,6 +91,7 @@ exports.handler = function(context, event, callback) {
 	callback(null, twiml);
 };
 ```
+
 ### Regular expression masking
 
 Many brands choose to mask specific data patterns to prevent consumers from inadvertently sharing data such as account or credit card information in plain text within the body of the conversation. A Twilio function can therefore be created to handle regex masking and regex auto-response. The below example searches for a specific pattern and blanks the pattern within the conversation body.  The code can also be used to send an auto-response back to the consumer letting them know that their message has been redacted.
@@ -105,12 +101,6 @@ _**Note**: Since auto-response messages are sent outside of LiveEngage, it will 
 ![Twilioregexpression](img/Twilioregex.png)
 
 ```javascript
-This is a code snippet.
-Copy and paste me; don’t try to replicate me.
-If you want to highlight something, use this color.
-
-
-
 //Regex Masking
 exports.handler = function(context, event, callback) {
    let twiml = new Twilio.twiml.MessagingResponse();

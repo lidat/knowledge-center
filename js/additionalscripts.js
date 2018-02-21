@@ -16,6 +16,16 @@ $(document).scroll(function onScroll(event){
     });
 });
 
+$(document).scroll(function onScroll(event){
+  if ($('.scrollbar').css('position') == 'absolute') {
+    $('.scrollbarlist').css({top: '85px'});
+  }
+  else {
+    $('.scrollbarlist').css({top: 'inherit'});
+  }
+});
+
+
 //animation for the thumbsdown icon
 function showDoorbellModal () {
   doorbell.show ();
@@ -32,10 +42,6 @@ function centerThumbsup () {
 //keeps the sidebar from scrolling too far down, uses a plugin
 $(document).ready(function() {
   $('.scrollbar').scrollToFixed({ marginTop: 550, limit: $('.tags').offset().top - 100, dontSetWidth: true });
-  if $('.scrollbar a:last-child').hasClass('active') {
-    console.log("last link");
-    $('.scrollbarlist').addClass('top');
-  };
 });
 
 
@@ -45,12 +51,12 @@ $(document).ready(function() {
 	$(function() {
 		var list = $('.scrollbarlist');
     var i = 0;
-		$('h3').each(function() {
-			$(list).append('<li id="scrollbarlink' + i + '"><a href="#' + $(this).attr('id') + '">' + $(this).text() + '</a></li>');
-      i++;
+		$('h3').each(function(index, element) {
+  			$(list).append('<li id="scrollbarlink' + i + '"><a href="#' + $(this).attr('id') + '">' + $(this).text() + '</a></li>');
+        i++;
+      });
 		});
-	});
-});
+  });
 
 //login with LP API
 $('.loginform').submit(function () { //trigger the function when form is submitted
