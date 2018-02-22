@@ -7,38 +7,38 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 330pt;
+  height: 330px;
 }
 
 .hometopnav {
   display: flex;
   justify-content: space-between;
-  margin-top: 51pt;
-  margin-left: 81pt;
+  margin-top: 51px;
+  margin-left: 81px;
 }
 
 .homecontenticon {
-  margin-top: 28pt;
+  margin-top: 28px;
 }
 
 .homebuttons {
   display: flex;
   justify-content: flex-end;
-  margin-top: 12pt;
+  margin-top: 12px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: #ffffff;
   font-weight: 300;
 }
 
 .contactus {
-  margin-right: 44pt;
-  font-size: 16pt;
+  margin-right: 44px;
+  font-size: 16px;
   font-weight: 100;
 }
 
 .login {
-  margin-right: 71pt;
-  font-size: 16pt;
+  margin-right: 71px;
+  font-size: 16px;
   font-weight: 100;
 }
 
@@ -47,21 +47,20 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 25pt;
 }
 
 .homebannertext {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 18pt;
+  font-size: 18px;
   color: #ffffff;
-  margin-bottom: 27pt;
-  margin-top: 16pt;
+  margin-bottom: 27px;
+  margin-top: 16px;
   font-weight: 300;
 }
 
 .homesearch {
   border: 1px solid #ffffff;
-  border-radius: 4pt;
+  border-radius: 4px;
   width: 50%;
 }
 
@@ -80,29 +79,33 @@
   border: none;
   font-style: italic;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 18pt;
+  font-size: 18px;
   color: #fff;
 }
 
 .homecontainer {
   margin: 0 auto;
-  margin-top: 66pt;
+  margin-top: 66px;
   display: flex;
   flex-wrap: wrap;
   width: 94.6%;
-  padding-left: 11pt;
-  padding-right: 11pt
+  padding-left: 11px;
+  padding-right: 11px
 }
 
 .homerow {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  height: 440px;
+  /* justify-content: space-between; */
+  /* height: 440px; */
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
 }
 
 .homeboxlink {
-  flex: 1;
   text-decoration: none;
   width: 410px;
   height: 308px;
@@ -150,23 +153,23 @@
   font-weight: 400;
   font-size: 16px;
   color: #5879da;
-  margin-top: 20pt;
-  margin-bottom: 25pt;
-  width: 261pt;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  width: 261px;
 }
 
 .boxtext {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #4A4A4A;
-  margin: 0 62pt 25pt 62pt;
-  width: 287pt;
+  margin: 0 62px 25px 62px;
+  width: 287px;
   font-weight: 100;
   line-height: 1.6;
 }
 
 .boxauthor {
-  margin-bottom: 30pt;
+  margin-bottom: 30px;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 12px;
   color: #9B9B9B;
@@ -174,7 +177,7 @@
 }
 
 .singleline {
-  margin-bottom: 47pt !important;
+  margin-bottom: 47px !important;
 }
 
 /* expertise design ends, delete everything below when done*/
@@ -719,9 +722,9 @@ img.mockup{
 }
 
 .site-footer {
-  height: 420pt;
+  height: 420px;
   display: block;
-  margin-top: 50pt;
+  margin-top: 50px;
   box-sizing: border-box;
   position: relative;
   width: 100%;
@@ -729,7 +732,7 @@ img.mockup{
 }
 
 footer {
-  min-height: 420pt;
+  min-height: 420px;
   margin: 0;
 }
 
@@ -743,7 +746,7 @@ footer {
 .footertop {
   display: flex;
   width: 63%;
-  margin-top: 50pt;
+  margin-top: 50px;
 }
 
 .footercategories {
@@ -751,7 +754,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-right: 105pt;
+  margin-right: 105px;
 }
 
 .footerresources {
@@ -759,7 +762,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-right: 105pt;
+  margin-right: 105px;
 }
 
 .footercompany {
@@ -772,8 +775,8 @@ footer {
 .footertitle {
   color: #fff;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 18pt;
-  margin-bottom: 16pt;
+  font-size: 18px;
+  margin-bottom: 16px;
   font-weight: 300;
 }
 
@@ -782,17 +785,17 @@ footer {
   color: rgb(216, 218, 221);
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 100;
-  font-size: 14pt;
-  margin-bottom: 6pt;
+  font-size: 14px;
+  margin-bottom: 6px;
   font-weight: 300;
 }
 
 .footerhr {
-  width: 973pt;
+  width: 973px;
   color: #fff;
   opacity: 0.29;
-  margin-top: 20pt;
-  margin-bottom: 27pt;
+  margin-top: 20px;
+  margin-bottom: 27px;
 }
 
 .footerbottom {
@@ -803,7 +806,7 @@ footer {
 .footerbottomtext {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 100;
-  font-size: 14pt;
+  font-size: 14px;
   color: rgb(216, 218, 221);
   font-weight: 300;
 }
@@ -811,13 +814,13 @@ footer {
 .footersocial{
   display: flex;
   justify-content: space-between;
-  margin-left: 45pt;
+  margin-left: 45px;
 }
 
 .footersocial i {
   color: rgb(216, 218, 221);
-  font-size: 14pt;
-  margin-left: 20pt;
+  font-size: 14px;
+  margin-left: 20px;
   margin-top: 6px;
 }
 
