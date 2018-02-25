@@ -20,11 +20,11 @@
       <div class="carouselitem">Secure Messaging</div>
       <div class="carouselitem">In-App Messaging</div>
     </div>-->
-	<div class="categorytitle centralized">
-		{{ page.title }}
-	</div>
-	<hr class="categoryhr centralized" />
 	<div class="categoryboxcontainer">
+    <div class="categorytitle">
+  		{{ page.title }}
+  	</div>
+  	<hr class="categoryhr" />
     <!-- assign a variable with the title of the CATEGORY so that this page works for all categories -->
     {% assign categoryname = page.title %}
     <!-- use the variable that we assigned in the last line to filter through page. All pages belonging to the cateogry displayed will be rendered -->
@@ -73,7 +73,7 @@
   {% endfor %}
   <!-- some of the box rows below are redundant, meant to house future documents. In the case of a large amount of files in a category, more rows will need to be added. Make sure you adjust the offset accordingly by adding 3 (since every row has 3 boxes). Sizing is handlded by flexbox. -->
   <div class="categoryboxrowaside">
-  {% for page in sorted offset:1 limit:2 %}
+  {% for page in sorted offset:1 limit:1 %}
     {% assign mod = forloop.length | modulo: 2 %}
       {% if mod == 0 %}
       <!--  mod is even, just add a box -->
@@ -136,7 +136,7 @@
   </div>
 </div>
   <div class="categoryboxrow">
-    {% for page in sorted offset:3 limit:3 %}
+    {% for page in sorted offset:2 limit:3 %}
     {% assign mod = forloop.length | modulo: 2 %}
     {% if mod != 0 %}
     <!-- mod is odd -->
@@ -147,7 +147,7 @@
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
       </div>
-        <div class="categoryfirstboxauthor">
+        <div class="categoryboxauthor">
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">
@@ -179,7 +179,7 @@
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
           </div>
-        <div class="categoryfirstboxauthor">
+        <div class="categoryboxauthor">
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">
@@ -203,7 +203,7 @@
   {% endfor %}
   </div>
   <div class="categoryboxrow">
-    {% for page in sorted offset:6 limit:3 %}
+    {% for page in sorted offset:5 limit:3 %}
     {% assign mod = forloop.length | modulo: 2 %}
     {% if mod == 0 %}
     <!-- mod is even -->
@@ -214,7 +214,7 @@
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
           </div>
-        <div class="categoryfirstboxauthor">
+        <div class="categoryboxauthor">
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">
@@ -243,7 +243,7 @@
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
         </div>
-        <div class="categoryfirstboxauthor">
+        <div class="categoryboxauthor">
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">
@@ -269,7 +269,7 @@
     {% endfor %}
   </div>
   <div class="categoryboxrow">
-    {% for page in sorted offset:9 limit:3 %}
+    {% for page in sorted offset:8 limit:3 %}
     {% assign mod = forloop.length | modulo: 2 %}
     {% if mod == 0 %}
     <!-- mod is even -->
@@ -280,7 +280,7 @@
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
           </div>
-        <div class="categoryfirstboxauthor">
+        <div class="categoryboxauthor">
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">
@@ -310,7 +310,7 @@
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
         </div>
-        <div class="categoryfirstboxauthor">
+        <div class="categoryboxauthor">
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">
@@ -337,7 +337,7 @@
     {% endfor %}
   </div>
   <div class="categoryboxrow">
-    {% for page in sorted offset:12 limit:3 %}
+    {% for page in sorted offset:11 limit:3 %}
     {% assign mod = forloop.length | modulo: 2 %}
     {% if mod == 0 %}
     <!-- mod is even -->
@@ -348,7 +348,7 @@
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
         </div>
-        <div class="categoryfirstboxauthor">
+        <div class="categoryboxauthor">
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">
@@ -378,7 +378,7 @@
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
           </div>
-        <div class="categoryfirstboxauthor">
+        <div class="categoryboxauthor">
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">
@@ -406,7 +406,7 @@
   </div>
 
   <div class="categoryboxrow">
-    {% for page in sorted offset:15 limit:3 %}
+    {% for page in sorted offset:14 limit:3 %}
     {% assign mod = forloop.length | modulo: 2 %}
     {% if mod == 0 %}
     <!-- mod is even -->
@@ -417,7 +417,7 @@
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
         </div>
-        <div class="categoryfirstboxauthor">
+        <div class="categoryboxauthor">
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">
@@ -447,7 +447,76 @@
         <div class="categoryboxtitle">{{ page.title }}</div>
         <div class="categoryboxtext">{{ page.summary }}</div>
           </div>
-        <div class="categoryfirstboxauthor">
+        <div class="categoryboxauthor">
+          <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
+          <div class="articledetails">
+            <div class="boxauthorname">
+              {% if page.authorname != null %}
+            {{ page.authorname }} &bull; {{ page.authortitle }}
+            {% else %}
+            LivePerson Team
+            {% endif %}
+            </div>
+            <div class="documentdetails">
+              Last updated {{ page.last_modified_at | date: '%D' }} &bull; {{ page.readtime }} read
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </a>
+    {% if forloop.length == 1 %}
+    <div class="flexholder"></div>
+    <div class="flexholder"></div>
+    {% endif %}
+
+  {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="categoryboxrow">
+    {% for page in sorted offset:17 limit:3 %}
+    {% assign mod = forloop.length | modulo: 2 %}
+    {% if mod == 0 %}
+    <!-- mod is even -->
+  <a href="/{{ page.title | slugify }}.html">
+    <div class="categorybox">
+      <div class="categoryboximage"><img class="categoryboximg" src="img/how-to-set-up-a-twilio-sms-connector.png"></div>
+      <div class="categoryboxcontent">
+        <div class="categoryboxtitle">{{ page.title }}</div>
+        <div class="categoryboxtext">{{ page.summary }}</div>
+        </div>
+        <div class="categoryboxauthor">
+          <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
+          <div class="articledetails">
+            <div class="boxauthorname">
+              {% if page.authorname != null %}
+            {{ page.authorname }} &bull; {{ page.authortitle }}
+            {% else %}
+            LivePerson Team
+            {% endif %}
+            </div>
+            <div class="documentdetails">
+              Last updated {{ page.last_modified_at | date: '%D' }} &bull; {{ page.readtime }} read
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </a>
+    {% if forloop.last == true %}
+      <div class="flexholder"></div>
+    {% endif %}
+    {% else %}
+    <!-- mod is odd -->
+  <a href="/{{ page.title | slugify }}.html">
+    <div class="categorybox">
+      <div class="categoryboximage"><img class="categoryboximg" src="img/how-to-set-up-a-twilio-sms-connector.png"></div>
+      <div class="categoryboxcontent">
+        <div class="categoryboxtitle">{{ page.title }}</div>
+        <div class="categoryboxtext">{{ page.summary }}</div>
+          </div>
+        <div class="categoryboxauthor">
           <div class="boxauthorimage"><img src="img/{{ page.authorname | slugify }}.png"></div>
           <div class="articledetails">
             <div class="boxauthorname">

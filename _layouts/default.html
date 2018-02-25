@@ -30,9 +30,45 @@
   <div class="page-wrap">
   	{% include topnav.html %} <!-- Page Content -->
   	<div class="pagecontainer">
-  		<div class="pageheader">
-  			<div class="pageimage" style="background: linear-gradient(rgba(47, 72, 131, 0.75), rgba(47, 72, 131, 0.75)), url( '{{ site.url }}/img/how-to-set-up-a-twilio-sms-connector.png' );background-size: cover;background-position: center center;"></div>
-  		</div>
+    <div class="pageheader">
+      <div class="breadcrumbsknowledge">
+        <div class="breadcrumbsitem"><a href="/index.html">All Categories</a></div>
+        <span class="breadcrumbsslash">/</span>
+        <div class="breadcrumbsitem"> <a href="/{{ page.level3 | slugify }}.html">{{ page.level3}}</a></div>
+        <span class="breadcrumbsslash">/</span>
+        <div class="breadcrumbsitem">{{ page.title}}</div>
+      </div>
+        <div class="pagetitle">
+          {{ page.title }}
+        </div>
+        {% if page.summary %}
+         <div class="summary">{{page.summary}}</div>
+        {% endif %}
+        <div class="articleheader">
+          <div class="authorcontainer">
+          <div class="authorimage">
+            {% if page.authorname != null %}
+            <img src="img/{{ page.authorname | slugify }}.png" /></div>
+            {% else %}
+            <img src="img/avatar.png" />
+            {% endif %}
+          <div class="authordetails">
+            <div class="authorname">
+            {% if page.authorname != null %}
+            {{ page.authorname }}, {{ page.authortitle }}, LivePerson
+            {% else %}
+            LivePerson Team
+            {% endif %}
+            </div>
+            <div class="pagecategory">
+              <a href="{{ page.level3 | slugify | append: ".html" }}">{{ page.level3 }}</a> &bull; {{ page.readtime | append: " read" }}
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  			<div class="pageimage" style="background: url( '{{ site.url }}/img/how-to-set-up-a-twilio-sms-connector.png' );background-size: cover;background-position: center center;"></div> <!-- these styles are inline so that we can use jekyll variables for the URL-->
+      </div>
       <div class="scrollbar">
         <ul id="scrollbarlist" class="scrollbarlist">
 

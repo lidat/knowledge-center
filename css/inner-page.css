@@ -30,9 +30,9 @@ a:hover, a:focus {
 }
 
 .site-footer {
-  height: 420pt;
+  height: 420px;
   display: block;
-  margin-top: 50pt;
+  margin-top: 88px;
   box-sizing: border-box;
   position: relative;
   width: 100%;
@@ -48,20 +48,21 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
 h2[id] {
   color: #162036;
   font-family: Roboto,Arial;
-  font-size: 18pt;
+  font-size: 18px;
   margin-bottom: 0;
   margin-top: 30px;
 }
 h3[id]{
   font-family: "Roboto",Arial,Helvetica,sans-serif;
   color: rgb(74, 74, 74);
-  font-size: 16pt;
+  font-size: 16px;
   font-weight: bold;
+  margin-top: 44px;
 }
 h4[id]{
   font-family: Roboto, Arial;
   color:#5879da;
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -699,7 +700,7 @@ pre {
   justify-content: space-between;
   width: 100%;
   background-color: rgb(20, 32, 53);
-  min-height: 67.5pt;
+  min-height: 67.5px;
   align-items: center;
 }
 
@@ -710,15 +711,15 @@ pre {
 }
 
 .navlogo img {
-  margin-left: 81pt;
-  width: 205pt;
+  margin-left: 81px;
+  width: 205px;
 }
 
 .navrest {
   display: flex;
   flex: 1;
   align-items: center;
-  margin-right: -108pt;
+  margin-right: -108px;
 }
 
 .aa-input-search {
@@ -730,16 +731,16 @@ pre {
   width: 100%;
   background: none;
   border: solid 1px #9B9B9B;
-  border-radius: 4pt;
-  height: 39pt;
+  border-radius: 4px;
+  height: 39px;
 }
 
 #aa-search-input {
   font-style: italic;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 13pt;
+  font-size: 13px;
   height: 39px;
-  width: 163.5pt;
+  width: 163.5px;
   font-weight: 300;
 }
 
@@ -753,9 +754,9 @@ pre {
 .navcontactus {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: #fff;
-  font-size: 14pt;
-  margin-left: 122pt;
-  margin-right: 41pt;
+  font-size: 14px;
+  margin-left: 122px;
+  margin-right: 41px;
   font-weight: 100;
 }
 
@@ -763,7 +764,7 @@ pre {
   flex: 2;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: #fff;
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: 100;
 }
 
@@ -778,40 +779,54 @@ pre {
 .pageheader {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%
+  width: 37%;
+  margin-top: 37px;
+}
+
+.breadcrumbsknowledge {
+  display: flex;
+}
+
+.breadcrumbsitem {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #9b9b9b;
+}
+
+.breadcrumbsslash {
+  color: #5879da;
+  font-size: 12px;
+  margin: 0 9px 0 9px;
 }
 
 .pagecategory {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 12pt;
+  font-size: 12px;
   color: #9B9B9B;
   font-weight: 300;
   align-self: center;
-  margin-top: 40px;
 }
 
 .pagetitle {
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
-  font-size: 28pt;
+  font-size: 28px;
   color: #000000;
-  margin-top: 9pt;
-  margin-bottom: 12pt;
+  margin-top: 38px;
+  margin-bottom: 9px;
   font-weight: 300;
-  align-self: center;
 }
 
 .pagehr{
   width: 3%;
   background: rgb(18, 26, 43);
-  height: 3pt;
+  height: 3px;
 }
 
 .pageimage {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 330pt;
+  height: 330px;
 }
 
 .scrollbarlist .active {
@@ -820,13 +835,13 @@ pre {
 
 .scrollbar {
   align-self: flex-start;
-  margin-left: 40pt;
+  margin-left: 40px;
   width: 18%;
 }
 
 
 .scrollbarlist {
-  font-size: 14pt;
+  font-size: 14px;
   color: rgb(155, 155, 155);
   font-family: "Roboto",Arial,Helvetica,sans-serif;
   line-height: 2;
@@ -838,9 +853,9 @@ pre {
 .scrollbarlist > li::before {
   content: '|';
   color: rgb(155, 155, 155);
-  font-size: 14pt;
-  margin-right: 12pt;
-  margin-left: -15pt;
+  font-size: 14px;
+  margin-right: 12px;
+  margin-left: -15px;
 }
 
 .scroll-to-fixed-fixed {
@@ -849,7 +864,7 @@ pre {
 
 .pagecontent {
   position: relative;
-  top: -300px;
+  top: -245px;
 }
 
 .pagecontentnotfound {
@@ -859,15 +874,16 @@ pre {
 
 .post-content {
   background-color: #ffffff;
-  padding: 0 75pt;
-  width: 894pt;
+  padding: 0 75px;
+  width: 894px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .post-content img {
-  margin-top: 25pt;
-  margin-bottom: 25pt;
+  margin-top: 25px;
+  margin-bottom: 25px;
   display: block;
   margin: 0 auto;
   margin-top: 20px;
@@ -881,18 +897,19 @@ p ~ img {
 .imagetext {
   margin: 0 auto;
   width: 35%;
-  font-size: 12pt;
+  font-size: 12px;
   font-weight: bold;
   text-align: center;
 }
 
 .summary {
   border: none;
-  font-size: 28pt;
+  font-size: 16px;
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
-  color: #000000;
+  color: #9b9b9b;
   padding-left: 0;
   font-weight: 300;
+  margin: 0;
 }
 
 .summary:before {
@@ -902,38 +919,43 @@ p ~ img {
 .articleheader {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  width: 100%;
+}
+
+.authorcontainer {
+  display: flex;
 }
 
 .authordetails {
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
-  font-size: 12pt;
+  font-size: 12px;
   color: rgb(74, 74, 74);
-  width: 30%;
   line-height: 1.8;
   font-weight: 300;
+  margin-top: 22px;
+  margin-left: 15px;
 }
 
 .authorimage img {
-  margin-top: 22pt;
+  margin-top: 22px;
   border-radius: 50%;
-  width: 47pt;
-  height: 47pt;
+  width: 47px;
+  height: 47px;
+  margin-bottom: 43px;
 }
 
 .posttext {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 14pt;
+  font-size: 14px;
   color: rgb(74, 74, 74);
-  padding-right: 35pt;
+  padding-right: 35px;
   line-height: 2;
   font-weight: 300;
 }
 
 .tags {
   padding: 0;
-  margin-bottom: 100pt;
+  margin-bottom: 100px;
 }
 
 .tags a {
@@ -946,20 +968,20 @@ p ~ img {
 
 .tagbutton {
   background-color: rgb(247, 240, 240);
-  border-radius: 4pt;
+  border-radius: 4px;
   border: none;
   flex: 1;
-  padding: 10pt 8pt 10pt 8pt;
-  font-size: 14pt;
+  padding: 10px 8px 10px 8px;
+  font-size: 14px;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   text-align: center;
-  margin-right: 32pt;
-  margin-top: 8pt;
-  width: 115pt;
+  margin-right: 32px;
+  margin-top: 8px;
+  width: 115px;
 }
 
 footer {
-  min-height: 420pt;
+  min-height: 420px;
   margin: 0;
 }
 
@@ -973,7 +995,7 @@ footer {
 .footertop {
   display: flex;
   width: 63%;
-  margin-top: 50pt;
+  margin-top: 50px;
 }
 
 .footercategories {
@@ -981,7 +1003,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-right: 105pt;
+  margin-right: 105px;
 }
 
 .footerresources {
@@ -989,7 +1011,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-right: 105pt;
+  margin-right: 105px;
 }
 
 .footercompany {
@@ -1002,8 +1024,8 @@ footer {
 .footertitle {
   color: #fff;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 18pt;
-  margin-bottom: 16pt;
+  font-size: 18px;
+  margin-bottom: 16px;
   font-weight: 300;
 }
 
@@ -1012,17 +1034,17 @@ footer {
   color: rgb(216, 218, 221);
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 100;
-  font-size: 14pt;
-  margin-bottom: 6pt;
+  font-size: 14px;
+  margin-bottom: 6px;
   font-weight: 300;
 }
 
 .footerhr {
-  width: 973pt;
+  width: 973px;
   color: #fff;
   opacity: 0.29;
-  margin-top: 20pt;
-  margin-bottom: 27pt;
+  margin-top: 20px;
+  margin-bottom: 27px;
 }
 
 .footerbottom {
@@ -1033,7 +1055,7 @@ footer {
 .footerbottomtext {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-weight: 100;
-  font-size: 14pt;
+  font-size: 14px;
   color: rgb(216, 218, 221);
   font-weight: 300;
 }
@@ -1041,7 +1063,7 @@ footer {
 .footersocial{
   display: flex;
   justify-content: space-between;
-  margin-left: 45pt;
+  margin-left: 45px;
 }
 
 .slick-prev:before, .slick-next:before {
@@ -1050,8 +1072,8 @@ footer {
 
 .footersocial i {
   color: rgb(216, 218, 221);
-  font-size: 14pt;
-  margin-left: 20pt;
+  font-size: 14px;
+  margin-left: 20px;
   margin-top: 6px;
 }
 
@@ -1062,8 +1084,8 @@ footer {
 .relatedrow {
   display: flex;
   justify-content: space-between;
-  margin-left: 80pt;
-  margin-right: 80pt;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .relatedbox {
@@ -1071,9 +1093,9 @@ footer {
   display: flex;
   justify-content: space-between;
   border: 1px solid rgb(230, 230, 230);
-  margin-right: 22pt;
-  height: 242pt;
-  padding-right: 77pt;
+  margin-right: 22px;
+  height: 242px;
+  padding-right: 77px;
 }
 
 .relatedimage {
@@ -1090,23 +1112,23 @@ footer {
   flex: 2;
   display: flex;
   flex-direction: column;
-  margin-left: 21pt;
+  margin-left: 21px;
 }
 
 .relatedtitle {
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
-  font-size: 16pt;
+  font-size: 16px;
   color: rgb(0, 0, 0);
-  margin-top: 16pt;
+  margin-top: 16px;
   font-weight: 300;
 }
 
 .relatedarticlecontent{
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 14pt;
+  font-size: 14px;
   color: rgb(74, 74, 74);
-  margin-top: 8pt;
-  margin-bottom: 11pt;
+  margin-top: 8px;
+  margin-bottom: 11px;
   font-weight: 300;
 }
 
@@ -1120,22 +1142,22 @@ footer {
 }
 
 .relatedauthorimage {
-  margin-right: 13pt;
-  margin-top: 4pt;
+  margin-right: 13px;
+  margin-top: 4px;
 }
 
 .relatedauthorname {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 12pt;
+  font-size: 12px;
   color: rgb(74, 74, 74);
   font-weight: 300;
 }
 
 .relatedarticledetails {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 12pt;
+  font-size: 12px;
   color: rgb(155, 155, 155);
-  margin-bottom: 10pt;
+  margin-bottom: 10px;
   font-weight: 300;
 }
 
@@ -1167,40 +1189,40 @@ footer {
 
 .warning {
   font-family: "Open Sans","Roboto Slab",Arial,Helvetica,sans-serif;
-  font-size: 14pt;
+  font-size: 14px;
   color: rgb(74, 74, 74);
-  border: 1pt solid #FF9797;
+  border: 1px solid #FF9797;
   background-color: rgb(255, 237, 233);
   padding: 0 15px 0 15px;
-  margin-top: 7pt;
-  margin-bottom: 7pt;
-  border-radius: 8pt;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 8px;
   display: inline-block;
 }
 
 .note {
   font-family: "Open Sans","Roboto Slab",Arial,Helvetica,sans-serif;
-  font-size: 14pt;
+  font-size: 14px;
   color: rgb(74, 74, 74);
-  border: 1pt solid rgb(195, 234, 199);
+  border: 1px solid rgb(195, 234, 199);
   background-color: rgb(240, 254, 240);
   padding: 0 15px 0 15px;
-  margin-top: 7pt;
-  margin-bottom: 7pt;
-  border-radius: 8pt;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 8px;
   display: inline-block;
 }
 
 .bestpractice {
   font-family: "Open Sans","Roboto Slab",Arial,Helvetica,sans-serif;
-  font-size: 14pt;
+  font-size: 14px;
   color: rgb(74, 74, 74);
-  border: 1pt solid #9B9BFF;
+  border: 1px solid #9B9BFF;
   background-color: rgb(240, 243, 254);
   padding: 0 15px 0 15px;
-  margin-top: 7pt;
-  margin-bottom: 7pt;
-  border-radius: 8pt;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 8px;
   display: inline-block;
 }
 
@@ -1208,8 +1230,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 63pt;
-  margin-top: -620px;
+  margin-bottom: 63px;
+  margin-top: -230px;
 }
 
 .feedbackrowhidden {
@@ -1224,13 +1246,13 @@ footer {
 .feedbacktitle {
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   color: #000000;
-  margin-bottom: 20pt;
+  margin-bottom: 20px;
 }
 
 .feedbackrowalternate {
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   color: #000000;
-  font-size: 20pt;
+  font-size: 20px;
   opacity: 0;
   transition: all 0.5s ease;
   display: none;
@@ -1241,16 +1263,16 @@ footer {
   display: block;
   margin: 0 auto;
   width: 455px;
-  margin-bottom: 137pt;
+  margin-bottom: 137px;
 }
 
 .thumbsup, .thumbsdown {
   border: 0px solid #ffffff;
   background-color: rgb(242, 252, 255);
   border-radius: 50%;
-  width: 66pt;
-  height: 66pt;
-  font-size: 34pt;
+  width: 66px;
+  height: 66px;
+  font-size: 34px;
 }
 
 .thumbsdown {
@@ -1263,17 +1285,17 @@ footer {
 }
 
 .thumbsup {
-  margin-right: 90pt;
+  margin-right: 90px;
   transition: all 0.5s ease;
 }
 
 .thumbsupclicked {
-  transform: translate(105px, 0px);
+  transform: translate(72px, 0px);
   background-color: #162036;
   color: #fff;
 }
 
 .flexholder {
-  flex: 1;
+  width: 410px;
   visibility: hidden;
 }

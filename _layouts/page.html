@@ -29,32 +29,8 @@ layout: default
 {% endif %}
 
 <div class="post-content">
-  <div class="pagecategory">
-    <a href="{{ page.level3 | slugify | append: ".html" }}">{{ page.level3 }}</a> &bull; {{ page.readtime | append: " read" }}
-  </div>
-  <div class="pagetitle">
-    {{ page.title }}
-  </div>
-  <hr class="pagehr">
-  <div class="articleheader">
-    <div class="authorimage">
-      {% if page.authorname != null %}
-      <img src="img/{{ page.authorname | slugify }}.png" /></div>
-      {% else %}
-      <img src="img/avatar.png" /></div>
-      {% endif %}
-    <div class="authordetails">
-      {% if page.authorname != null %}
-      {{ page.authorname }}, {{ page.authortitle }}, LivePerson
-      {% else %}
-      LivePerson Team
-      {% endif %}
-    </div>
-  </div>
 
-   {% if page.summary %}
-    <div class="summary">{{page.summary}}</div>
-   {% endif %}
+
 
     {% unless page.toc == false %}
     {% include toc.html %}

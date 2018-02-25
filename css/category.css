@@ -5,15 +5,15 @@ body {
 .categorycontainer {
   width: 60%;
   margin: auto;
-  margin-bottom: 50pt;
+  margin-bottom: 50px;
 }
 
 .categorycarousel {
   display: flex;
-  margin-top: 36pt;
-  margin-bottom: 53pt;
+  margin-top: 36px;
+  margin-bottom: 53px;
   width: 157%;
-  right: 229pt;
+  right: 229px;
 }
 
 /*.slick-track {
@@ -23,7 +23,7 @@ body {
 .carouselitem {
   text-transform: uppercase;
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
-  font-size: 15pt;
+  font-size: 15px;
   color: rgb(155, 155, 155);
   flex: 1;
   font-weight: 300;
@@ -31,22 +31,26 @@ body {
 }
 
 .categoryboxcontainer {
+  width: 78%;
+  margin: 0 auto;
 }
 
 .categorytitle{
   color: rgb(0, 0, 0);
-  font-size: 28pt;
+  font-size: 28px;
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   letter-spacing: 0.50px;
   margin-top: 100px;
+  margin-left: 185px;
 }
 
 .categoryhr{
-  width: 50pt;
-  min-height: 3pt;
+  width: 50px;
+  min-height: 3px;
   background-color: rgb(18, 26, 43);
   margin-bottom: 40px !important;
   margin-top: 20px !important;
+  margin-left: 187px;
 }
 
 .categoryfirstbox {
@@ -64,7 +68,7 @@ body {
 
 .categoryfirstboximg {
   width: 100%;
-  height: 50%;
+  height: 233px;
 }
 
 .categoryfirstboxcontent {
@@ -72,25 +76,26 @@ body {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  padding-right: 159pt;
+  height: 100%;
+  padding-right: 159px;
 }
 
 .categoryfirstboxtitle{
-  font-size: 28pt;
+  font-size: 28px;
   color: rgb(0, 0, 0);
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
-  margin-bottom: 8pt;
-  margin-top: 20pt;
-  margin-left: 32pt;
+  margin-bottom: 8px;
+  margin-top: 20px;
+  margin-left: 32px;
   font-weight: 300;
 }
 
 .categoryfirstboxtext {
-  font-size: 14pt;
+  font-size: 14px;
   color: rgb(74, 74, 74);
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  margin-bottom: 22pt;
-  margin-left: 32pt;
+  margin-bottom: 22px;
+  margin-left: 32px;
   line-height: 2;
   font-weight: 300;
 }
@@ -98,43 +103,52 @@ body {
 .categoryfirstboxauthor {
   display: flex;
   justify-content: flex-start;
-  margin-top: auto;
+  margin-top: 123px;
+  height: 100%;
+}
+
+.categoryboxauthor {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 94px;
+  height: 100%;
 }
 
 .categoryfirstboxauthor img {
-  width: 33pt !important;
-  height: 33pt !important;
+  width: 33px !important;
+  height: 33px !important;
   border-radius: 50%;
 }
 
 .authorname {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 12pt;
+  font-size: 12px;
   color: rgb(74, 74, 74);
 }
 
 .categoryimage img {
   margin-top: 0 !important;
-  margin-right: 13pt;
-  margin-left: 32pt;
+  margin-right: 13px;
+  margin-left: 32px;
 }
 
 .articledetails {
-  margin-top: 1px;
+  margin-top: -2px;
 }
 
 .categoryboxrow{
   display: flex;
   margin: 0 auto;
-  justify-content: space-between;
-  width: 78%;
+  justify-content: center;
 }
 
 .categoryboxrow a{
   display: flex;
-  flex: 1;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-right: 25px;
+  width: 410px;
+  height: 443px;
+  margin-bottom: 64px;
 }
 
 .categoryboxrow a:last-child {
@@ -150,31 +164,27 @@ body {
   margin: 0 auto;
   margin-bottom: 50px;
   width: 78%;
+  justify-content: center;
 }
 
 .categoryboxrowfirst a{
   display: flex;
-  flex: 2;
+  flex: 0 0 845px;
+  height: 433px;
 }
 
 .categoryboxrowaside {
   display: flex;
-  flex-direction: column;
-  margin-left: 12px;
-  flex: 1;
+  width: 410px;
+  margin-left: 25px;
 }
 
 .categoryboxrowaside a{
   display: flex;
-  flex: 1;
-  height: 297px;
+  height: 433px;
   background-color: #fff;
-  margin-left: 13px;
+  flex: 0 0 410px;
 
-}
-
-.categoryboxrowaside a:first-child {
-  margin-bottom: 30px;
 }
 
 .categoryboxaside{
@@ -187,27 +197,18 @@ body {
 }
 
 categoryboxtitleaside {
-  font-size: 13pt;
+  font-size: 13px;
 }
 
 .categorybox {
   flex: 1;
-  margin-top: 21pt;
-  /*margin-right: 25px;*/
-  margin-bottom: 21pt;
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding-bottom: 30px;
 }
 
 .categoryboxaside img {
-  height: 50%;
-}
-
-.categoryboxaside .categoryboxcontent {
-  overflow: hidden;
-  height: 50%
+  height: 233px;
 }
 
 .categoryboximage {
@@ -217,55 +218,55 @@ categoryboxtitleaside {
 
 .categoryboximg {
   width: 100%;
-  height: 100%;
+  height: 232px;
 }
 
 .categoryboxcontent {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   flex-direction: column;
-  padding: 25px 35px 10px 40px;
+  margin-top: 20px;
+  margin-left: 24px;
+  height: 100%;
 }
 
 .categoryboxtitle {
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
-  font-size: 16pt;
+  font-size: 16px;
   color: rgb(0, 0, 0);
-  /*margin-top: 20pt;*/
-  margin-bottom: 8pt;
-  /*margin-left: 23pt;*/
+  /*margin-top: 20px;*/
+  margin-bottom: 8px;
+  /*margin-left: 23px;*/
   font-weight: 300;
+  width: 100%;
 }
 
 .categoryboxtext {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 14pt;
+  font-size: 14px;
   color: rgb(74, 74, 74);
   line-height: 1.7;
-  margin-bottom: 5pt;
-  /*margin-left: 24pt;*/
+  margin-bottom: 5px;
+  /*margin-left: 24px;*/
   font-weight: 300;
+  width: 100%;
 }
 
-.boxauthorimage {
-  margin-top: 22pt;
-  margin-right: 13pt;
+.boxauthorimage img {
+  margin-right: 13px;
   border-radius: 50%;
-  width: 33pt;
-  height: 33pt;
-  margin-left: 27pt;
+  width: 33px;
+  height: 33px;
+  margin-left: 27px;
 }
 
 .boxauthorname {
-  margin-top: 22pt;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: rgb(74, 74, 74);
-  font-size: 12pt;
+  font-size: 12px;
 }
 
 .documentdetails {
-  font-size: 12pt;
+  font-size: 12px;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: rgb(155, 155, 155);
   font-weight: 300;
@@ -277,17 +278,17 @@ categoryboxtitleaside {
   display: flex;
   flex-direction: column;
   width: 12%;
-  margin-top: 94pt;
+  margin-top: 94px;
 }
 
 .backtotop:hover {
   text-decoration: none;
 }
 
-.backtotoptext {
+.backtotopxext {
   text-transform: uppercase;
   color: rgb(155, 155, 155);
-  font-size: 15pt;
+  font-size: 15px;
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   font-weight: 300;
 }
@@ -295,7 +296,7 @@ categoryboxtitleaside {
 .backtotop i {
   margin-left: 0;
   color: rgb(155, 155, 155);
-  font-size: 34pt;
+  font-size: 34px;
 }
 
 .slick-next {
@@ -342,4 +343,9 @@ categoryboxtitleaside {
 
 .login-success .loginbutton:after {
   content: "Login Successful";
+}
+
+.site-footer {
+  width: 100vw !important;
+  left: calc(-50vw + 50%);
 }
