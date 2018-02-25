@@ -5,7 +5,7 @@ level2: Data
 level3: Security
 readtime: "4 min"
 level-order: 1
-order: 1
+order: 3
 permalink: securing-your-liveengage-account.html
 summary: "In order for the online marketplace to thrive, businesses and consumers alike need to be assured that their sensitive data is well protected."
 authorname: "Rotem Abir"

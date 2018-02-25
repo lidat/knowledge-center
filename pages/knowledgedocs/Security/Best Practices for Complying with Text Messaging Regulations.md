@@ -5,7 +5,7 @@ level2: Data
 level3: Security
 readtime: "7 min"
 level-order: 1
-order: 1
+order: 2
 permalink: complying-with-text-messaging-regulations.html
 summary: "Ensuring the privacy of consumers during messaging conversations is at the forefront of many telecommunication regulations."
 authorname: "James Brown"

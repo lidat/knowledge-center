@@ -7,7 +7,7 @@ readtime: "4 min"
 level-order: 1
 order: 1
 permalink: the-meaningful-connection-score.html
-summary: "MCS ccurately and automatically measures the quality of the connection between brands and the entire consumer audience."
+summary: "MCS accurately and automatically measures the quality of the connection between brands and the entire consumer audience."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
 tags: ['#csat','#data', "#reports"]

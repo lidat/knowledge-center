@@ -1,14 +1,14 @@
 ---
-title: Collect sensitive information securely over chat
+title: Collect sensitive information securely
 level1: Documents
 level2: Data
 level3: Security
 readtime: "2 min"
 level-order: 1
-order: 1
-permalink: collect-sensitive-information-securely-over-chat.html
+order: 4
+permalink: collect-sensitive-information-securely.html
 root-link: true
-summary: "Collect sensitive information such as credit card or social security numbers securely over chat using LiveEngage secure form."
+summary: "Collect sensitive information such as credit card or social security numbers securely using LiveEngage secure form."
 authorname: "Goor Cohen"
 authortitle: "Product Expert in Visitor Experience"
 tags: ['#bestpractices', '#sales', '#marketing', '#inappmessaging']
