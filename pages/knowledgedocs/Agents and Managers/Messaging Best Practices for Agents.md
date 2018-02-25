@@ -2,7 +2,7 @@
 title: Messaging Best Practices for Agents
 level1: Documents
 level2: Data
-level3: Messaging Operations
+level3: Agents and Managers
 readtime: "5 min"
 level-order: 1
 order: 1

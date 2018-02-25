@@ -2,7 +2,7 @@
 title: Hiring Agents for Messaging Success
 level1: Documents
 level2: Data
-level3: Messaging Operations
+level3: Agents and Managers
 readtime: "9 min"
 level-order: 1
 order: 1

@@ -2,7 +2,7 @@
 title: Best Practices for Predefined Content
 level1: Documents
 level2: Data
-level3: Messaging Operations
+level3: Getting Started with Messaging
 readtime: "5 min"
 level-order: 1
 order: 1
