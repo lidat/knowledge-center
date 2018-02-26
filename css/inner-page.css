@@ -874,7 +874,7 @@ pre {
 
 .post-content {
   background-color: #ffffff;
-  padding: 0 75px;
+  padding: 75px 75px 0 75px;
   width: 894px;
   display: flex;
   flex-direction: column;
