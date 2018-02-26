@@ -59,19 +59,21 @@ $(document).ready(function() {
   });
 
 //login with LP API
-$('.loginform').submit(function () { //trigger the function when form is submitted
-  event.preventDefault(); //prevent the form from sending regularly
-  var $form = $(this), //defining a bunch of variables based on form input
+$('#loginbtn').click(function (event) { //trigger the function when form is submitted
+  var $form = $("#loginform"), //defining a bunch of variables based on form input
     actnum = $form.find("input[name='account_number']").val(),
     user = $form.find("input[name='user_name']").val(),
     pass = $form.find("input[name='password']").val();
   //call the domain API to get the domain for the login API
-  var domain = $.get( 'http://api.liveperson.net/api/account/' + $(actnum).val() + '/service/agentVep/baseURI.json?version=1.0');
-    //the actual post method to the Login API using the values from the form
-  var posting = $.post(url, { username: $(user).val(), password: $(pass).val() });
-  posting.done(function () { //when posting is done, trigger this function
-      $('.loginform').addClass('login-success'); //if 200, add this class
-  }).fail(function () {
-      $('.loginform').addClass('login-failed'); //otherwise, add this class
+ $.get( 'https://api.liveperson.net/api/account/' + $(actnum).val() + '/service/agentVep/baseURI.json?version=1.0').done( (domainResponse) => {
+      var domain = domainResponse.baseURI;
+      //the actual post method to the Login API using the values from the form
+    var posting = $.post(`https://${domain}/api/account/${actnum}/login?v=1.3`, { username: user, password: pass });
+    posting.done(() => { //when posting is done, trigger this function
+        $('.loginform').addClass('login-success'); //if 200, add this class
+    }).fail(function () {
+        $('.loginform').addClass('login-failed'); //otherwise, add this class
+    });
   });
+
 })
