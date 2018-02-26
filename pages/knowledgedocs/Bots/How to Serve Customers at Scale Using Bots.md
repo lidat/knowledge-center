@@ -1,23 +1,23 @@
 ---
-title: Let Bots Serve Your Customers
+title: How to Serve Customers At Scale Using Bots
 level1: Documents
 level2: Data
 level3: Bots
 readtime: "6 min"
 level-order: 1
 order: 1
-permalink: let-bots-serve-your-customers.html
+permalink: how-to-serve-customers-at-scale-using-bots.html
 root-link: true
 
-summary: "A guide to building a conversational business for your brand in order to serve consumers at scale."
+summary: "Chat and messaging services can scale significantly with automation to help your business embrace conversational commerce.  Learn how enterprises use bots to enhance digital care and sales processes to deliver high-quality customer interactions."
 authorname: "Elana Roth"
 authortitle: "Product Communications Expert"
 tags: ['#bestpractices', '#ivrdeflection', '#support', '#intent', '#routing']
 ---
 
-Bots are key to building a conversational business and a conversational platform can help you manage messaging operations at scale.
+Chat and messaging services can scale significantly with automation. Learn how to use bots to enhance digital care and sales processes, deliver high-quality customer interactions, and transform into a conversational business.
 
-### What is conversational business
+### What is conversational commerce
 
 As the mobile revolution continues to sweep the world beyond apps and the web, the way people communicate has transformed. One major change has been the way people communicate with friends and family: people have stopped calling each other and started messaging each other instead.  In fact, 90% of peoples’ day-to-day conversations uses messaging - which is asynchronous by nature and allows people to engage on their own schedule.
 
