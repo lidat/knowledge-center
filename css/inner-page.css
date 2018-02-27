@@ -826,7 +826,7 @@ pre {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 330px;
+  height: 396px;
 }
 
 .scrollbarlist .active {
@@ -864,7 +864,9 @@ pre {
 
 .pagecontent {
   position: relative;
-  top: -245px;
+  top: -310px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .pagecontentnotfound {
