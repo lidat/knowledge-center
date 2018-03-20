@@ -152,7 +152,7 @@ fields:
   hidden: false
   default: ''
 - name: level2
-  label: Level2
+  label: collection
   type: text
   hidden: false
   default: ''
