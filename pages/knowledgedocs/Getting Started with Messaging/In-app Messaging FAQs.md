@@ -3,17 +3,31 @@ title: In-app Messaging FAQs
 level1: Documents
 level2: Data
 level3: Getting Started with Messaging
-readtime: "6 min"
+readtime: 6 min
 level-order: 1
 order: 1
 permalink: in-app-messaging-faqs.html
-summary: "LivePerson is here to help you get started with In-app Messaging at scale for your contact center operations"
-authorname: "Ariel Ornstein"
-authortitle: "Product Expert, In-app Messaging SDK"
-tags: ['#bestpractices','#inappmessaging']
+summary: LivePerson is here to help you get started with In-app Messaging at scale
+  for your contact center operations
+authorname: Ariel Ornstein
+authortitle: Product Expert, In-app Messaging SDK
+tags:
+- "#bestpractices"
+- "#inappmessaging"
+search: false
+layout: page
+notfound: false
+root-link: false
+indicator: ''
+keywords: ''
+tagName: ''
+type: ''
+last_updated: ''
+comments: false
 ---
-
 Check out our FAQs when it comes to the use of In-app messaging within LiveEngage. For the latest technical documentation, please visit our [developer community](https://developers.liveperson.com/index.html).
+
+TEST LINE
 
 ### Configuring Messaging
 
