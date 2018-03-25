@@ -1,0 +1,44 @@
+.pagecontainer {
+  margin-bottom: 47vh;
+}
+
+.pagecontent {
+  margin-top: 0px;
+}
+
+table {
+  max-width: 100%;
+}
+
+table > thead > tr > th {
+  background-color: #162036;
+}
+
+table td:first-child {
+  width: 250px;
+}
+
+.tagsbutton {
+  font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
+  color: #9B9B9B;
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.tagsopening {
+  display:inline-block;
+  font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #0645AD;
+}
+
+a:hover {
+  text-decoration: underline;
+}
