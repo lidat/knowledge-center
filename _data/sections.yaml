@@ -1,65 +1,68 @@
-- name: Guides
+- name: Agents and Managers
   documents:
-      - title: Retrieve API Keys
-      - title: Retrieve API Domains
-      - title: Add Agent Widgets
-      - title: Customized Chat Windows
-      - title: Engagement Attributes
-      - title: Authentication
-      - title: Push Notification Service (iOS and Android)
-      - title: Structured Content
-      - title: Conversation Metadata Guide
-      - title: Retry Policy and KeepAlive Best Practices
+      - title: All Your Messaging Conversations in One Place
+      - title: Hiring Agents for Messaging Success
+      - title: Hiring Agents for Messaging Success - the Interview
+      - title: Messaging Best Practices for Agents
 
-- name: Consumer Experience
+- name: Bots
   documents:
-      - title: In-App Messaging SDK - iOS
-      - title: In-App Messaging SDK - Android
-      - title: Voice & Video SDK - iOS (BETA)
-      - title: Voice & Video SDK - Android (BETA)
-      - title: Messaging Window API
-      - title: JavaScript Chat SDK
-      - title: Server Chat API
+      - title: Bots as LiveEngage Users
+      - title: How LiveEngage Uses Bots
+      - title: How to Serve Customers at Scale Using Bots
 
-- name: Agent Interactions
+- name: Customer Experience
   documents:
-      - title: Messaging Agent SDK
-      - title: Chat Agent API
-      - title: Agent Workspace Widget SDK
-      - title: Login Service API
+      - title: Automatic Messages Overview
+      - title: Enhancing SMS with Twilio Functions
+      - title: An Introduction to Structured Content
+      - title: Get Personal with Agent Pictures
+      - title: Agent Picture Configuration Guide
 
-- name: Data
+- name: Getting Started with Messaging
   documents:
-      - title: Data Access API (BETA)
-      - title: Agent Metrics API
-      - title: Messaging Interactions API
-      - title: Messaging Operations API
-      - title: Operational Realtime API
-      - title: Engagement History API
-      - title: Consumer Engagement API
+      - title: Best Practices for Messaging with Predefined Content
+      - title: In-app Messaging FAQs
+      - title: Messaging in the Customer Care Space
 
-- name: Real Time Interactions
+- name: Messsaging Channels
   documents:
-      - title: App Engagement API
-      - title: Visit Information API
-      - title: IVR Engagement API
-      - title: Engagement Window Widget SDK
-      - title: Validate Engagement API
-      - title: Engagement Attributes API
+      - title: Google My Business Connector
+      - title: Setting up a Twilio SMS Connector
+      - title: Discover the Facebook Messenger Connector
+      - title: Best Practices for Messaging with SMS
+      - title: Google Adwords Integration Video
+      - title: LiveEngage and In-app Messaging
+      - title: LiveEngage and SMS Messaging
+      - title: LiveEngage and Web Messaging
+      - title: Messaging Connectors on LiveEngage
+      - title: Exploring the SMS Connector for Messaging
+      - title: Top In-app Messaging Benefits
       - title: Engagement Trigger API
 
-- name: Account Configuration
+- name: Messaging Operations
   documents:
-      - title: Unified Automatic Messages API
-      - title: Predefined Content API
-      - title: Predefined Categories API
-      - title: LE-Tag
-      - title: Automatic Messages API
+      - title: Welcome to Report Builder
+      - title: The Meaningful Connection Score
+      - title: Messaging Warm Ups for Agents
+      - title: Queue Prioritization in the Age of Messaging
+      - title: Routing Logic for Messaging Conversations - Skill Selection
+      - title: Routing Logic for Messaging Conversations - Agent Selection
+      - title: Auto Close for Messaging Conversations
+      - title: The Impact of Cobrowse
+      - title: Principles for Effective Messaging Operations - Introduction
+      - title: Principle 1 of Effective Messaging Operations - Harness the Power of AI
+      - title: Principle 2 of Effective Messaging Operations - Agent Resources
+      - title: Principle 3 of Effective Messaging Operations - Agent Efficiency
+      - title: Principle 4 of Effective Messaging Operations - Agent Routing
+      - title: Principle 5 of Effective Messaging Operations - Measurement
+      - title: Queue Prioritization for Messaging
+      - title: Managing the Queue Backlog
 
-- name: Admin
+- name: Security
   documents:
-      - title: Users API
-      - title: LOBs API
-      - title: Skills API
-      - title: Agent Groups API
-      - title: Profiles API
+      - title: Masking Options in the In-app SDK
+      - title: LiveEngage Platform Security Overview
+      - title: Securing Your LiveEngage Account
+      - title: Complying with Text Messaging Regulations
+      - title: Collect Sensitive Information Securely

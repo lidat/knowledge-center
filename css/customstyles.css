@@ -504,7 +504,6 @@ background-color: #347DBE;
     font-size: 12px;
     line-height: 18px;
     padding: 2px 10px;
-    background-color: #f1f1f1;
 }
 
 .nav > li > a {
@@ -800,8 +799,6 @@ hr {
     background: #999;
     margin: 30px 0px;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 button.cursorNorm {
