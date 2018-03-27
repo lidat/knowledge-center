@@ -21,6 +21,7 @@ a:hover, a:focus {
 
 .post-content a:hover {
   text-decoration: underline;
+  background-color: inherit;
 }
 
 .page-wrap {
@@ -38,6 +39,14 @@ a:hover, a:focus {
 }
 
 /*inner page css */
+.h1 {
+  margin-bottom: 10px;
+}
+
+.categoryboxauthor {
+  display: flex;
+}
+
 h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id] {
   margin-top: 30px;
   padding-top: 0;
@@ -53,14 +62,14 @@ h2[id] {
 h3[id]{
   font-family: "Roboto",Arial,Helvetica,sans-serif;
   color: rgb(74, 74, 74);
-  font-size: 16px;
+  font-size: 22px;
   font-weight: bold;
   margin-top: 44px;
 }
 h4[id]{
-  font-family: Roboto, Arial;
+  font-family: "Roboto", Arial;
   color:#5879da;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -278,11 +287,11 @@ ul#mysidebar.nav {
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   font-size: 0.73em;
   text-decoration: none;
-  margin-top: 0px;
+  margin-top: 17px;
   margin-left: 10px;
   height: 100%;
   position: initial;
-  width: 40%;
+  width: initial;
 
 }
 
@@ -317,6 +326,11 @@ ul#mysidebar.nav li a {
   font-size: 18px;
   overflow-wrap:break-word;
 }
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: inherit;
+}
+
 ul#mysidebar.nav > li > a{
   padding: 2px 10px 0 0;
   line-height: 1.6;
@@ -494,6 +508,13 @@ div.sidebarTitle-holder {
 }
 
 .post-content > p, .post-content ol,.post-content ul {
+  color: #4a4a4a;
+  font-family: "Open Sans",Arial;
+  font-size: 18px;
+  overflow-wrap: break-word;
+}
+
+.post-content > li > p {
   color: #666666;
   font-family: "Open Sans",Arial;
   font-size: 0.9em;
@@ -572,6 +593,9 @@ pre {
 .inside-page-content {
   margin-left: 0;
   padding-left: 0;
+  width: 70%;
+  text-align: justify;
+}
 }
 
 
@@ -942,12 +966,12 @@ p ~ img {
   border-radius: 50%;
   width: 47px;
   height: 47px;
-  margin-bottom: 43px;
+  margin-bottom: 10px;
 }
 
 .posttext {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   color: rgb(74, 74, 74);
   padding-right: 35px;
   line-height: 2;
@@ -959,21 +983,12 @@ p ~ img {
   margin-bottom: 100px;
 }
 
-.tags a {
-  color: inherit;
-}
-
-.tags a:hover {
-  text-decoration: none;
-}
-
 .tagbutton {
-  background-color: rgb(247, 240, 240);
   border-radius: 4px;
   border: none;
   flex: 1;
   padding: 10px 8px 10px 8px;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   text-align: center;
   margin-right: 32px;
@@ -1162,6 +1177,11 @@ footer {
   font-weight: 300;
 }
 
+.articledetails {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
 /*Placeholder rules*/
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
@@ -1203,7 +1223,7 @@ footer {
 
 .note {
   font-family: "Open Sans","Roboto Slab",Arial,Helvetica,sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   color: rgb(74, 74, 74);
   border: 1px solid rgb(195, 234, 199);
   background-color: rgb(240, 254, 240);
@@ -1229,10 +1249,10 @@ footer {
 
 .feedbackrow {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 63px;
-  margin-top: -230px;
+  width: 40%;
+  background-color: #f6f9fc;
+  height: 80px;
 }
 
 .feedbackrowhidden {
@@ -1242,12 +1262,17 @@ footer {
 .feedbackbuttons {
   display: flex;
   justify-content: space-between;
+  margin-top: 22px;
 }
 
 .feedbacktitle {
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   color: #000000;
   margin-bottom: 20px;
+  margin-right: 25px;
+  font-size: 18px;
+  margin-top: 26px;
+  margin-left: 20px;
 }
 
 .feedbackrowalternate {
@@ -1263,17 +1288,17 @@ footer {
   opacity: 1;
   display: block;
   margin: 0 auto;
-  width: 455px;
   margin-bottom: 137px;
 }
 
 .thumbsup, .thumbsdown {
   border: 0px solid #ffffff;
-  background-color: rgb(242, 252, 255);
+  background-color: #162036;
   border-radius: 50%;
-  width: 66px;
-  height: 66px;
-  font-size: 34px;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  color: #fff;
 }
 
 .thumbsdown {
@@ -1286,7 +1311,7 @@ footer {
 }
 
 .thumbsup {
-  margin-right: 90px;
+  margin-right: 10px;
   transition: all 0.5s ease;
 }
 
@@ -1306,6 +1331,7 @@ footer {
   margin-right: 40px;
   position: fixed;
   left: 220px;
+  width: 15%;
 }
 
 .innerlink {

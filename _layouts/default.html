@@ -28,6 +28,27 @@
         <div class="h2">{{ page.title }}</div>
         {% else %}
         <div class="h1">{{ page.title }}</div>
+        <div class="categoryboxauthor">
+          <div class="authorimage categoryimage">
+            {% if page.authorname != null %}
+            <img src="img/{{ page.authorname | slugify }}.png">
+            {% else %}
+            <img src="img/avatar.png">
+            {% endif %}
+          </div>
+          <div class="articledetails">
+            <div class="authorname">
+              {% if page.authorname != null %}
+              {{ page.authorname }} &bull; {{ page.authortitle }}
+              {% else %}
+              LivePerson Team
+              {% endif %}
+            </div>
+            <div class="documentdetails">
+              Last updated {{ page.last_modified_at | date: '%D' }}  &bull; {{ page.readtime }} read
+            </div>
+          </div>
+        </div>
         {% endif %}
         {{content}}
         <br />
@@ -41,8 +62,18 @@
             <br />
         </div>
     </div>
+    <div class="feedbackrow">
+        <div class="feedbacktitle">Was this article helpful?</div>
+        <div class="feedbackbuttons">
+          <button onclick="centerThumbsup ()" class="thumbsup"><i class="fa fa-thumbs-up"></i></button>
+          <button onclick="showDoorbellModal ()"class="thumbsdown"><i class="fa fa-thumbs-down"></i></button>
+        </div>
+      </div>
+      <div class="feedbackrowalternate">THANK YOU FOR YOUR FEEDBACK!</div>
+    </div>
     <!-- /.row -->
   </div>
+
 <!-- /.container -->
 </div>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
@@ -92,7 +123,19 @@ function onInput(el) {
     });
 </script>
 -->
-
+<script type="text/javascript">
+    window.doorbellOptions = {
+        id: '7615',
+        appKey: 'UYRbpqPwlQIABtilGdgbwVkD7IR8CB9UXlXP5cI74gHjpo1Buj97cveS66HK8fxP',
+        hideButton: true
+    };
+    (function(w, d, t) {
+        var hasLoaded = false;
+        function l() { if (hasLoaded) { return; } hasLoaded = true; window.doorbellOptions.windowLoaded = true; var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/'+window.doorbellOptions['id']+'?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g); }
+        if (w.attachEvent) { w.attachEvent('onload', l); } else if (w.addEventListener) { w.addEventListener('load', l, false); } else { l(); }
+        if (d.readyState == 'complete') { l(); }
+    }(window, document, 'script'));
+</script>
 
 </body>
 {% if site.google_analytics %}

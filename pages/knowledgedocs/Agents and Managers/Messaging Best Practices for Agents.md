@@ -26,7 +26,7 @@ A: You can hide conversations when the conversation is no longer active. No long
 A: If there is a very active conversation, you can tell the customer you are taking a break. You
 can give them the option to wait, or to be transferred to another agent.
 
-*Note: Due to the SLA and general demand, transferring to another agent may include a longer wait time for the customer before he is served.*
+<div class="note">Note: Due to the SLA and general demand, transferring to another agent may include a longer wait time for the customer before he is served.</div>
 
 #### I want to go on a lunch break, which is a 45-minute break. Should I tell my customer?
 
@@ -34,7 +34,7 @@ A: For your active conversations, you should let them know that you are going on
 
 It’s not always necessary to tell all your customers you are going on break, be aware of which customers this is relevant to. Apply common sense approach.
 
-*Note: Due to the SLA and general demand, reassigning the customer to the queue may mean a longer wait time before the customer is served.*
+<div class="note">Note: Due to the SLA and general demand, reassigning the customer to the queue may mean a longer wait time before the customer is served.</div>
 
 #### It feels like my active conversations are more than I should have. Should I change my status to away?
 
@@ -72,7 +72,7 @@ A: When a customer confirms a resolution, or when you have waited the appropriat
 If you have an unresponsive customer over a certain period of time, the
 system will close this for you.
 
-*Note: In-app customers may have a slightly different behavior. If push notifications are enabled, the customer might not need to be in the app to see your response.*
+<div class="note">Note: In-app customers may have a slightly different behavior. If push notifications are enabled, the customer might not need to be in the app to see your response.</div>
 
 #### Do we close a conversation if the customer comes back in over 12 hours?
 

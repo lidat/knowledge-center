@@ -180,7 +180,7 @@ If you need to speak with us again, just restart the conversation by replying to
 
 3. I’ll need to ask you a few quick questions, just to make sure your account is secure.
 
-<div class="note">Note: asking for two to three pieces of information at a time can speed up the process. E.g.: Can I please have your name, date of birth and address?*</div>
+<div class="note">Note: asking for two to three pieces of information at a time can speed up the process. E.g.: Can I please have your name, date of birth and address?</div>
 
 **Communicating end of day/closure for brands not available 24/7**
 
@@ -188,4 +188,4 @@ If you need to speak with us again, just restart the conversation by replying to
 
 2. If you are willing to wait, I’ll be back at 12:30 PM. We can pick up then or I can assign you to a colleague who can speak with you before then. (Don’t worry, they will have this messaging history). What would you prefer?
 
-<div class="note">Note: It is best to let the customer know about 20 minutes before the end of the shift. The assumption is that the agents are reassigning conversations at the end of the day.*</div>
+<div class="note">Note: It is best to let the customer know about 20 minutes before the end of the shift. The assumption is that the agents are reassigning conversations at the end of the day.</div>

@@ -101,3 +101,7 @@ $("#loginbtn").click(function(event) {
   //  name: 'animation'
 //  });
 //});
+
+$(document).ready(function(){
+    $("a[href*='" + location.pathname + "']").addClass("activepage");
+});
