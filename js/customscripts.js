@@ -107,7 +107,7 @@ $(function() {
     $(".folder > a").click(function(){
         var hasExpanded = $(this).data("expanded") == "true";
         if (hasExpanded) {
-            $(this).next().slideUp(400,onSlideComplete);
+            $(this).next().slideUp(200,onSlideComplete);
             $(this).data("expanded","false");
             $(this).removeClass("active");
         } else {
@@ -115,7 +115,7 @@ $(function() {
             //$(".folder > a").data("expanded","false");
             //$(".folder > a").removeClass("active");
 
-            $(this).next().slideDown(400,onSlideComplete);
+            $(this).next().slideDown(200,onSlideComplete);
             $(this).data("expanded","true");
             $(this).addClass("active");
         }

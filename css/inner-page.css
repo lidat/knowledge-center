@@ -287,12 +287,17 @@ ul#mysidebar.nav {
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   font-size: 0.73em;
   text-decoration: none;
-  margin-top: 17px;
   margin-left: 10px;
-  height: 100%;
-  position: initial;
-  width: initial;
+  height: 70%;
+  position: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 70px;
 
+}
+
+ul#mysidebar > li.folder {
+  width: 110%;
 }
 
 ul#mysidebar > li.folder::before{
@@ -323,7 +328,7 @@ ul#mysidebar.nav li a {
   display: inline-block;
   color: #5879da;
   font-family: "Open Sans","Roboto Slab",Arial,Helvetica,sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   overflow-wrap:break-word;
 }
 
@@ -348,7 +353,7 @@ ul#mysidebar.nav li.activepage a{
   background-color: #F2F2F2;
 }
 #mysidebar.nav li.folder > a{
- font-size: 18px;
+ font-size: 16px;
 }
 
 ul#mysidebar.nav li ul li {
@@ -357,6 +362,7 @@ ul#mysidebar.nav li ul li {
  ul#mysidebar.nav ul li a {
   border-top: none;
   padding-left: 0px;
+  width: 100%;
 
 }
 
@@ -898,7 +904,7 @@ pre {
 }
 
 .contentrow {
-  padding: 75px 75px 0 75px;
+  padding: 75px 75px 0 600px;
   background: #fff;
 }
 
@@ -1327,11 +1333,14 @@ footer {
 }
 
 .sidebar {
-  padding-top: 50px;
   margin-right: 40px;
-  position: fixed;
-  left: 220px;
-  width: 15%;
+  position: absolute;
+  width: 31%;
+  height: 10%;
+  padding-left: calc((100% - 1370px) / 2);
+  height: 100%;
+  bottom: 0;
+  background-color: #f5f7f9;
 }
 
 .innerlink {
