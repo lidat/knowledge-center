@@ -54,9 +54,12 @@
   margin-left: 0;
   margin-right: 0;
 }
+
 .container {
   position: relative;
   display: flex;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .container .usecases{
