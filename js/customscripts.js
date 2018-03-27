@@ -108,6 +108,8 @@ $(function() {
         var hasExpanded = $(this).data("expanded") == "true";
         if (hasExpanded) {
             $(this).next().slideUp(200,onSlideComplete);
+            $(this).next().removeClass("fadein");
+            $(this).next().addClass("fadeout");
             $(this).data("expanded","false");
             $(this).removeClass("active");
         } else {
@@ -116,6 +118,8 @@ $(function() {
             //$(".folder > a").removeClass("active");
 
             $(this).next().slideDown(200,onSlideComplete);
+            $(this).next().removeClass("fadeout");
+            $(this).next().addClass("fadein");
             $(this).data("expanded","true");
             $(this).addClass("active");
         }
