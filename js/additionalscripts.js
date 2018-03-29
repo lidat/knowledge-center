@@ -103,5 +103,9 @@ $("#loginbtn").click(function(event) {
 //});
 
 $(document).ready(function(){
-    $("a[href*='" + location.pathname + "']").addClass("activepage");
+  // Get current url
+         // Select an a element that has the matching href and apply a class of 'active'.
+         var url = location.pathname;
+         var selected = $('a[href="'+url+'"]');
+         selected = selected.addClass("activepage");
 });

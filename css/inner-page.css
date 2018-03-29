@@ -41,6 +41,8 @@ a:hover, a:focus {
 /*inner page css */
 .h1 {
   margin-bottom: 10px;
+  color: #5879DA;
+  font-size: 32px;
 }
 
 .categoryboxauthor {
@@ -289,11 +291,13 @@ ul#mysidebar.nav {
   text-decoration: none;
   margin-left: -60px;
   height: 71%;
-  width: 15%;
+  width: 24%;
   position: fixed;
   overflow-y: auto;
   overflow-x: hidden;
   top: 70px;
+  display: flex;
+  flex-direction: column;
 
 }
 
@@ -310,13 +314,9 @@ ul#mysidebar.nav {
 }
 
 ul#mysidebar > li.folder {
-  width: 110%;
+  width: 99%;
 }
 
-ul#mysidebar > li.folder::before{
-  content: '|';
-  padding-right: 0px;
-  color:#ff720b;
 }
 ul#mysidebar > li.folder > a{
   margin-left: 5px;
@@ -339,8 +339,8 @@ ul#mysidebar li{
 }
 ul#mysidebar.nav li a {
   display: inline-block;
-  color: #5879da;
-  font-family: "Open Sans","Roboto Slab",Arial,Helvetica,sans-serif;
+  color: #000000;
+  font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   font-size: 16px;
   overflow-wrap:break-word;
 }
@@ -379,7 +379,7 @@ ul#mysidebar.nav li ul li {
 }
 
 .nav ul {
-  margin: 0 0 0 10px;
+  margin: 10px 0 0 10px;
 }
 
 div.sidebarTitle {
@@ -602,6 +602,14 @@ pre {
   margin-top: 68px;
   position: initial !important;
 }
+
+.inside-page-content {
+  margin-left: 0;
+  padding-left: 0;
+  width: 90%;
+  text-align: justify;
+}
+
 @media (min-width: 1114px)
 {
   ul#mysidebar {
@@ -611,17 +619,8 @@ pre {
   height: 100%;
   margin-left: 0px;
 }
-
-.inside-page-content {
-  margin-left: 0;
-  padding-left: 0;
-  width: 80%;
-  text-align: justify;
-}
 }
 
-
-}
 
 @media (max-width: 1190px){
     div.sidebarTitle{
@@ -769,24 +768,25 @@ pre {
 
 .aa-input-search {
   padding: 12px 0px 12px 17px;
-  color: #fff;
   display: block;
   cursor: text;
   transition: none;
   width: 100%;
   background: none;
-  border: solid 1px #9B9B9B;
-  border-radius: 4px;
+  border-right: none;
+  border-top: none;
+  border-bottom: solid 1px #9B9B9B;
+  border-left: none;
   height: 39px;
 }
 
 #aa-search-input {
-  font-style: italic;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  height: 39px;
-  width: 163.5px;
-  font-weight: 300;
+  font-size: 21px;
+  height: 100%;
+  width: 100%;
+  font-weight: 100;
+  padding-left: 100px;
 }
 
 
@@ -862,9 +862,15 @@ pre {
 }
 
 .pagehr{
-  width: 90%;
+  width: 60%;
   margin: 15px 0px;
-  border-top: 1px solid rgba(120,134,156,.08);
+  border-top: 1px solid rgba(256, 256, 256);
+}
+
+.articlehr {
+  width: 100%;
+  margin: 10px 0px 20px 0px;
+  border-top: 1px solid rgba(222, 221, 221);
 }
 
 .pageimage {
@@ -895,14 +901,6 @@ pre {
   position: fixed;
 }
 
-.scrollbarlist > li::before {
-  content: '|';
-  color: rgb(155, 155, 155);
-  font-size: 14px;
-  margin-right: 12px;
-  margin-left: -15px;
-}
-
 .scroll-to-fixed-fixed {
   margin-top: 0;
 }
@@ -920,7 +918,7 @@ pre {
 }
 
 .contentrow {
-  padding: 75px 75px 0 600px;
+  padding: 75px 75px 0 650px;
   background: #fff;
   margin-left: 40px;
 }
@@ -1354,10 +1352,10 @@ footer {
   position: absolute;
   width: 31%;
   height: 10%;
-  padding-left: calc((100% - 1250px) / 2);
+  padding-left: calc((100% - 1480px) / 2);
   height: 100%;
   bottom: 0;
-  background-color: #f5f7f9;
+  background-color: #F2F2F2;
 }
 
 .innerlink {
@@ -1366,12 +1364,50 @@ footer {
 }
 
 .releasenotes {
-  position: absolute;
+  position: fixed;
   top: 780px;
-  border-top: 1px solid rgba(120,134,156);
-  width: 41.5%;
-  left: 270px;
-  color: #5879da;
-  font-family: "Open Sans","Roboto Slab",Arial,Helvetica,sans-serif;
+  border-top: 1px solid rgba(256,256,256);
+  width: 14.5%;
+  left: 160px;
+  color: #000000;
+  font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   font-size: 16px;
+  padding-top: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.articletop {
+  display: flex;
+  justify-content: space-between;
+  width: 69%;
+  margin-left: 590px;
+  height: 100px;
+}
+
+.algolia-autocomplete {
+  width: 100%;
+  height: 100%;
+}
+
+.login {
+  border-right: none;
+  border-top: none;
+  border-bottom: solid 1px #9B9B9B;
+  border-left: solid 1px #9B9B9B;
+  flex: 1;
+  text-align: center;
+  padding-top: 32px;
+  font-size: 21px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #8F96A0;
+  font-weight: 100;
+}
+
+.activepage {
+  color: #5879DA !important;
 }

@@ -90,10 +90,10 @@ $('.sidebarTitle').ready(function(){
     }
 );
 //level4 collapsing
-$(function() {
+$(document).ready(function() {
 
 
-    var toOpen = $(".activepage").parent().parent().hasClass("folder")
+    var toOpen = $(".activepage").parent().parent().parent().hasClass("folder");
     if (toOpen) {
         $(".activepage").parent().show();
         $(".activepage").parent().prev().data("expanded","true");
