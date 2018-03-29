@@ -91,13 +91,11 @@ $('.sidebarTitle').ready(function(){
 );
 //level4 collapsing
 $(document).ready(function() {
-
-
     var toOpen = $(".activepage").parent().parent().parent().hasClass("folder");
     if (toOpen) {
-        $(".activepage").parent().show();
-        $(".activepage").parent().prev().data("expanded","true");
-        $(".activepage").parent().prev().addClass("active");
+        $(".activepage").parent().parent().show();
+        $(".activepage").parent().parent().parent().data("expanded","true");
+        $(".activepage").parent().parent().parent().addClass("activefolder");
         onSlideComplete();
         $("ul#mysidebar").css("visibility","visible");
     }
