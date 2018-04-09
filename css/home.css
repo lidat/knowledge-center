@@ -85,13 +85,14 @@
 
 .homecontainer {
   margin: 0 auto;
-  margin-top: 66px;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 83.8%;
-  padding-left: 11px;
-  padding-right: 11px
+  margin-bottom: 120px;
+}
+
+.homecontainer:first-child {
+  margin-right: 60px;
 }
 
 .homerow {
@@ -101,8 +102,6 @@
   /* height: 440px; */
   width: 100%;
   margin: 0 auto;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 22px;
 }
 
@@ -828,4 +827,76 @@ footer {
 
 .fa-first {
   margin-left: 0;
+}
+
+.h1 {
+  font-size: 26px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.homeheadersubtitlefirst {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeheadersubtitle {
+  margin-bottom: 15px;
+}
+
+.homeheadersubtitletext {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+
+.homeheadersubtitledetails {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #9B9B9B;
+}
+
+.homeheadercontainer {
+  margin-bottom: 60px;
+}
+
+.hometitlecontainerfirst {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.hometitlecontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.homeheaderimage {
+  width: 100%;
+  height: 100%;
+}
+
+.homeheadersummarytext {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.homerow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.readmorelink {
+  font-size: 16px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #5879da;
+}
+
+.inside-page-content {
+  text-align: left;
+}
+
+.homeheadersummary {
+  width: 90%;
 }
