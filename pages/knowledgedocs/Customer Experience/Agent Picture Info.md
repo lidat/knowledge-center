@@ -17,7 +17,7 @@ Here are are top reasons why you should add agent pictures to your contact cente
 
 **Going the extra mile**
 
-When users sees a real agent picture (especially if not stock imagery) they can tell that both the brand and the agent made an extra effort to be authentic. This is a change.
+When users sees a real agent picture (especially if not stock imagery) they can tell that both the brand and the agent made an extra effort to be authentic.
 
 **Remembering the person you connected with**
 
