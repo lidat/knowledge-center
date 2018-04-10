@@ -27,8 +27,6 @@ comments: false
 ---
 Check out our FAQs when it comes to the use of In-app messaging within LiveEngage. For the latest technical documentation, please visit our [developer community](https://developers.liveperson.com/index.html).
 
-TEST LINE
-
 ### Configuring Messaging
 
 **Q: How is LiveEngage messaging deployed on my app?**
