@@ -43,6 +43,8 @@ There are a million tools out there to make your life as a contributor easier; b
 
 * PowerShell - same as above but for Windows! A great interface instead of the clunky and outdated command line.
 
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - anything you need to know about how to use Markdown. Bookmark for future use!
+
 # Licensing
 
 All usage of the contents, documentation or code found in this repository is subject to the LivePerson's copyright except where other licensing applies (for plugins, libraries and the like).
