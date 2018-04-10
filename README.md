@@ -33,6 +33,16 @@ In general, we use standard Markdown conventions. However, there are a few guide
 
 * We have three special notification boxes you can use: "Note", "Warning", and "Best Practice". To use them, simply wrap the relevant text in an HTML div with the appropriate class (`<div class="note">your note here</div>`, for example). If this doesn't mean anything to you, don't worry! Just ask your friendly Product Marketer. If it does though, please feel free to use these notification boxes; they're cool!
 
+### Recommended Resources for the Modern Contributor
+
+There are a million tools out there to make your life as a contributor easier; below is just a short list of those we recommend the most! Please feel free to add to this list as you explore the multi-faceted world of collaborative content!
+
+* Atom - [Atom](www.atom.io) is a great text editor, open source, configurable and easy to use. They have cool shirts too!
+
+* iTerm - for you Mac users out there, iTerm is a great interface for your terminal. It's easier to use, has cool hightlighting and tons of power user features if you're interested in them. Just Google iTerm and you'll find it easily enough.
+
+* PowerShell - same as above but for Windows! A great interface instead of the clunky and outdated command line.
+
 # Licensing
 
 All usage of the contents, documentation or code found in this repository is subject to the LivePerson's copyright except where other licensing applies (for plugins, libraries and the like).
