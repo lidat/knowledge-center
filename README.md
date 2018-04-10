@@ -31,7 +31,7 @@ In general, we use standard Markdown conventions. However, there are a few guide
 
 * The permalink front-matter variable **must** match the slugified version of the document's title. So, if my title is "Welcome to Messaging", my permalink **must** be "welcome-to-messaging.html".
 
-* We have three special notification boxes you can use: "Note", "Warning", and "Best Practice". To use them, simply wrap the relevant text in an HTML div with the appropriate class (class="note", for example). If this doesn't mean anything to you, don't worry! Just ask your friendly Product Marketer. If it does though, please feel free to use these notification boxes; they're cool!
+* We have three special notification boxes you can use: "Note", "Warning", and "Best Practice". To use them, simply wrap the relevant text in an HTML div with the appropriate class (`<div class="note">your note here</div>`, for example). If this doesn't mean anything to you, don't worry! Just ask your friendly Product Marketer. If it does though, please feel free to use these notification boxes; they're cool!
 
 # Licensing
 
