@@ -14,7 +14,7 @@
   <li><a href="/index.html">Home</a></li>
   <hr class="pagehr"/>
   <li class="folder"><a href="#">Chapters</a>
-    <ul>
+    <ul class="chapterlist">
       {% for chapter in site.data.chapters %}
       <li>
         <a class="innerlink" href="/{{ chapter.name | slugify }}.html">{{ chapter.name }}</a>
