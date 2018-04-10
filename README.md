@@ -8,21 +8,18 @@ Before contributing to this repository, please review the guidelines below. Some
 
 ### GitHub Process
 
-**Step 1** - Clone the repository. The best way to do this is to use your terminal (or other command line interface) and input the command
+**Step 1** - Clone the repository. The best way to do this is to use your terminal (or other command line interface) and input the command `git clone git@github.com:EdenKupe/knowledge-center.git`
 
-'''
-git clone git@github.com:EdenKupe/knowledge-center.git
-'''
 
 **Step 2** - Make your changes. Using your local text editor (like Atom, for example, or Sublime), edit the files in question and hit save.
 
-**Step 3** - Commit your changes. Once you've made a sufficient amount of changes (sufficient being whatever you decide it is; some developers commit often, others don't), you'll need to commit them to GitHub's work tree. Use the command 'git add .' to add all your changes to the work tree (the period after "add" stands for "all") and then 'git commit -m "YOUR COMMENT HERE"' to commit them (make sure to input a concise and helpful commit message).
+**Step 3** - Commit your changes. Once you've made a sufficient amount of changes (sufficient being whatever you decide it is; some developers commit often, others don't), you'll need to commit them to GitHub's work tree. Use the command `git add .` to add all your changes to the work tree (the period after "add" stands for "all") and then `git commit -m "YOUR COMMENT HERE"` to commit them (make sure to input a concise and helpful commit message).
 
-**Step 4** - Push your changes back to the repository. Use the command 'git push' to push all of the changes you just committed back to the origin repository, making sure that everyone has access to them and that the site gets rebuilt.
+**Step 4** - Push your changes back to the repository. Use the command `git push` to push all of the changes you just committed back to the origin repository, making sure that everyone has access to them and that the site gets rebuilt.
 
 **Step 5** - You're done! The Knowledge Center uses continuous deployment, so once you've pushed your changes, it will be rebuilt by our host to incorporate them.
 
-**Remember!** Before starting work, it is advisable to use the command 'git pull' to make sure you have the most updated version of the repository on your machine. Otherwise, you run the risk of conflicts and [no one wants those](https://media1.tenor.com/images/6953aa45b07f7b5a00af409be0931e48/tenor.gif?itemid=5048553).
+**Remember!** Before starting work, it is advisable to use the command `git pull` to make sure you have the most updated version of the repository on your machine. Otherwise, you run the risk of conflicts and [no one wants those](https://media1.tenor.com/images/6953aa45b07f7b5a00af409be0931e48/tenor.gif?itemid=5048553).
 
 ### Formatting
 
