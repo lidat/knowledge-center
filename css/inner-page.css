@@ -1390,7 +1390,6 @@ footer {
 .articletop {
   display: flex;
   justify-content: space-between;
-  width: 69%;
   margin-left: 590px;
   height: 100px;
 }
