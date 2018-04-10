@@ -10,7 +10,9 @@ Before contributing to this repository, please review the guidelines below. Some
 
 **Step 1** - Clone the repository. The best way to do this is to use your terminal (or other command line interface) and input the command
 
-'''git clone git@github.com:EdenKupe/knowledge-center.git'''
+'''
+git clone git@github.com:EdenKupe/knowledge-center.git
+'''
 
 **Step 2** - Make your changes. Using your local text editor (like Atom, for example, or Sublime), edit the files in question and hit save.
 
