@@ -68,7 +68,7 @@
         <div class="homerow">
         {% for chapter in site.data.chapters offset:1 limit: 2 %}
         <div class="homecontainer">
-        <img class="homeheaderimage" src="img/scaling.png" />
+        <img class="homeheaderimage" src="img/{{ chapter.name | slugify }}.png" />
         <div class="hometitlecontainer">
         <div class="h1">{{ chapter.name }}</div>
         <span class="homeheadersubtitledetails"> {{ chapter.author }} | {{ page.last_modified_at | date: '%D' }}
