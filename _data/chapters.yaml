@@ -1,19 +1,24 @@
 - name: Messaging As a Primary Channel
   tagline: The 5 challenges call centers are facing with messaging
   summary: "Messaging and conversational commerce are transforming brand to consumer relationships. Consumers are already conversational. Ninety percent of conversations with friends, family, and colleagues take place through messaging, while 18 of the world’s 22 most popular smartphone apps include messaging. And most millennials choose messaging over the phone in almost all scenarios."
+  author: LivePerson
 
 - name: Scaling
   tagline: How to deal with the influx of conversations stemming from messaging?
   summary: "As messaging is available on many channels and is readily accessible to consumers, the number of inquiries into the contact center may grow. The openness and availability may encourage consumers to approach brands with more questions whereas they would not spend time on hold for."
+  author: LivePerson
 
 - name: Unifying Channels
   tagline: How to manage and unify interactions that come from a variety of consumers channels?
   summary: "Brands can set up messaging connector almost anywhere their consumers may search for them. These possibilities include from within your app, from your desktop or mobile websites, facebook messenger, sms, line, IVR, apple business chat, google business messaging and more."
+  author: LivePerson
 
 - name: Prioritize Queues
   tagline: How to deal with the influx of conversations stemming from messaging?
   summary: "After filtering out conversations that can be serviced via self serve of bots, still a large number of consumers or inquiries will be need to be personally handled by your agents or representatives. Since messaging can be ‘always on’ and available to consumers around the clock, it creates a possibility of long queues as well as conversations that are waiting for a while (for example over night)."
+  author: LivePerson
 
 - name: Staffing
   tagline: How do you make the most of agents' time when many conversations become non-responsive?
   summary: "The convenience of messaging that enables consumers to answer on their time (and the lack of sense of urgency to respond) mean that conversations can quickly become inactive. For agents, this ‘inactive’ state, if not properly handled, can lead to great inefficiency. For example, if an agent is handling 5 messaging conversations and 3 of them become inactive, the agent may become idle and remain with wasted time."
+  author: LivePerson

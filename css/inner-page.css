@@ -47,7 +47,7 @@ a:hover, a:focus {
 
 /*inner page css */
 .h1 {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   color: #5879DA;
   font-size: 24px;
   font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
@@ -76,7 +76,7 @@ h3[id]{
   color: #4a4a4a;
   font-size: 18px;
   font-weight: bold;
-  margin-top: 44px;
+  margin-top: 16px;
 }
 h4[id]{
   font-family: "Roboto", Arial;

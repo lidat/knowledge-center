@@ -21,7 +21,12 @@
             <img src="img/desktop-home.png" />
           </div>
           {% include sidebar.html  %}
-          <div class="releasenotes"><a href="#">Release Notes</a></div>
+          <<div class="releasenotes">
+            <div class="sidebarimage">
+            <img src="img/releaseicon.png" />
+            </div>
+          <a href="#">Release Notes</a>
+        </div>
         </div>
 
     <!-- Content Column -->
@@ -38,20 +43,20 @@
 </svg>
 </div>
 </div>
-<div class="login"><span class="loginicon">Login</span></div>
+<div class="login"><img src="img/loginlogo.png" class="loginicon" /></div>
 </div>
   <div class="contentrow">
     <div class="inside-page-content">
       {% for chapter in site.data.chapters %}
         {% if forloop.first %}
         <div class="homeheadercontainer">
-          <img class="homeheaderimage" src="img/example-document-1.png" />
+          <img class="homeheaderimage" src="img/{{ chapter.name | slugify }}.png" />
         <div class="hometitlecontainerfirst">
         <div class="h1">{{ chapter.name }}</div>
       </div>
         <div class="homeheadersubtitlefirst">
           <span class="homeheadersubtitletext">The 5 challenges call centers are facing with messaging</span>
-          <span class="homeheadersubtitledetails"> Name | {{ page.last_modified_at | date: '%D' }}
+          <span class="homeheadersubtitledetails"> {{ chapter.author }} | {{ page.last_modified_at | date: '%D' }}
           </span>
         </div>
         <div class="homeheadersummary">
@@ -63,10 +68,10 @@
         <div class="homerow">
         {% for chapter in site.data.chapters offset:1 limit: 2 %}
         <div class="homecontainer">
-        <img class="homeheaderimage" src="img/example-document-1.png" />
+        <img class="homeheaderimage" src="img/scaling.png" />
         <div class="hometitlecontainer">
         <div class="h1">{{ chapter.name }}</div>
-        <span class="homeheadersubtitledetails"> Name | {{ page.last_modified_at | date: '%D' }}
+        <span class="homeheadersubtitledetails"> {{ chapter.author }} | {{ page.last_modified_at | date: '%D' }}
         </span>
       </div>
         <div class="homeheadersubtitle">
@@ -81,10 +86,10 @@
       <div class="homerow">
       {% for chapter in site.data.chapters offset:3 limit: 2 %}
       <div class="homecontainer">
-      <img class="homeheaderimage" src="img/example-document-1.png" />
+      <img class="homeheaderimage" src="img/{{ chapter.name | slugify }}.png" />
       <div class="hometitlecontainer">
       <div class="h1">{{ chapter.name }}</div>
-      <span class="homeheadersubtitledetails"> Name | {{ page.last_modified_at | date: '%D' }}
+      <span class="homeheadersubtitledetails"> {{ chapter.author }} | {{ page.last_modified_at | date: '%D' }}
       </span>
     </div>
       <div class="homeheadersubtitle">
