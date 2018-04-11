@@ -3,12 +3,14 @@
       - title: Hiring Agents for Messaging Success
       - title: Hiring Agents for Messaging Success - the Interview
       - title: Messaging Best Practices for Agents
+  image: agentsicon
 
 - name: Bots
   documents:
       - title: Bots as LiveEngage Users
       - title: How LiveEngage Uses Bots
       - title: How to Serve Customers at Scale Using Bots
+  image: botsicon
 
 - name: Customer Experience
   documents:
@@ -17,12 +19,15 @@
       - title: An Introduction to Structured Content
       - title: Get Personal with Agent Pictures
       - title: Agent Picture Configuration Guide
+  image: customericon
 
 - name: Getting Started with Messaging
   documents:
       - title: Best Practices for Messaging with Predefined Content
       - title: In-app Messaging FAQs
       - title: Messaging in the Customer Care Space
+  image: gettingicon
+
 
 - name: Messsaging Channels
   documents:
@@ -38,6 +43,8 @@
       - title: Exploring the SMS Connector for Messaging
       - title: Top In-app Messaging Benefits
       - title: Engagement Trigger API
+  image: messagingicon
+
 
 - name: Messaging Operations
   documents:
@@ -57,6 +64,8 @@
       - title: Principle 5 of Effective Messaging Operations - Measurement
       - title: Queue Prioritization for Messaging
       - title: Managing the Queue Backlog
+  image: messagingopicon
+
 
 - name: Security
   documents:
@@ -65,3 +74,4 @@
       - title: Securing Your LiveEngage Account
       - title: Complying with Text Messaging Regulations
       - title: Collect Sensitive Information Securely
+  image: securityicon

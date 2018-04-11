@@ -299,7 +299,7 @@ ul#mysidebar.nav {
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   font-size: 0.73em;
   text-decoration: none;
-  margin-left: 118px;
+  margin-left: 74px;
   /* margin-right: -37px; */
   height: 66.8%;
   position: fixed;
@@ -309,7 +309,8 @@ ul#mysidebar.nav {
   display: flex;
   flex-direction: column;
   left: 0;
-  width: 18.8%;
+  width: 20%;
+  padding-left: 10px;
 }
 
 .fadein, .fadeout {
@@ -348,6 +349,7 @@ ul#mysidebar li{
 }
 #mysidebar > li:not(.folder) {
   font-size: 1.1em;
+  display: flex;
 }
 ul#mysidebar.nav li a {
   display: inline-block;
@@ -382,9 +384,6 @@ ul#mysidebar.nav li.activepage a{
  font-size: 14px;
 }
 
-ul#mysidebar.nav li ul li {
-  padding-left: 17px;
-}
  ul#mysidebar.nav ul li a {
   border-top: none;
   width: 100%;
@@ -394,7 +393,7 @@ ul#mysidebar.nav li ul li {
 }
 
 .nav ul {
-  margin: 10px 0 0 0;
+  margin: 0;
 }
 
 div.sidebarTitle {
@@ -1382,6 +1381,7 @@ footer {
   font-size: 14px;
   font-weight: bold;
   padding-top: 10px;
+  display: flex;
 }
 
 .content {
@@ -1429,4 +1429,10 @@ footer {
   margin-top: 48px;
   position: fixed;
   background-color: snow;
+}
+
+.sidebarimage {
+  margin-right: 17px;
+  background-color: snow;
+  float: left;
 }

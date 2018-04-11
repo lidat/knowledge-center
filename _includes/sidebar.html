@@ -11,9 +11,18 @@
     <span class="indicatortooltip">Applies to Messaging</span>
   </div>
   {% endif %}
-  <li><a href="/index.html">Home</a></li>
+  <li>
+    <div class="sidebarimage">
+      <img src="img/releaseicon.png" />
+    </div>
+    <a href="/index.html">Home</a>
+  </li>
   <hr class="pagehr"/>
-  <li class="folder"><a href="#">Chapters</a>
+  <li class="folder">
+    <div class="sidebarimage">
+    <img src="img/releaseicon.png" />
+  </div>
+  <a href="#">Chapters</a>
     <ul class="chapterlist">
       {% for chapter in site.data.chapters %}
       <li>
@@ -25,6 +34,9 @@
   <hr class="pagehr"/>
   {% for section in site.data.sections %}
   <li class="folder">
+    <div class="sidebarimage">
+      <img src="img/{{ section.image }}.png" />
+    </div>
     <a href="#">{{ section.name }}</a>
     <ul>
       {% for document in section.documents %}
