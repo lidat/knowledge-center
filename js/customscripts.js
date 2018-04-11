@@ -94,6 +94,7 @@ $(document).ready(function() {
     var toOpen = $(".activepage").parent().parent().parent().hasClass("folder");
     if (toOpen) {
         $(".activepage").parent().parent().show();
+        $(".activepage").parent().parent().addClass("fadein");
         $(".activepage").parent().parent().parent().data("expanded","true");
         $(".activepage").parent().parent().parent().addClass("activefolder");
         onSlideComplete();
