@@ -47,9 +47,12 @@ a:hover, a:focus {
 
 /*inner page css */
 .h1 {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   color: #5879DA;
-  font-size: 32px;
+  font-size: 24px;
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
 }
 
 .categoryboxauthor {
@@ -70,8 +73,8 @@ h2[id] {
 }
 h3[id]{
   font-family: "Roboto",Arial,Helvetica,sans-serif;
-  color: rgb(74, 74, 74);
-  font-size: 22px;
+  color: #4a4a4a;
+  font-size: 18px;
   font-weight: bold;
   margin-top: 44px;
 }
@@ -296,16 +299,17 @@ ul#mysidebar.nav {
   font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
   font-size: 0.73em;
   text-decoration: none;
-  margin-left: -60px;
-  height: 71%;
-  width: 23%;
+  margin-left: 118px;
+  /* margin-right: -37px; */
+  height: 66.8%;
   position: fixed;
   overflow-y: auto;
   overflow-x: hidden;
-  top: 70px;
+  top: 153px;
   display: flex;
   flex-direction: column;
-
+  left: 0;
+  width: 18.8%;
 }
 
 .fadein, .fadeout {
@@ -347,9 +351,10 @@ ul#mysidebar li{
 }
 ul#mysidebar.nav li a {
   display: inline-block;
-  color: #000000;
-  font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
-  font-size: 16px;
+  color: #4a4a4a;
+  font-family: "Roboto",Arial,Helvetica,sans-serif;
+  font-weight: bold;
+  font-size: 14px;
   overflow-wrap:break-word;
 }
 
@@ -374,7 +379,7 @@ ul#mysidebar.nav li.activepage a{
   background-color: #F2F2F2;
 }
 #mysidebar.nav li.folder > a{
- font-size: 16px;
+ font-size: 14px;
 }
 
 ul#mysidebar.nav li ul li {
@@ -384,10 +389,12 @@ ul#mysidebar.nav li ul li {
   border-top: none;
   width: 100%;
   padding: 0 15px 0 0;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .nav ul {
-  margin: 10px 0 0 10px;
+  margin: 10px 0 0 0;
 }
 
 div.sidebarTitle {
@@ -540,7 +547,7 @@ div.sidebarTitle-holder {
 .post-content > p, .post-content ol,.post-content ul {
   color: #4a4a4a;
   font-family: "Open Sans",Arial;
-  font-size: 18px;
+  font-size: 14px;
   overflow-wrap: break-word;
 }
 
@@ -783,7 +790,7 @@ pre {
   background: none;
   border-right: none;
   border-top: none;
-  border-bottom: solid 1px #9B9B9B;
+  border-bottom: solid 1px #dedddd;
   border-left: none;
   height: 39px;
 }
@@ -870,7 +877,7 @@ pre {
 }
 
 .pagehr{
-  width: 60%;
+  width: 80%;
   margin: 15px 0px;
   border-top: 1px solid rgba(256, 256, 256);
 }
@@ -926,9 +933,8 @@ pre {
 }
 
 .contentrow {
-  padding: 75px 75px 0 650px;
+  padding: 75px 75px 0 105px;
   background: #fff;
-  margin-left: 40px;
 }
 
 .post-content {
@@ -999,12 +1005,12 @@ p ~ img {
 }
 
 .posttext {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  color: rgb(74, 74, 74);
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #4a4a4a;
   padding-right: 35px;
   line-height: 2;
-  font-weight: 300;
+  font-weight: normal;
 }
 
 .tags {
@@ -1354,14 +1360,10 @@ footer {
 }
 
 .sidebar {
-  margin-right: 40px;
-  position: absolute;
-  width: 31%;
-  height: 10%;
-  padding-left: calc((100% - 1480px) / 2);
-  height: 100%;
-  bottom: 0;
-  background-color: #F2F2F2;
+  background-color: rgba(222, 221, 221, 0.5);
+  flex: 1;
+  min-width: 252px;
+  display: flex;
 }
 
 .innerlink {
@@ -1373,25 +1375,25 @@ footer {
   position: fixed;
   top: 780px;
   border-top: 1px solid rgba(256,256,256);
-  width: 14.5%;
-  left: 160px;
-  color: #000000;
-  font-family: "Roboto Slab",Arial,Helvetica,sans-serif;
-  font-size: 16px;
+  width: 11.3%;
+  margin-left: 123px;
+  color: #4a4a4a;
+  font-family: "Roboto",Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
   padding-top: 10px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  flex: 3;
 }
 
 .articletop {
   display: flex;
   justify-content: space-between;
-  margin-left: 590px;
-  height: 100px;
+  height: 82px;
 }
 
 .algolia-autocomplete {
@@ -1402,8 +1404,8 @@ footer {
 .login {
   border-right: none;
   border-top: none;
-  border-bottom: solid 1px #9B9B9B;
-  border-left: solid 1px #9B9B9B;
+  border-bottom: solid 1px #dedddd;
+  border-left: solid 1px #dedddd;
   flex: 1;
   text-align: center;
   padding-top: 32px;
@@ -1415,8 +1417,16 @@ footer {
 
 .activepage {
   color: #5879DA !important;
+  font-weight: bold !important;
 }
 
 .chapterlist {
   width: 54%;
+}
+
+.sitelogo {
+  margin-left: 73px;
+  margin-top: 48px;
+  position: fixed;
+  background-color: snow;
 }
