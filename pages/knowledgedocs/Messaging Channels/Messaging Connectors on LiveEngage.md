@@ -1,16 +1,10 @@
 ---
 title: Messaging Connectors on LiveEngage
-level1: Documents
-level2: Data
-level3: Messaging Channels
 readtime: "2 min"
-level-order: 1
-order: 1
 permalink: messaging-connectors-on-liveengage.html
 summary: "For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#textmessaging', '#inappmessaging', '#applebusinesschat', '#facebook','#googleadwords', '#line']
 ---
 
 

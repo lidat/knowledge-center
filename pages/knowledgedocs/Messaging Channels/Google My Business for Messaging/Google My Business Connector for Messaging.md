@@ -1,17 +1,11 @@
 ---
 title: Google My Business Connector
-level1: Documents
-level2: Data
-level3: Messaging Channels
 readtime: "4 min"
-level-order: 1
-order: 1
 permalink: google-my-business-connector.html
 root-link: true
 summary: "Tap into Google's network to build relationships and develop more prospects with messaging."
 authorname: "Or Garmolin"
 authortitle: "Product Expert in Messaging Channels"
-tags: ['#textmessaging', '#sales', '#marketing']
 ---
 
 ### What is Google My Business?

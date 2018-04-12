@@ -1,18 +1,10 @@
 ---
 title: Routing Logic for Messaging Conversations - Skill Selection
-level1: Documents
-level2: Data
-level3: Messaging Operations
 readtime: "6 min"
-level-order: 1
-order: 1
 permalink: routing-logic-for-messaging-conversations-skill-selection.html
-root-link: true
-
 summary: "Learn about the messaging routing engine that works behind the scenes to select the agent that will handle an incoming conversation."
 authorname: "Liat Peled"
 authortitle: "Product Expert in Data and Intelligence"
-tags: ['#messaging', '#routing']
 ---
 
 

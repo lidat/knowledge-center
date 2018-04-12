@@ -1,16 +1,10 @@
 ---
 title: Principles for Effective Messaging Operations
-level1: Documents
-level2: Data
-level3: Messaging Operations
 readtime: "1 min"
-level-order: 1
-order: 1
 permalink: principles-for-effective-messaging-operations.html
 summary: "Introducing messaging to your contact center will delight your customers. It will also require you to take a closer look at your operations and make some adjustments to ensure your agents are performing at maximum efficiency."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#bestpractices']
 ---
 
 

@@ -1,16 +1,10 @@
 ---
 title: Principle 1 of Effective Messaging Operations - Harness the Power of AI
-level1: Documents
-level2: Data
-level3: Messaging Operations
 readtime: "1 min"
-level-order: 1
-order: 1
 permalink: principle-1-of-effective-messaging-operations-harnass-the-power-of-ai.html
 summary: "Introducing messaging will require you to take a closer look at your operations and how to use AI for automatic messages."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#bestpractices','#intent', '#video']
 ---
 
 

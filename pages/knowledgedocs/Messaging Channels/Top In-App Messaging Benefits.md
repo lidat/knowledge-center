@@ -1,18 +1,12 @@
 ---
 title: Top In-app Messaging Benefits
-level1: Documents
-level2: Data
-level3: Messaging Channels
 readtime: "2 min"
-level-order: 1
-order: 1
 permalink: top-in-app-messaging-benefits.html
 root-link: true
 indicator: chat
 summary: "See all the capabilities of LiveEnage's in-app messaging to see how you can give consumers a richer messaging experience."
 authorname: "Lida Tabibian"
 authortitle: "Senior Product Communications Expert"
-tags: ['#sales', '#marketing', '#video', '#guide']
 ---
 
 ### See all the capabilities of LiveEnage's In-app messaging

@@ -1,18 +1,11 @@
 ---
 title: How to Serve Customers At Scale Using Bots
-level1: Documents
-level2: Data
-level3: Bots
 readtime: "6 min"
-level-order: 1
-order: 1
 permalink: how-to-serve-customers-at-scale-using-bots.html
 root-link: true
-
 summary: "Chat and messaging services can scale significantly with automation to help your business embrace conversational commerce.  Learn how enterprises use bots to enhance digital care and sales processes to deliver high-quality customer interactions."
 authorname: "Elana Roth"
 authortitle: "Product Communications Expert"
-tags: ['#bestpractices', '#ivrdeflection', '#support', '#intent', '#routing']
 ---
 
 Chat and messaging services can scale significantly with automation. Learn how to use bots to enhance digital care and sales processes, deliver high-quality customer interactions, and transform into a conversational business.

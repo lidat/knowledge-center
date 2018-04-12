@@ -1,16 +1,10 @@
 ---
 title: Out of the Box Connectors
-level1: Documents
-level2: Data
-level3: Messaging Channels
 readtime: "6 min"
-level-order: 1
-order: 1
 permalink: out-of-the-box-connectors.html
 summary: "For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects. "
 authorname: "Or Garmolin"
 authortitle: "Product Expert in Messaging Channels"
-tags: ['#facebook', '#textmessaging', '#guide']
 ---
 
 Our out-of-the-box connectors allow brands to easily integrate third party entry points, allowing them to manage conversations at scale with all the digital tools that LiveEngage offers.

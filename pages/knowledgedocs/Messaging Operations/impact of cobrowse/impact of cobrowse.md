@@ -1,16 +1,10 @@
 ---
 title: The Impact of Cobrowse
-level1: Documents
-level2: Data
-level3: Messaging Operations
 readtime: "2 min"
-level-order: 1
-order: 1
 permalink: the-impact-of-cobrowse.html
 summary: "Cobrowse functionality drivers conversion rates and increases average order value for retail interactions."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#data','#reporting', '#managers', '#admins']
 ---
 
 ### CoBrowse Success Story in Numbers

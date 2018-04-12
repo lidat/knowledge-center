@@ -1,16 +1,10 @@
 ---
 title: Managing the Queue Backlog
-level1: Documents
-level2: Data
-level3: Messaging Operations
 readtime: "1 min"
-level-order: 1
-order: 1
 permalink: managing-the-queue-backlog.html
 summary: "When long queues build up, whether overnight or during an outage, consumers often become unavailable once they have sent a message."
 authorname: "Lital Haham"
 authortitle: "Product Expert in Data and Operations"
-tags: ['#operationalefficiency','#optimization']
 ---
 
 When an agent is eventually able to reply, smart capacity will still wait for a predefined interval before reducing the intensity of the conversation. This means the agent is kept waiting in vain for the consumer's response.

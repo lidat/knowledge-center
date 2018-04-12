@@ -1,18 +1,12 @@
 ---
 title: Queue Prioritization in the Age of Messaging
-level1: Documents
-level2: Data
-level3: Messaging Operations
 readtime: "6 min"
-level-order: 1
-order: 1
 permalink: queue-prioritization-in-the-age-of-messaging.html
 root-link: true
 indicator: chat
 summary: "We know what brands need to effectively operate queue prioritization in the new era of messaging - including adapting to different consumer and agent behaviors."
 authorname: "Elana Roth"
 authortitle: "Product Communications Expert"
-tags: ['#bestpractices', '#guides', '#csat', '#queueprioritization', '#agents', '#customersupport', '#intent', '#routing']
 ---
 
 ### The Importance of Queue Prioritization

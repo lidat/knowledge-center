@@ -1,17 +1,10 @@
 ---
 title: Complying with Text Messaging Regulations
-level1: Documents
-level2: Data
-level3: Security
 readtime: "7 min"
-level-order: 1
-order: 2
 permalink: complying-with-text-messaging-regulations.html
 summary: "Ensuring the privacy of consumers during messaging conversations is at the forefront of many telecommunication regulations."
 authorname: "James Brown"
 authortitle: "Senior Expert in Digital Transformation"
-tags: ['#bestpractices', '#messaging']
-
 ---
 
 Messaging is one of the most widely used means of consumer communication. The simplicity and ubiquity of  messaging has enabled it to flourish as consumer-to-consumer communication channel that offers unique benefits to brands looking to engage their customers on their mobile devices.

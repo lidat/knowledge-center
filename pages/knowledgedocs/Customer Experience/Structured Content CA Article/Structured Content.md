@@ -1,16 +1,10 @@
 ---
 title: An Introduction to Structured Content
-level1: Documents
-level2: Data
-level3: Customer Experience
 readtime: "2 min"
-level-order: 1
-order: 1
 permalink: an-introduction-to-structured-content.html
 summary: "Turn a simple app interaction into a conversational user experience and business connection with structured content."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#bots', '#bestpractices']
 ---
 
 

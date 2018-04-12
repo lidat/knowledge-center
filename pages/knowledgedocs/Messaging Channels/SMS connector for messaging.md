@@ -1,16 +1,10 @@
 ---
 title: Exploring the SMS Connector for Messaging
-level1: Documents
-level2: Data
-level3: Messaging Channels
 readtime: "3 min"
-level-order: 1
-order: 1
 permalink: exploring-the-sms-connector-for-messaging.html
 summary: "Our self serve onboarding process for the SMS connector means brands can quickly and easily add this channel to their operations, in order to successfully manage all their consumer digital interactions in one place."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#textmessaging','#guide']
 ---
 
 <div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/238913223" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>

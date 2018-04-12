@@ -1,16 +1,10 @@
 ---
 title: Auto Close for Messaging Conversations
-level1: Documents
-level2: Data
-level3: Messaging Operations
 readtime: "2 min"
-level-order: 1
-order: 1
 permalink: auto-close-for-messaging-conversations.html
 summary: "To help agents manage their active connections list effectively, brands are able to configure conversations to automatically close after they have been inactive for a pre configured amount of time."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#data','#reporting', '#managers', '#admins']
 ---
 
 To help agents manage their active connections list effectively, brands are able to configure conversations to automatically close after they have been inactive for a pre configured amount of time. Auto close provides a seamless experience for consumers; they will not receive an exit survey, nor see a separator within the conversation thread.

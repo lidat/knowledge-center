@@ -1,17 +1,10 @@
 ---
 title: Queue Prioritization for Messaging
-level1: Documents
-level2: Messaging Operations
-level3:
 readtime: "5 min"
-level-order: 1
-order: 1
 permalink: queue-prioritization-for-messaging.html
-root-link: true
 summary: "Rank conversations in the queue by a variety of parameters to provide a more rapid service to consumers."
 authorname: "Lital Haham"
 authortitle: "Product Expert in Data and Operations"
-tags: ['#bestpractices', '#queueprioritization', '#intent', '#routing', '#support']
 ---
 ### What is queue prioritization
 

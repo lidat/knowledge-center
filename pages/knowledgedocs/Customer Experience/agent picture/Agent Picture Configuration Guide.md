@@ -1,16 +1,10 @@
 ---
 title: Agent Picture Configuration Guide
-level1: Documents
-level2: Data
-level3: Customer Experience
 readtime: "5 min"
-level-order: 1
-order: 1
 permalink: agent-picture-configuration-guide.html
 summary: "Consumers begin their journey with agents by being able to see a picture of who they’re chatting with."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#bestpractices','#guide', '#agents']
 ---
 
 **Make the conversation more personal by configuring the agent’s picture to display in the engagement window.**

@@ -1,18 +1,11 @@
 ---
 title: Messaging Best Practices for Agents
-level1: Documents
-level2: Data
-level3: Agents and Managers
 readtime: "5 min"
-level-order: 1
-order: 1
 permalink: messaging-best-practices-for-agents.html
 root-link: true
 summary: "Learn about solving common messaging challenges faced by agents, and follow the best practices to optimize the agents' efficiency."
 authorname: "Natalie Mickey"
 authortitle: "Content Manager"
-tags: ['#agents', '#bestpractices', '#messaging']
-
 ---
 
 ### **Common messaging questions from agents and our recommended answers**

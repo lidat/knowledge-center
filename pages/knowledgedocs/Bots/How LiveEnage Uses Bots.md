@@ -1,18 +1,11 @@
 ---
 title: How LiveEngage Uses Bots
-level1: Documents
-level2: Data
-level3: Bots
 readtime: "6 min"
-level-order: 1
-order: 3
 permalink: how-liveengage-uses-bots.html
 root-link: true
-
 summary: "See all the unique attributes of LiveEngage's bot technology and approach to bots."
 authorname: "Elana Roth"
 authortitle: "Product Communications Expert"
-tags: ['#bestpractices', '#ivrdeflection', '#support', '#intent', '#routing']
 ---
 
 ### Bots and LiveEngage

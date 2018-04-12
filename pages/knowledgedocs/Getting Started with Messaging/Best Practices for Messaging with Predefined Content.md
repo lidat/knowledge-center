@@ -1,16 +1,10 @@
 ---
 title: Best Practices for Predefined Content
-level1: Documents
-level2: Data
-level3: Getting Started with Messaging
 readtime: "5 min"
-level-order: 1
-order: 1
 permalink: best-practices-for-predefined-content.html
 summary: "Predefined content gives your brand the ability to develop canned responses that accurately reflect your brand’s voice and business needs."
 authorname: "Natalie Mickey"
 authortitle: "Expert in Product Communications"
-tags: ['#agent','#bestpractices', '#messaging']
 ---
 
 This best practice guide takes you through LivePerson’s recommendations on how to structure your predefined content, along with deciding tone and how to most effectively use hot keys.

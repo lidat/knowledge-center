@@ -1,17 +1,10 @@
 ---
 title: Masking Options in the In-app SDK
-level1: Documents
-level2: Data
-level3: Security
 readtime: "4 min"
-level-order: 1
-order: 5
 permalink: masking-options-in-the-in-app-sdk.html
-root-link: true
 summary: "Brands have different options when using the Messaging In-app SDK for masking sensitive information and complying with security and operational requirements."
 authorname: "Liat Peled"
 authortitle: "Product Expert in Data and Intelligence"
-tags: ['#inappmessaging', '#bestpractices', '#openplatform']
 ---
 
 ### Messaging In-App SDK Overview

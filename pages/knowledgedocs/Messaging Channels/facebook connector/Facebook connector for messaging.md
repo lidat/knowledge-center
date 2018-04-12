@@ -1,16 +1,10 @@
 ---
 title: Discover the Facebook Messenger Connector
-level1: Documents
-level2: Data
-level3: Messaging Channels
 readtime: "3 min"
-level-order: 1
-order: 1
 permalink: discover-the-facebook-messenger-connector.html
 summary: "Our self serve onboarding process for the Facebook connector means brands can quickly and easily add this channel to their operations."
 authorname: "Or Garmolin"
 authortitle: "Product Expert in Messaging Channels"
-tags: ['#facebook','#openplatform']
 ---
 
 <div style="display: block; position: relative; max-width: 100%;"><div class="iframecontainer"><iframe src="https://player.vimeo.com/video/238902683" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>

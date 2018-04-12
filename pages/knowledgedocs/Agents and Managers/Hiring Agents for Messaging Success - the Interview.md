@@ -1,17 +1,10 @@
 ---
 title: Hiring Agents for Messaging Success - the Interview
-level1: Documents
-level2: Data
-level3: Agents and Managers
 readtime: "4 min"
-level-order: 1
-order: 1
 permalink: hiring-agents-for-messaging-success-the-interview.html
 summary: "There are so many things to consider when it comes to hiring for your contact center. We've gathered some of our best practices when it comes to assembling the perfect team."
 authorname: "James Brown"
 authortitle: "Senior Expert in Digital Transformation"
-tags: ['#bestpractices', '#benefits', '#agent', '#customerexperience']
-
 ---
 
 We know that the in-person interview is one of the most important steps in finding the right candidate to join your contact center team. We've put together a few sample interview questions to act as your guide in the process.

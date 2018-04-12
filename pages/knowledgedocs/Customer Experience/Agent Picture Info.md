@@ -1,16 +1,10 @@
 ---
 title: Get Personal with Agent Pictures
-level1: Documents
-level2: Data
-level3: Customer Experience
 readtime: "3 min"
-level-order: 1
-order: 1
 permalink: get-personal-with-agent-pictures.html
 summary: "Adding an agent picture can do wonders to enhance the customer experience. This simple action is just one of the many steps on the road to transforming how people communicate with brands."
 authorname: "James Brown"
 authortitle: "Senior Expert in Digital Transformation"
-tags: ['#bestpractices', '#benefits', '#agent']
 ---
 
 Here are are top reasons why you should add agent pictures to your contact center agents’ profile.

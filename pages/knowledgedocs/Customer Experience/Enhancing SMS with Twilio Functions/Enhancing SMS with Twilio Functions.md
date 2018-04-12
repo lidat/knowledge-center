@@ -1,16 +1,10 @@
 ---
 title: Enhancing SMS with Twilio Functions
-level1: Documents
-level2: Data
-level3: Customer Experience
 readtime: "4 min"
-level-order: 1
-order: 1
 permalink: enhancing-sms-with-twilio-functions.html
 summary: "Twilio functions enable brands to enhance the SMS experience through LiveEngage."
 authorname: "James Brown"
 authortitle: "Senior Expert in Digital Transformation"
-tags: ['#bestpractice', '#textmessaging']
 ---
 
 ### Gateway level enhancements

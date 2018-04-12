@@ -1,16 +1,10 @@
 ---
 title: LiveEngage Platform Security Overview
-level1: Documents
-level2: Data
-level3: Security
 readtime: "6 min"
-level-order: 1
-order: 1
 permalink: liveengage-platform-security-overview.html
 summary: "As a leading provider with a large customer base and years of experience backing us, LivePerson’s new messaging solution is both secure and innovative."
 authorname: "Rotem Abir"
 authortitle: "Expert in Enterprise Security"
-tags: ['#bestpractices','#openplatform']
 ---
 
 As veterans in the field, we understand that a heightened level of protection is especially paramount when it comes to content exchanged between brands and consumers.

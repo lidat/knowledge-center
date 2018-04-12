@@ -1,18 +1,11 @@
 ---
 title: Automatic Messages Overview
-level1: Documents
-level2: Data
-level3: Customer Experience
 readtime: "4 min"
-level-order: 1
-order: 1
 permalink: automatic-messages-overview.html
 root-link: true
-
 summary: "Save your agents time and effort and provide a smoother engagement experience by giving consumers contextual information about the conversation."
 authorname: "Tal Kailler"
 authortitle: "Product Expert in Consumer Experience"
-tags: ['#bestpractices', '#agents', '#support']
 ---
 
 ### Provide consumers with contextual information about the conversation

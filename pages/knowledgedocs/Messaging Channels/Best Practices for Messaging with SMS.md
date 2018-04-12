@@ -1,16 +1,10 @@
 ---
 title: Best Practices for Messaging with SMS
-level1: Documents
-level2: Data
-level3: Messaging Channels
 readtime: "3 min"
-level-order: 1
-order: 1
 permalink: best-practices-for-messaging-with-sms.html
 summary: "Combining the power and scale of LiveEngage with the accessibility and popularity of SMS means that your brand can access the millions of consumer ready to connect via SMS messaging."
 authorname: "James Brown"
 authortitle: "Senior Expert in Digital Transformation"
-tags: ['#bestpractices', '#messaging']
 ---
 
 We want to give your brand a quick look at some of the best practices that we recommend when implementing SMS with LiveEngage. The journey to digital and smart operations can be made easier with the following tips.

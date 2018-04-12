@@ -1,16 +1,10 @@
 ---
 title: Hiring Agents for Messaging Success
-level1: Documents
-level2: Data
-level3: Agents and Managers
 readtime: "9 min"
-level-order: 1
-order: 1
 permalink: hiring-agents-for-messaging-success.html
 summary: "There are so many things to consider when it comes to hiring for your contact center. We've gathered some of our best practices when it comes to assembling the perfect team"
 authorname: "James Brown"
 authortitle: "Senior Expert in Digital Transformation"
-tags: ['#bestpractices', '#benefits', '#agent', '#customerexperience']
 ---
 
 

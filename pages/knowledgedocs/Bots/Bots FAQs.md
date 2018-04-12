@@ -1,16 +1,10 @@
 ---
 title: Bots FAQs
-level1: Documents
-level2: Data
-level3: Bots
 readtime: "5 min"
-level-order: 1
-order: 2
 permalink: bots-faqs.html
 summary: "Bots can be created using any bot platform and integrated into LiveEngage, so that brands can enjoy the benefits of seamless transition from bots to live humans and comprehensive reporting and tracking."
 authorname: "Sarah Danby"
 authortitle: "Product Communications Expert"
-tags: ['#bots','#openplatform', "#bestpractices"]
 ---
 
 
