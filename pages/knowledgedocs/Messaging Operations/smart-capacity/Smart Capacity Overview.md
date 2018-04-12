@@ -1,5 +1,6 @@
 ---
 title: Introducing Smart Capacity
+subtitle:
 readtime: "5 min"
 permalink: introducing-smart-capacity.html
 summary: "LiveEngage's unique Smart Capacity technology  uses a smart algorithm to adjust agent capacity based on availability to ensure the right agents are taking conversations at the right time."

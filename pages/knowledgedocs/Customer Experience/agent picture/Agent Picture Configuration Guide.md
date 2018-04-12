@@ -1,5 +1,6 @@
 ---
 title: Agent Picture Configuration Guide
+subtitle:
 readtime: "5 min"
 permalink: agent-picture-configuration-guide.html
 summary: "Consumers begin their journey with agents by being able to see a picture of who they’re chatting with."

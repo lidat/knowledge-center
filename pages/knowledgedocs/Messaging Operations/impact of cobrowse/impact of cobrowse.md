@@ -1,5 +1,6 @@
 ---
 title: The Impact of Cobrowse
+subtitle:
 readtime: "2 min"
 permalink: the-impact-of-cobrowse.html
 summary: "Cobrowse functionality drivers conversion rates and increases average order value for retail interactions."

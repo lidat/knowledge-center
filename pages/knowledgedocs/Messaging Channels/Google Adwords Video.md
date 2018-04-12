@@ -1,5 +1,6 @@
 ---
 title: Google Adwords Integration Video
+subtitle:
 readtime: "3 min"
 permalink: google-adwords-integration-video.html
 root-link: true

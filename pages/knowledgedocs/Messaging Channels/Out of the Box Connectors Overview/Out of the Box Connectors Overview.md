@@ -1,5 +1,6 @@
 ---
 title: Out of the Box Connectors
+subtitle:
 readtime: "6 min"
 permalink: out-of-the-box-connectors.html
 summary: "For brands, creating a presence on the channels used by their consumers is key to building connections and creating prospects. "

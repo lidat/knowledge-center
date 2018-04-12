@@ -1,5 +1,6 @@
 ---
 title: Get Personal with Agent Pictures
+subtitle:
 readtime: "3 min"
 permalink: get-personal-with-agent-pictures.html
 summary: "Adding an agent picture can do wonders to enhance the customer experience. This simple action is just one of the many steps on the road to transforming how people communicate with brands."

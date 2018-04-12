@@ -1,5 +1,6 @@
 ---
 title: Bots as LiveEngage Users
+subtitle:
 readtime: "3 min"
 permalink: bots-as-liveengage-users.html
 summary: "A bot agent is a bot that acts as an agent / agent manager with all the relevant permissions. It can also be tracked and managed in the same way as any other human agent. To enable automation, the bot user will be able to login automatically."

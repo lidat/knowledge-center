@@ -1,5 +1,6 @@
 ---
 title: Best Practices for Predefined Content
+subtitle:
 readtime: "5 min"
 permalink: best-practices-for-predefined-content.html
 summary: "Predefined content gives your brand the ability to develop canned responses that accurately reflect your brand’s voice and business needs."

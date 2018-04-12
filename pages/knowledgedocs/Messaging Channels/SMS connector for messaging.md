@@ -1,5 +1,6 @@
 ---
 title: Exploring the SMS Connector for Messaging
+subtitle:
 readtime: "3 min"
 permalink: exploring-the-sms-connector-for-messaging.html
 summary: "Our self serve onboarding process for the SMS connector means brands can quickly and easily add this channel to their operations, in order to successfully manage all their consumer digital interactions in one place."

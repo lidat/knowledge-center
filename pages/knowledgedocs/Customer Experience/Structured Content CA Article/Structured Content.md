@@ -1,5 +1,6 @@
 ---
 title: An Introduction to Structured Content
+subtitle:
 readtime: "2 min"
 permalink: an-introduction-to-structured-content.html
 summary: "Turn a simple app interaction into a conversational user experience and business connection with structured content."

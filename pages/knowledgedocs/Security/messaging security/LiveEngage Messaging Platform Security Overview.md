@@ -1,5 +1,6 @@
 ---
 title: LiveEngage Platform Security Overview
+subtitle:
 readtime: "6 min"
 permalink: liveengage-platform-security-overview.html
 summary: "As a leading provider with a large customer base and years of experience backing us, LivePerson’s new messaging solution is both secure and innovative."

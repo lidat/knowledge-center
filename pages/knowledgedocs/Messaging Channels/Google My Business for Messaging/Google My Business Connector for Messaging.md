@@ -1,5 +1,6 @@
 ---
 title: Google My Business Connector
+subtitle:
 readtime: "4 min"
 permalink: google-my-business-connector.html
 root-link: true

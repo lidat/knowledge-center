@@ -1,5 +1,6 @@
 ---
 title: Securing Your LiveEngage Account
+subtitle:
 readtime: "4 min"
 permalink: securing-your-liveengage-account.html
 summary: "In order for the online marketplace to thrive, businesses and consumers alike need to be assured that their sensitive data is well protected."

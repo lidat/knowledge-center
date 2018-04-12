@@ -1,5 +1,6 @@
 ---
 title: The Meaningful Connection Score
+subtitle:
 readtime: "4 min"
 permalink: the-meaningful-connection-score.html
 summary: "MCS accurately and automatically measures the quality of the connection between brands and the entire consumer audience."

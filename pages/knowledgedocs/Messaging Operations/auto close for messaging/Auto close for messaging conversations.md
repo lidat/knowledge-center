@@ -1,5 +1,6 @@
 ---
 title: Auto Close for Messaging Conversations
+subtitle:
 readtime: "2 min"
 permalink: auto-close-for-messaging-conversations.html
 summary: "To help agents manage their active connections list effectively, brands are able to configure conversations to automatically close after they have been inactive for a pre configured amount of time."

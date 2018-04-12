@@ -1,5 +1,6 @@
 ---
 title: Hiring Agents for Messaging Success
+subtitle:
 readtime: "9 min"
 permalink: hiring-agents-for-messaging-success.html
 summary: "There are so many things to consider when it comes to hiring for your contact center. We've gathered some of our best practices when it comes to assembling the perfect team"

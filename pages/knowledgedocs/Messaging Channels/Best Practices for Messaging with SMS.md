@@ -1,5 +1,6 @@
 ---
 title: Best Practices for Messaging with SMS
+subtitle:
 readtime: "3 min"
 permalink: best-practices-for-messaging-with-sms.html
 summary: "Combining the power and scale of LiveEngage with the accessibility and popularity of SMS means that your brand can access the millions of consumer ready to connect via SMS messaging."

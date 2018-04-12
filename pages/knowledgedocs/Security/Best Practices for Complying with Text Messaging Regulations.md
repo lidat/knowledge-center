@@ -1,5 +1,6 @@
 ---
 title: Complying with Text Messaging Regulations
+subtitle:
 readtime: "7 min"
 permalink: complying-with-text-messaging-regulations.html
 summary: "Ensuring the privacy of consumers during messaging conversations is at the forefront of many telecommunication regulations."
