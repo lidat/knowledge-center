@@ -8,6 +8,7 @@ summary: "All Connections allows Agent Managers and Agents to view the entire fl
 authorname: "Oded Israel"
 authortitle: "Product Expert in Agent and Manager Experience"
 ---
+
 ### All Connections area in LiveEngage  
 
 ![All Connections Area](img/all-connections-area.png)
